@@ -6,6 +6,7 @@ use IPC::Cmd qw[ run ];
     or die "ERROR: no map file specified.\n";
 open(my $file, $ARGV[0])
     or die "ERROR: could not open file '$ARGV[0]'.\n";
+
 my $src = 0;
 my $asm = 0;
 my $srcdata = 0;
