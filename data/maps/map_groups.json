@@ -2,6 +2,7 @@
   "layouts_table_label": "gMapLayouts",
   "group_order": [
     "gMapGroup_DarkfireMain",
+    "gMapGroup_IndoorChandra",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -39,6 +40,8 @@
   ],
   "gMapGroup_DarkfireMain": [
     "ChandraVillage"
+  ],
+  "gMapGroup_IndoorChandra": [
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
