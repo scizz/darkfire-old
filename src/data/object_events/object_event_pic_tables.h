@@ -1413,6 +1413,18 @@ static const struct SpriteFrameImage sPicTable_HotSpringsOldWoman[] = {
     overworld_frame(gObjectEventPic_HotSpringsOldWoman, 2, 4, 8),
 };
 
+static const struct SpriteFrameImage sPicTable_FireCushion[] = {
+    overworld_frame(gObjectEventPic_FireCushion, 2, 2, 0),
+    overworld_frame(gObjectEventPic_FireCushion, 2, 2, 1),
+    overworld_frame(gObjectEventPic_FireCushion, 2, 2, 2),
+    overworld_frame(gObjectEventPic_FireCushion, 2, 2, 3),
+    overworld_frame(gObjectEventPic_FireCushion, 2, 2, 4),
+    overworld_frame(gObjectEventPic_FireCushion, 2, 2, 5),
+    overworld_frame(gObjectEventPic_FireCushion, 2, 2, 6),
+    overworld_frame(gObjectEventPic_FireCushion, 2, 2, 7),
+    overworld_frame(gObjectEventPic_FireCushion, 2, 2, 8),
+};
+
 static const struct SpriteFrameImage sPicTable_SSTidal[] = {
     obj_frame_tiles(gObjectEventPic_SSTidal),
     obj_frame_tiles(gObjectEventPic_SSTidal),
@@ -1567,10 +1579,6 @@ static const struct SpriteFrameImage sPicTable_BallCushion[] = {
 
 static const struct SpriteFrameImage sPicTable_GrassCushion[] = {
     obj_frame_tiles(gObjectEventPic_GrassCushion),
-};
-
-static const struct SpriteFrameImage sPicTable_FireCushion[] = {
-    obj_frame_tiles(gObjectEventPic_FireCushion),
 };
 
 static const struct SpriteFrameImage sPicTable_WaterCushion[] = {
