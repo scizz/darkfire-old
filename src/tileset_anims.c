@@ -94,13 +94,9 @@ const u16 gTilesetAnims_General_Water_Frame3[] = INCBIN_U16("data/tilesets/prima
 
 const u16 *const gTilesetAnims_General_Water[] = {
     gTilesetAnims_General_Water_Frame0,
-    gTilesetAnims_General_Water_Frame0,
-    gTilesetAnims_General_Water_Frame1,
     gTilesetAnims_General_Water_Frame1,
     gTilesetAnims_General_Water_Frame2,
-    gTilesetAnims_General_Water_Frame2,
-    gTilesetAnims_General_Water_Frame3,
-    gTilesetAnims_General_Water_Frame3,
+    gTilesetAnims_General_Water_Frame3
 };
 
 const u16 gTilesetAnims_General_SandWaterEdge_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/sand_water_edge/0.4bpp");
@@ -631,7 +627,7 @@ static void TilesetAnim_General(u16 timer)
     if (timer % 16 == 0)
         QueueAnimTiles_General_Flower(timer >> 4);
     if (timer % 16 == 1)
-        QueueAnimTiles_General_Water(timer >> 4);
+        QueueAnimTiles_General_Water(timer >> 5);
     if (timer % 16 == 2)
         QueueAnimTiles_General_SandWaterEdge(timer >> 4);
     if (timer % 16 == 3)
@@ -654,7 +650,7 @@ static void QueueAnimTiles_General_Flower(u16 timer)
 
 static void QueueAnimTiles_General_Water(u16 timer)
 {
-    u8 i = timer % 8;
+    u8 i = timer % 4;
     AppendTilesetAnimToBuffer(gTilesetAnims_General_Water[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(490)), 0x80);
 }
 
