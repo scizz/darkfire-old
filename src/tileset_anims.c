@@ -94,8 +94,12 @@ const u16 gTilesetAnims_General_Water_Frame3[] = INCBIN_U16("data/tilesets/prima
 
 const u16 *const gTilesetAnims_General_Water[] = {
     gTilesetAnims_General_Water_Frame0,
+    gTilesetAnims_General_Water_Frame0,
+    gTilesetAnims_General_Water_Frame1,
     gTilesetAnims_General_Water_Frame1,
     gTilesetAnims_General_Water_Frame2,
+    gTilesetAnims_General_Water_Frame2,
+    gTilesetAnims_General_Water_Frame3,
     gTilesetAnims_General_Water_Frame3,
 };
 
@@ -650,7 +654,7 @@ static void QueueAnimTiles_General_Flower(u16 timer)
 
 static void QueueAnimTiles_General_Water(u16 timer)
 {
-    u8 i = timer % 4;
+    u8 i = timer % 8;
     AppendTilesetAnimToBuffer(gTilesetAnims_General_Water[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(490)), 0x80);
 }
 
