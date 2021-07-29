@@ -394,9 +394,9 @@
 #define METATILE_PetalburgGym_SlidingDoor_Frame4  0x21C
 
 // gTileset_Petalburg
-#define METATILE_Petalburg_Door_BirchsLab   0x23A
+#define METATILE_Petalburg_Door_BirchsLab   0x34D
 #define METATILE_Petalburg_Door_Littleroot  0x248
-#define METATILE_Petalburg_Door_Oldale      0x34D
+#define METATILE_Petalburg_Door_Oldale      0x24A
 
 // gTileset_PokemonCenter
 #define METATILE_PokemonCenter_CounterBarrier            0x25D
