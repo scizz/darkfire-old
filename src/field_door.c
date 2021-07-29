@@ -139,13 +139,13 @@ static const struct DoorAnimFrame sSmallDoorOpenAnimFrames[] =
     {4, -1},
     {4, 0},
     {4, 0x80},
-    {4, 0x200},
+    {4, 0x100},
     {0, 0},
 };
 
 static const struct DoorAnimFrame sSmallDoorCloseAnimFrames[] =
 {
-    {4, 0x200},
+    {4, 0x100},
     {4, 0x80},
     {4, 0},
     {4, -1},
