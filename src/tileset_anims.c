@@ -47,6 +47,7 @@ static void QueueAnimTiles_General_Flower(u16);
 static void QueueAnimTiles_General_Water(u16);
 static void QueueAnimTiles_General_PondWaterEdge(u16);
 static void QueueAnimTiles_General_PondWaterSide(u16);
+static void QueueAnimTiles_General_PondWaterTop(u16);
 static void QueueAnimTiles_General_SandWaterEdge(u16);
 static void QueueAnimTiles_General_Waterfall(u16);
 static void QueueAnimTiles_General_LandWaterEdge(u16);
@@ -127,6 +128,26 @@ const u16 *const gTilesetAnims_General_PondWaterSide[] = {
     gTilesetAnims_General_PondWaterSide_Frame5,
     gTilesetAnims_General_PondWaterSide_Frame6,
     gTilesetAnims_General_PondWaterSide_Frame7
+};
+
+const u16 gTilesetAnims_General_PondWaterTop_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/pond_water_top/0.4bpp");
+const u16 gTilesetAnims_General_PondWaterTop_Frame1[] = INCBIN_U16("data/tilesets/primary/general/anim/pond_water_top/1.4bpp");
+const u16 gTilesetAnims_General_PondWaterTop_Frame2[] = INCBIN_U16("data/tilesets/primary/general/anim/pond_water_top/2.4bpp");
+const u16 gTilesetAnims_General_PondWaterTop_Frame3[] = INCBIN_U16("data/tilesets/primary/general/anim/pond_water_top/3.4bpp");
+const u16 gTilesetAnims_General_PondWaterTop_Frame4[] = INCBIN_U16("data/tilesets/primary/general/anim/pond_water_top/4.4bpp");
+const u16 gTilesetAnims_General_PondWaterTop_Frame5[] = INCBIN_U16("data/tilesets/primary/general/anim/pond_water_top/5.4bpp");
+const u16 gTilesetAnims_General_PondWaterTop_Frame6[] = INCBIN_U16("data/tilesets/primary/general/anim/pond_water_top/6.4bpp");
+const u16 gTilesetAnims_General_PondWaterTop_Frame7[] = INCBIN_U16("data/tilesets/primary/general/anim/pond_water_top/7.4bpp");
+
+const u16 *const gTilesetAnims_General_PondWaterTop[] = {
+    gTilesetAnims_General_PondWaterTop_Frame0,
+    gTilesetAnims_General_PondWaterTop_Frame1,
+    gTilesetAnims_General_PondWaterTop_Frame2,
+    gTilesetAnims_General_PondWaterTop_Frame3,
+    gTilesetAnims_General_PondWaterTop_Frame4,
+    gTilesetAnims_General_PondWaterTop_Frame5,
+    gTilesetAnims_General_PondWaterTop_Frame6,
+    gTilesetAnims_General_PondWaterTop_Frame7
 };
 
 const u16 gTilesetAnims_General_SandWaterEdge_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/sand_water_edge/0.4bpp");
@@ -668,6 +689,8 @@ static void TilesetAnim_General(u16 timer)
         QueueAnimTiles_General_PondWaterEdge(timer >> 5);
     if (timer % 16 == 6)
         QueueAnimTiles_General_PondWaterSide(timer >> 5);
+    if (timer % 16 == 7)
+        QueueAnimTiles_General_PondWaterTop(timer >> 5);
 }
 
 static void TilesetAnim_Building(u16 timer)
@@ -698,6 +721,12 @@ static void QueueAnimTiles_General_PondWaterSide(u16 timer)
 {
     u16 i = timer % 8; 
     AppendTilesetAnimToBuffer(gTilesetAnims_General_PondWaterSide[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(476)), 0x20);
+}
+
+static void QueueAnimTiles_General_PondWaterTop(u16 timer)
+{
+    u16 i = timer % 8; 
+    AppendTilesetAnimToBuffer(gTilesetAnims_General_PondWaterTop[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(477)), 0x20);
 }
 
 static void QueueAnimTiles_General_SandWaterEdge(u16 timer)
