@@ -32,6 +32,7 @@ static void TilesetAnim_Mauville(u16);
 static void TilesetAnim_Lavaridge(u16);
 static void TilesetAnim_EverGrande(u16);
 static void TilesetAnim_Pacifidlog(u16);
+static void TilesetAnim_Petalburg(u16);
 static void TilesetAnim_Sootopolis(u16);
 static void TilesetAnim_BattleFrontierOutsideWest(u16);
 static void TilesetAnim_BattleFrontierOutsideEast(u16);
@@ -67,6 +68,7 @@ static void QueueAnimTiles_Lavaridge_Lava(u16);
 static void QueueAnimTiles_EverGrande_Flowers(u16, u8);
 static void QueueAnimTiles_Pacifidlog_LogBridges(u8);
 static void QueueAnimTiles_Pacifidlog_WaterCurrents(u8);
+static void QueueAnimTiles_Petalburg_Chimney_Smoke(u16);
 static void QueueAnimTiles_Sootopolis_StormyWater(u16);
 static void QueueAnimTiles_Underwater_Seaweed(u8);
 static void QueueAnimTiles_Cave_Lava(u16);
@@ -214,6 +216,16 @@ const u16 *const gTilesetAnims_Pacifidlog_LogBridges[] = {
     gTilesetAnims_Pacifidlog_LogBridges_Frame1,
     gTilesetAnims_Pacifidlog_LogBridges_Frame2,
     gTilesetAnims_Pacifidlog_LogBridges_Frame1
+};
+
+const u16 gTilesetAnims_Petalburg_Chimney_Smoke_Frame0[] = INCBIN_U16("data/tilesets/secondary/petalburg/anim/chimney_smoke/0.4bpp");
+const u16 gTilesetAnims_Petalburg_Chimney_Smoke_Frame1[] = INCBIN_U16("data/tilesets/secondary/petalburg/anim/chimney_smoke/1.4bpp");
+const u16 gTilesetAnims_Petalburg_Chimney_Smoke_Frame2[] = INCBIN_U16("data/tilesets/secondary/petalburg/anim/chimney_smoke/2.4bpp");
+
+const u16 *const gTilesetAnims_Petalburg_Chimney_Smoke[] = {
+    gTilesetAnims_Petalburg_Chimney_Smoke_Frame0,
+    gTilesetAnims_Petalburg_Chimney_Smoke_Frame1,
+    gTilesetAnims_Petalburg_Chimney_Smoke_Frame2
 };
 
 const u16 gTilesetAnims_Underwater_Seaweed_Frame0[] = INCBIN_U16("data/tilesets/secondary/underwater/anim/seaweed/0.4bpp");
@@ -743,9 +755,9 @@ static void QueueAnimTiles_General_Waterfall(u16 timer)
 
 void InitTilesetAnim_Petalburg(void)
 {
-    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounter = sPrimaryTilesetAnimCounter;
     sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
-    sSecondaryTilesetAnimCallback = NULL;
+    sSecondaryTilesetAnimCallback = TilesetAnim_Petalburg;
 }
 
 void InitTilesetAnim_Rustboro(void)
@@ -993,6 +1005,12 @@ static void TilesetAnim_Pacifidlog(u16 timer)
         QueueAnimTiles_Pacifidlog_WaterCurrents(timer >> 4);
 }
 
+static void TilesetAnim_Petalburg(u16 timer)
+{
+    if (timer % 16 == 0)
+        QueueAnimTiles_Petalburg_Chimney_Smoke(timer >> 4);
+}
+
 static void TilesetAnim_Sootopolis(u16 timer)
 {
     if (timer % 16 == 0)
@@ -1042,6 +1060,12 @@ static void QueueAnimTiles_Pacifidlog_LogBridges(u8 timer)
 {
     u8 i = timer % 4;
     AppendTilesetAnimToBuffer(gTilesetAnims_Pacifidlog_LogBridges[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(NUM_TILES_IN_PRIMARY + 464)), 0x3C0);
+}
+
+static void QueueAnimTiles_Petalburg_Chimney_Smoke(u16 timer)
+{
+    u8 i = timer % 3;
+    AppendTilesetAnimToBuffer(gTilesetAnims_Petalburg_Chimney_Smoke[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(NUM_TILES_IN_PRIMARY + 374)), 0x80);
 }
 
 static void QueueAnimTiles_Underwater_Seaweed(u8 timer)
