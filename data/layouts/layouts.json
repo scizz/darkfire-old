@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/ChandraVillage/border.bin",
       "blockdata_filepath": "data/layouts/ChandraVillage/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHANDRA_VILLAGE_PLAYER_HOUSE_1F",
+      "name": "ChandraVillage_PlayerHouse_1F_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ChandraVillage_PlayerHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/ChandraVillage_PlayerHouse_1F/map.bin"
     }
   ]
 }
