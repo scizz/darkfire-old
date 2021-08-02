@@ -42,7 +42,8 @@
     "ChandraVillage"
   ],
   "gMapGroup_IndoorChandra": [
-    "ChandraVillage_PlayerHouse_1F"
+    "ChandraVillage_PlayerHouse_1F",
+    "ChandraVillage_PlayerHouse_2F"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

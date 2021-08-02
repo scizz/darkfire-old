@@ -10,6 +10,7 @@
 
 // gMapGroup_IndoorChandra
 #define MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_1F (0 | (1 << 8))
+#define MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_2F (1 | (1 << 8))
 
 // gMapGroup_TownsAndRoutes
 #define MAP_PETALBURG_CITY      (0 | (2 << 8))

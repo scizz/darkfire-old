@@ -23,6 +23,13 @@
       "elevation": 0,
       "dest_map": "MAP_CHANDRA_VILLAGE",
       "dest_warp_id": 0
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_2F",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
