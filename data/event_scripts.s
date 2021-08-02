@@ -1067,3 +1067,7 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/ChandraVillage_PlayerHouse_1F/scripts.inc"
 
 	.include "data/maps/ChandraVillage_PlayerHouse_2F/scripts.inc"
+
+	.include "data/maps/ChandraVillage_TylerHouse_1F/scripts.inc"
+
+	.include "data/maps/ChandraVillage_TylerHouse_2F/scripts.inc"

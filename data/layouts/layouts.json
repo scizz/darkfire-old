@@ -4440,6 +4440,26 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/ChandraVillage_PlayerHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/ChandraVillage_PlayerHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHANDRA_VILLAGE_TYLER_HOUSE_1F",
+      "name": "ChandraVillage_TylerHouse_1F_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ChandraVillage_TylerHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/ChandraVillage_TylerHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CHANDRA_VILLAGE_TYLER_HOUSE_2F",
+      "name": "ChandraVillage_TylerHouse_2F_Layout",
+      "width": 12,
+      "height": 42,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ChandraVillage_TylerHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/ChandraVillage_TylerHouse_2F/map.bin"
     }
   ]
 }
