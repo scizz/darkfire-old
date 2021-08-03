@@ -4470,6 +4470,16 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/SunriseTown/border.bin",
       "blockdata_filepath": "data/layouts/SunriseTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY",
+      "name": "UnionCity_Layout",
+      "width": 102,
+      "height": 62,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_LilycoveMuseum",
+      "border_filepath": "data/layouts/UnionCity/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity/map.bin"
     }
   ]
 }
