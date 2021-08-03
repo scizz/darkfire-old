@@ -2,8 +2,8 @@
   "id": "MAP_HIGHWIND_VILLAGE",
   "name": "HighwindVillage",
   "layout": "LAYOUT_HIGHWIND_VILLAGE",
-  "music": "",
-  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "music": "MUS_B_ARENA",
+  "region_map_section": "MAPSEC_HIGHWIND_VILLAGE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_TOWN",
@@ -17,7 +17,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 28,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_HIGHWIND_VILLAGE",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 
