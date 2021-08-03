@@ -172,7 +172,7 @@ $(TILESETGFXDIR)/secondary/inside_of_truck/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 62
 
 $(TILESETGFXDIR)/secondary/contest/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 430
+	$(GFX) $< $@ -num_tiles 512
 
 $(TILESETGFXDIR)/secondary/lilycove_museum/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 431

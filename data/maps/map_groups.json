@@ -39,7 +39,8 @@
     "gMapGroup_IndoorRoute124"
   ],
   "gMapGroup_DarkfireMain": [
-    "ChandraVillage"
+    "ChandraVillage",
+    "SunriseTown"
   ],
   "gMapGroup_IndoorChandra": [
     "ChandraVillage_PlayerHouse_1F",

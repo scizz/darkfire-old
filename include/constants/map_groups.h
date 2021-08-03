@@ -7,6 +7,7 @@
 
 // gMapGroup_DarkfireMain
 #define MAP_CHANDRA_VILLAGE (0 | (0 << 8))
+#define MAP_SUNRISE_TOWN    (1 | (0 << 8))
 
 // gMapGroup_IndoorChandra
 #define MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_1F (0 | (1 << 8))

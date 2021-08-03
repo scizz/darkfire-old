@@ -4460,6 +4460,16 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/ChandraVillage_TylerHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/ChandraVillage_TylerHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUNRISE_TOWN",
+      "name": "SunriseTown_Layout",
+      "width": 64,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Contest",
+      "border_filepath": "data/layouts/SunriseTown/border.bin",
+      "blockdata_filepath": "data/layouts/SunriseTown/map.bin"
     }
   ]
 }

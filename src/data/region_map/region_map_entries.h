@@ -4,6 +4,7 @@
 static const u8 sMapName_LittlerootTown[] = _("LITTLEROOT TOWN");
 static const u8 sMapName_ChandraVillage[] = _("Chandra Village");
 static const u8 sMapName_OldaleTown[] = _("OLDALE TOWN");
+static const u8 sMapName_SunriseTown[] = _("Sunrise Town");
 static const u8 sMapName_DewfordTown[] = _("DEWFORD TOWN");
 static const u8 sMapName_LavaridgeTown[] = _("LAVARIDGE TOWN");
 static const u8 sMapName_FallarborTown[] = _("FALLARBOR TOWN");
@@ -380,6 +381,7 @@ const struct RegionMapLocation gRegionMapEntries[] = {
     [MAPSEC_SOOTOPOLIS_CITY]            = {21, 7, 1, 1, sMapName_SootopolisCity},
     [MAPSEC_SOUTHERN_ISLAND]            = {12, 14, 1, 1, sMapName_SouthernIsland},
     [MAPSEC_SPECIAL_AREA]               = {0, 0, 1, 1, sMapName_SpecialArea},
+    [MAPSEC_SUNRISE_TOWN]               = {4, 9, 1, 1, sMapName_SunriseTown},
     [MAPSEC_S_S_ANNE]                   = {0, 0, 1, 1, sMapName_SSAnne},
     [MAPSEC_TANOBY_CHAMBERS]            = {0, 0, 1, 1, sMapName_TanobyChambers},
     [MAPSEC_TANOBY_KEY]                 = {0, 0, 1, 1, sMapName_TanobyKey},
