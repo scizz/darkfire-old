@@ -46,6 +46,11 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Laveria_0,
     },
     {
+        .mapSecId = MAPSEC_HIGHWIND_VILLAGE,
+        .index = 0,
+        .tilemap = gPokenavCityMap_Highwind_0,
+    },
+    {
         .mapSecId = MAPSEC_LAVARIDGE_TOWN,
         .index = 0,
         .tilemap = gPokenavCityMap_Lavaridge_0,

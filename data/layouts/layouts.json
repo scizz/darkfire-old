@@ -4510,6 +4510,16 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/LaveriaCity/border.bin",
       "blockdata_filepath": "data/layouts/LaveriaCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_HIGHWIND_VILLAGE",
+      "name": "HighwindVillage_Layout",
+      "width": 50,
+      "height": 52,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_TrickHousePuzzle",
+      "border_filepath": "data/layouts/HighwindVillage/border.bin",
+      "blockdata_filepath": "data/layouts/HighwindVillage/map.bin"
     }
   ]
 }

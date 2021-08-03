@@ -220,7 +220,8 @@
 #define MAPSEC_GREENDALE_VILLAGE            0xD8
 #define MAPSEC_ANHEIM_TOWN                  0xD9
 #define MAPSEC_LAVERIA_CITY                 0xDA
-#define MAPSEC_NONE                         0xDB
+#define MAPSEC_HIGHWIND_VILLAGE             0xDB
+#define MAPSEC_NONE                         0xDC
 
 #define METLOC_SPECIAL_EGG                  0xFD
 #define METLOC_IN_GAME_TRADE                0xFE

@@ -18,8 +18,8 @@
   ],
   "warp_events": [
     {
-      "x": 51,
-      "y": 29,
+      "x": 62,
+      "y": 47,
       "elevation": 0,
       "dest_map": "MAP_UNION_CITY",
       "dest_warp_id": 0
