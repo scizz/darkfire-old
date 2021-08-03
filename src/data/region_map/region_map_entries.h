@@ -10,6 +10,7 @@ static const u8 sMapName_UnionCity[] = _("Union City");
 static const u8 sMapName_LavaridgeTown[] = _("LAVARIDGE TOWN");
 static const u8 sMapName_GreendaleVillage[] = _("Greendale Village");
 static const u8 sMapName_FallarborTown[] = _("FALLARBOR TOWN");
+static const u8 sMapName_AnheimTown[] = _("Anheim Town");
 static const u8 sMapName_VerdanturfTown[] = _("VERDANTURF TOWN");
 static const u8 sMapName_PacifidlogTown[] = _("PACIFIDLOG TOWN");
 static const u8 sMapName_PetalburgCity[] = _("PETALBURG CITY");
@@ -205,6 +206,7 @@ static const u8 sMapName_TrainerHill[] = _("TRAINER HILL");
 
 const struct RegionMapLocation gRegionMapEntries[] = {
     [MAPSEC_ABANDONED_SHIP]             = {6, 14, 1, 1, sMapName_AbandonedShip},
+    [MAPSEC_ANHEIM_TOWN]                = {0, 0, 1, 1, sMapName_AnheimTown},
     [MAPSEC_ALTERING_CAVE]              = {6, 8, 1, 1, sMapName_AlteringCave},
     [MAPSEC_ALTERING_CAVE_FRLG]         = {0, 0, 1, 1, sMapName_AlteringCave},
     [MAPSEC_ANCIENT_TOMB]               = {13, 2, 1, 1, sMapName_AncientTomb},

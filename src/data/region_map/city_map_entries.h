@@ -36,6 +36,11 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Union_0,
     },
     {
+        .mapSecId = MAPSEC_ANHEIM_TOWN,
+        .index = 0,
+        .tilemap = gPokenavCityMap_Anheim_0,
+    },
+    {
         .mapSecId = MAPSEC_LAVARIDGE_TOWN,
         .index = 0,
         .tilemap = gPokenavCityMap_Lavaridge_0,

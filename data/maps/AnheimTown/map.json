@@ -2,11 +2,11 @@
   "id": "MAP_ANHEIM_TOWN",
   "name": "AnheimTown",
   "layout": "LAYOUT_ANHEIM_TOWN",
-  "music": "",
-  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "music": "MUS_B_ARENA",
+  "region_map_section": "MAPSEC_ANHEIM_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_NONE",
+  "map_type": "MAP_TYPE_TOWN",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -17,7 +17,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 62,
+      "y": 50,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_TOWN",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 
