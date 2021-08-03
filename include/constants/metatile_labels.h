@@ -201,6 +201,46 @@
 #define METATILE_Fortree_WoodBridge1_Bottom                0x29F
 #define METATILE_Fortree_WoodBridge1_Top                   0x297
 
+// gTileset_General
+#define METATILE_General_BlueCaveIndent        0x192
+#define METATILE_General_BlueCaveOpen          0x193
+#define METATILE_General_CalmWater             0x1E4
+#define METATILE_General_CaveEntrance_Bottom   0x0D7
+#define METATILE_General_CaveEntrance_Top      0x115
+#define METATILE_General_Door                  0x1A5
+#define METATILE_General_Door_Contest          0x196
+#define METATILE_General_Door_Gym              0x195
+#define METATILE_General_Door_PokeCenter       0x1AA
+#define METATILE_General_Door_PokeMart         0x1A1
+#define METATILE_General_Grass                 0x001
+#define METATILE_General_Grass_TreeLeft        0x016
+#define METATILE_General_Grass_TreeRight       0x013
+#define METATILE_General_Grass_TreeUp          0x072
+#define METATILE_General_LongGrass             0x031
+#define METATILE_General_MuddySlope_Frame0     0x0E8
+#define METATILE_General_MuddySlope_Frame1     0x0E9
+#define METATILE_General_MuddySlope_Frame2     0x0EA
+#define METATILE_General_MuddySlope_Frame3     0x0EB
+#define METATILE_General_RedCaveIndent         0x189
+#define METATILE_General_RedCaveOpen           0x18A
+#define METATILE_General_ReflectiveWater       0x18E
+#define METATILE_General_RockWall_GrassBase    0x0B4
+#define METATILE_General_RockWall_RockBase     0x0B1
+#define METATILE_General_RockWall_SandBase     0x12D
+#define METATILE_General_RoughDeepWater        0x186
+#define METATILE_General_RoughWater            0x1CE
+#define METATILE_General_SandPit_Center        0x151
+#define METATILE_General_SecretBase_TreeLeft   0x0B0
+#define METATILE_General_SecretBase_TreeRight  0x0B2
+#define METATILE_General_SecretBase_VineLeft   0x0B3
+#define METATILE_General_SecretBase_VineRight  0x0B5
+#define METATILE_General_TallGrass             0x00D
+#define METATILE_General_TallGrass_TreeLeft    0x065
+#define METATILE_General_TallGrass_TreeRight   0x064
+#define METATILE_General_TallGrass_TreeUp      0x075
+#define METATILE_General_YellowCaveIndent      0x18B
+#define METATILE_General_YellowCaveOpen        0x191
+
 // gTileset_GenericBuilding
 #define METATILE_GenericBuilding_TableEdge               0x2F1
 #define METATILE_GenericBuilding_TrickHouse_Door_Closed  0x21B
@@ -228,6 +268,18 @@
 #define METATILE_Lavaridge_LavaField            0x271
 #define METATILE_Lavaridge_NormalGrass          0x206
 #define METATILE_Lavaridge_RockWall             0x274
+
+// gTileset_LilycoveMuseum
+#define METATILE_LilycoveMuseum_Painting0_Left   0x3AB
+#define METATILE_LilycoveMuseum_Painting0_Right  0x3AC
+#define METATILE_LilycoveMuseum_Painting1_Left   0x3AD
+#define METATILE_LilycoveMuseum_Painting1_Right  0x3BB
+#define METATILE_LilycoveMuseum_Painting2_Left   0x3BC
+#define METATILE_LilycoveMuseum_Painting2_Right  0x3BD
+#define METATILE_LilycoveMuseum_Painting3_Left   0x3CB
+#define METATILE_LilycoveMuseum_Painting3_Right  0x3CC
+#define METATILE_LilycoveMuseum_Painting4_Left   0x3CD
+#define METATILE_LilycoveMuseum_Painting4_Right  0x3DB
 
 // gTileset_Lilycove
 #define METATILE_Lilycove_Door             0x246

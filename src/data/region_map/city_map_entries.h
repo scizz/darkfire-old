@@ -26,6 +26,11 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Dewford_0,
     },
     {
+        .mapSecId = MAPSEC_UNION_CITY,
+        .index = 0,
+        .tilemap = gPokenavCityMap_Union_0,
+    },
+    {
         .mapSecId = MAPSEC_LAVARIDGE_TOWN,
         .index = 0,
         .tilemap = gPokenavCityMap_Lavaridge_0,
