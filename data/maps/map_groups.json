@@ -41,7 +41,8 @@
   "gMapGroup_DarkfireMain": [
     "ChandraVillage",
     "SunriseTown",
-    "UnionCity"
+    "UnionCity",
+    "GreendaleVillage"
   ],
   "gMapGroup_IndoorChandra": [
     "ChandraVillage_PlayerHouse_1F",

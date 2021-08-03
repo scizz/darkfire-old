@@ -4480,6 +4480,16 @@
       "secondary_tileset": "gTileset_LilycoveMuseum",
       "border_filepath": "data/layouts/UnionCity/border.bin",
       "blockdata_filepath": "data/layouts/UnionCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_GREENDALE_VILLAGE",
+      "name": "GreendaleVillage_Layout",
+      "width": 50,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/GreendaleVillage/border.bin",
+      "blockdata_filepath": "data/layouts/GreendaleVillage/map.bin"
     }
   ]
 }
