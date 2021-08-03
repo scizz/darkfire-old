@@ -1,9 +1,9 @@
 {
-  "id": "MAP_GREENDALE_VILLAGE",
-  "name": "GreendaleVillage",
-  "layout": "LAYOUT_GREENDALE_VILLAGE",
-  "music": "MUS_B_ARENA",
-  "region_map_section": "MAPSEC_GREENDALE_VILLAGE",
+  "id": "MAP_ANHEIM_TOWN",
+  "name": "AnheimTown",
+  "layout": "LAYOUT_ANHEIM_TOWN",
+  "music": "",
+  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",
@@ -17,13 +17,7 @@
 
   ],
   "warp_events": [
-    {
-      "x": 22,
-      "y": 40,
-      "elevation": 0,
-      "dest_map": "MAP_GREENDALE_VILLAGE",
-      "dest_warp_id": 0
-    }
+
   ],
   "coord_events": [
 

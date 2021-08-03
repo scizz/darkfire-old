@@ -4490,6 +4490,16 @@
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/GreendaleVillage/border.bin",
       "blockdata_filepath": "data/layouts/GreendaleVillage/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANHEIM_TOWN",
+      "name": "AnheimTown_Layout",
+      "width": 76,
+      "height": 76,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RustboroGym",
+      "border_filepath": "data/layouts/AnheimTown/border.bin",
+      "blockdata_filepath": "data/layouts/AnheimTown/map.bin"
     }
   ]
 }

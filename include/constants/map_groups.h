@@ -10,6 +10,7 @@
 #define MAP_SUNRISE_TOWN      (1 | (0 << 8))
 #define MAP_UNION_CITY        (2 | (0 << 8))
 #define MAP_GREENDALE_VILLAGE (3 | (0 << 8))
+#define MAP_ANHEIM_TOWN       (4 | (0 << 8))
 
 // Map Group 1
 #define MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_1F (0 | (1 << 8))

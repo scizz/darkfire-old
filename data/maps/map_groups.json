@@ -42,7 +42,8 @@
     "ChandraVillage",
     "SunriseTown",
     "UnionCity",
-    "GreendaleVillage"
+    "GreendaleVillage",
+    "AnheimTown"
   ],
   "gMapGroup_IndoorChandra": [
     "ChandraVillage_PlayerHouse_1F",
