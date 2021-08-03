@@ -4530,6 +4530,16 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/NorthstarCity/border.bin",
       "blockdata_filepath": "data/layouts/NorthstarCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN",
+      "name": "PinleafTown_Layout",
+      "width": 80,
+      "height": 72,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MossdeepGym",
+      "border_filepath": "data/layouts/PinleafTown/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown/map.bin"
     }
   ]
 }

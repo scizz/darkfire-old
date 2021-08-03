@@ -222,7 +222,8 @@
 #define MAPSEC_LAVERIA_CITY                 0xDA
 #define MAPSEC_HIGHWIND_VILLAGE             0xDB
 #define MAPSEC_NORTHSTAR_CITY               0xDC
-#define MAPSEC_NONE                         0xDD
+#define MAPSEC_PINLEAF_TOWN                 0xDD
+#define MAPSEC_NONE                         0xDE
 
 #define METLOC_SPECIAL_EGG                  0xFD
 #define METLOC_IN_GAME_TRADE                0xFE
