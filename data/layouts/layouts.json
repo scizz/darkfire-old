@@ -4520,6 +4520,16 @@
       "secondary_tileset": "gTileset_TrickHousePuzzle",
       "border_filepath": "data/layouts/HighwindVillage/border.bin",
       "blockdata_filepath": "data/layouts/HighwindVillage/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY",
+      "name": "NorthstarCity_Layout",
+      "width": 120,
+      "height": 61,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lilycove",
+      "border_filepath": "data/layouts/NorthstarCity/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity/map.bin"
     }
   ]
 }

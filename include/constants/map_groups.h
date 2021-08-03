@@ -13,6 +13,7 @@
 #define MAP_ANHEIM_TOWN       (4 | (0 << 8))
 #define MAP_LAVERIA_CITY      (5 | (0 << 8))
 #define MAP_HIGHWIND_VILLAGE  (6 | (0 << 8))
+#define MAP_NORTHSTAR_CITY    (7 | (0 << 8))
 
 // Map Group 1
 #define MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_1F (0 | (1 << 8))

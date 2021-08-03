@@ -1083,3 +1083,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/LaveriaCity/scripts.inc"
 
 	.include "data/maps/HighwindVillage/scripts.inc"
+
+	.include "data/maps/NorthstarCity/scripts.inc"
