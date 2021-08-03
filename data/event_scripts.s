@@ -1079,3 +1079,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/GreendaleVillage/scripts.inc"
 
 	.include "data/maps/AnheimTown/scripts.inc"
+
+	.include "data/maps/LaveriaCity/scripts.inc"

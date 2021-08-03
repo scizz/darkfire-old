@@ -4500,6 +4500,16 @@
       "secondary_tileset": "gTileset_RustboroGym",
       "border_filepath": "data/layouts/AnheimTown/border.bin",
       "blockdata_filepath": "data/layouts/AnheimTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVERIA_CITY",
+      "name": "LaveriaCity_Layout",
+      "width": 64,
+      "height": 56,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LaveriaCity/border.bin",
+      "blockdata_filepath": "data/layouts/LaveriaCity/map.bin"
     }
   ]
 }
