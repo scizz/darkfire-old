@@ -395,6 +395,10 @@
 #define METATILE_RS_MossdeepGym_Switch_Down     0x239
 #define METATILE_RS_MossdeepGym_Switch_Up       0x238
 
+// gTileset_Rustboro
+#define METATILE_Rustboro_Door_Gray  0x3A0
+#define METATILE_Rustboro_Door_Tan   0x3A1
+
 // gTileset_SecretBase
 #define METATILE_SecretBase_AttractMat_BottomLeft       0x313
 #define METATILE_SecretBase_AttractMat_BottomMid        0x314

@@ -25,3 +25,4 @@ const u32 gPokenavCityMap_Sunrise_0[] = INCBIN_U32("graphics/pokenav/city_maps/s
 const u32 gPokenavCityMap_Union_0[] = INCBIN_U32("graphics/pokenav/city_maps/union_0.bin.lz");
 const u32 gPokenavCityMap_Greendale_0[] = INCBIN_U32("graphics/pokenav/city_maps/greendale_0.bin.lz");
 const u32 gPokenavCityMap_Anheim_0[] = INCBIN_U32("graphics/pokenav/city_maps/anheim_0.bin.lz");
+const u32 gPokenavCityMap_Laveria_0[] = INCBIN_U32("graphics/pokenav/city_maps/laveria_0.bin.lz");
