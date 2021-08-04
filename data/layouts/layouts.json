@@ -4570,6 +4570,16 @@
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/Route3/border.bin",
       "blockdata_filepath": "data/layouts/Route3/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE4",
+      "name": "Route4_Layout",
+      "width": 92,
+      "height": 80,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/Route4/border.bin",
+      "blockdata_filepath": "data/layouts/Route4/map.bin"
     }
   ]
 }

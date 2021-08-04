@@ -1,12 +1,12 @@
 {
-  "id": "MAP_GREENDALE_VILLAGE",
-  "name": "GreendaleVillage",
-  "layout": "LAYOUT_GREENDALE_VILLAGE",
+  "id": "MAP_ROUTE4",
+  "name": "Route4",
+  "layout": "LAYOUT_ROUTE4",
   "music": "MUS_B_ARENA",
-  "region_map_section": "MAPSEC_GREENDALE_VILLAGE",
+  "region_map_section": "MAPSEC_ROUTE_4",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -14,9 +14,9 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "right",
-      "offset": 20,
-      "map": "MAP_ROUTE4"
+      "direction": "left",
+      "offset": -20,
+      "map": "MAP_GREENDALE_VILLAGE"
     }
   ],
   "object_events": [
@@ -24,10 +24,10 @@
   ],
   "warp_events": [
     {
-      "x": 22,
-      "y": 40,
+      "x": 84,
+      "y": 52,
       "elevation": 0,
-      "dest_map": "MAP_ANHEIM_TOWN",
+      "dest_map": "MAP_ROUTE4",
       "dest_warp_id": 0
     }
   ],
