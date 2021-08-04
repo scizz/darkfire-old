@@ -1,11 +1,11 @@
 {
-  "id": "MAP_ROUTE1",
-  "name": "Route1",
-  "layout": "LAYOUT_ROUTE1",
+  "id": "MAP_ROUTE2",
+  "name": "Route2",
+  "layout": "LAYOUT_ROUTE2",
   "music": "MUS_B_ARENA",
-  "region_map_section": "MAPSEC_ROUTE_1",
+  "region_map_section": "MAPSEC_ROUTE_2",
   "requires_flash": false,
-  "weather": "WEATHER_SUNNY_CLOUDS",
+  "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": true,
   "allow_escaping": false,
@@ -14,13 +14,8 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "down",
-      "offset": -29,
-      "map": "MAP_CHANDRA_VILLAGE"
-    },
-    {
-      "direction": "up",
-      "offset": 17,
+      "direction": "right",
+      "offset": 10,
       "map": "MAP_SUNRISE_TOWN"
     }
   ],

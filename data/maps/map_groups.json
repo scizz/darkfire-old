@@ -48,7 +48,8 @@
     "HighwindVillage",
     "NorthstarCity",
     "PinleafTown",
-    "Route1"
+    "Route1",
+    "Route2"
   ],
   "gMapGroup_IndoorChandra": [
     "ChandraVillage_PlayerHouse_1F",
