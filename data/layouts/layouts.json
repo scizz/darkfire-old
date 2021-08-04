@@ -4540,6 +4540,16 @@
       "secondary_tileset": "gTileset_MossdeepGym",
       "border_filepath": "data/layouts/PinleafTown/border.bin",
       "blockdata_filepath": "data/layouts/PinleafTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE1",
+      "name": "Route1_Layout",
+      "width": 50,
+      "height": 33,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Contest",
+      "border_filepath": "data/layouts/Route1/border.bin",
+      "blockdata_filepath": "data/layouts/Route1/map.bin"
     }
   ]
 }

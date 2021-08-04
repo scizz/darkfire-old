@@ -1,12 +1,12 @@
 {
-  "id": "MAP_SUNRISE_TOWN",
-  "name": "SunriseTown",
-  "layout": "LAYOUT_SUNRISE_TOWN",
+  "id": "MAP_ROUTE1",
+  "name": "Route1",
+  "layout": "LAYOUT_ROUTE1",
   "music": "MUS_B_ARENA",
-  "region_map_section": "MAPSEC_SUNRISE_TOWN",
+  "region_map_section": "MAPSEC_ROUTE_1",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_TOWN",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -15,21 +15,20 @@
   "connections": [
     {
       "direction": "down",
-      "offset": -17,
-      "map": "MAP_ROUTE1"
+      "offset": -29,
+      "map": "MAP_CHANDRA_VILLAGE"
+    },
+    {
+      "direction": "up",
+      "offset": 17,
+      "map": "MAP_SUNRISE_TOWN"
     }
   ],
   "object_events": [
 
   ],
   "warp_events": [
-    {
-      "x": 40,
-      "y": 15,
-      "elevation": 0,
-      "dest_map": "MAP_UNION_CITY",
-      "dest_warp_id": 0
-    }
+
   ],
   "coord_events": [
 

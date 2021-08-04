@@ -15,6 +15,7 @@
 #define MAP_HIGHWIND_VILLAGE  (6 | (0 << 8))
 #define MAP_NORTHSTAR_CITY    (7 | (0 << 8))
 #define MAP_PINLEAF_TOWN      (8 | (0 << 8))
+#define MAP_ROUTE1            (9 | (0 << 8))
 
 // gMapGroup_IndoorChandra
 #define MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_1F (0 | (1 << 8))
