@@ -19,6 +19,8 @@
 #define MAP_ROUTE2            (10 | (0 << 8))
 #define MAP_ROUTE3            (11 | (0 << 8))
 #define MAP_ROUTE4            (12 | (0 << 8))
+#define MAP_ROUTE5            (13 | (0 << 8))
+#define MAP_ROUTE6            (14 | (0 << 8))
 
 // Map Group 1
 #define MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_1F (0 | (1 << 8))
