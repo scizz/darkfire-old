@@ -201,6 +201,46 @@
 #define METATILE_Fortree_WoodBridge1_Bottom                0x29F
 #define METATILE_Fortree_WoodBridge1_Top                   0x297
 
+// gTileset_General
+#define METATILE_General_BlueCaveIndent        0x087
+#define METATILE_General_BlueCaveOpen          0x088
+#define METATILE_General_CalmWater             0x082
+#define METATILE_General_CaveEntrance_Bottom   0x05D
+#define METATILE_General_CaveEntrance_Top      0x05B
+#define METATILE_General_Door                  0x03B
+#define METATILE_General_Door_Contest          0x08E
+#define METATILE_General_Door_Gym              0x08D
+#define METATILE_General_Door_PokeCenter       0x043
+#define METATILE_General_Door_PokeMart         0x042
+#define METATILE_General_Grass                 0x001
+#define METATILE_General_Grass_TreeLeft        0x08C
+#define METATILE_General_Grass_TreeRight       0x08B
+#define METATILE_General_Grass_TreeUp          0x074
+#define METATILE_General_LongGrass             0x029
+#define METATILE_General_MuddySlope_Frame0     0x070
+#define METATILE_General_MuddySlope_Frame1     0x071
+#define METATILE_General_MuddySlope_Frame2     0x072
+#define METATILE_General_MuddySlope_Frame3     0x073
+#define METATILE_General_RedCaveIndent         0x083
+#define METATILE_General_RedCaveOpen           0x084
+#define METATILE_General_ReflectiveWater       0x06C
+#define METATILE_General_RockWall_GrassBase    0x044
+#define METATILE_General_RockWall_RockBase     0x045
+#define METATILE_General_RockWall_SandBase     0x055
+#define METATILE_General_RoughDeepWater        0x081
+#define METATILE_General_RoughWater            0x080
+#define METATILE_General_SandPit_Center        0x031
+#define METATILE_General_SecretBase_TreeLeft   0x03E
+#define METATILE_General_SecretBase_TreeRight  0x03F
+#define METATILE_General_SecretBase_VineLeft   0x041
+#define METATILE_General_SecretBase_VineRight  0x040
+#define METATILE_General_TallGrass             0x01A
+#define METATILE_General_TallGrass_TreeLeft    0x089
+#define METATILE_General_TallGrass_TreeRight   0x08A
+#define METATILE_General_TallGrass_TreeUp      0x03C
+#define METATILE_General_YellowCaveIndent      0x085
+#define METATILE_General_YellowCaveOpen        0x086
+
 // gTileset_GenericBuilding
 #define METATILE_GenericBuilding_TableEdge               0x2F1
 #define METATILE_GenericBuilding_TrickHouse_Door_Closed  0x21B
