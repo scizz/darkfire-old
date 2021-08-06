@@ -4610,6 +4610,16 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route7/border.bin",
       "blockdata_filepath": "data/layouts/Route7/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE8",
+      "name": "Route8_Layout",
+      "width": 80,
+      "height": 90,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/Route8/border.bin",
+      "blockdata_filepath": "data/layouts/Route8/map.bin"
     }
   ]
 }
