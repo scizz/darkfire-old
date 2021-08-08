@@ -4541,3 +4541,67 @@ DirectSoundWaveData_sd90_classical_whistle::
 	.align 2
 DirectSoundWaveData_sd90_enhanced_delay_shaku::
 	.incbin "sound/direct_sound_samples/sd90_enhanced_delay_shaku.bin"
+	
+	.align 2
+violin::
+	.incbin "sound/direct_sound_samples/violin.bin"
+	
+	.align 2
+clarinet72::
+	.incbin "sound/direct_sound_samples/clarinet72.bin"
+	
+	.align 2
+orchestrahit72::
+	.incbin "sound/direct_sound_samples/orchestrahit72.bin"
+	
+	.align 2
+acousticbass48::
+	.incbin "sound/direct_sound_samples/acousticbass48.bin"
+	
+	.align 2
+gong::
+	.incbin "sound/direct_sound_samples/gong.bin"
+	
+	.align 2
+eggshaker::
+	.incbin "sound/direct_sound_samples/eggshaker.bin"
+	
+	.align 2
+ridecymbal::
+	.incbin "sound/direct_sound_samples/ridecymbal.bin"
+	
+	.align 2
+sidestick::
+	.incbin "sound/direct_sound_samples/sidestick.bin"
+	
+	.align 2
+brass_section::
+	.incbin "sound/direct_sound_samples/brass_section.bin"
+	
+	.align 2
+tenorsax::
+	.incbin "sound/direct_sound_samples/tenorsax.bin"
+	
+	.align 2
+contrabass::
+	.incbin "sound/direct_sound_samples/contrabass.bin"
+	
+	.align 2
+vibraphone::
+	.incbin "sound/direct_sound_samples/vibraphone.bin"
+	
+	.align 2
+ocarina::
+	.incbin "sound/direct_sound_samples/ocarina.bin"
+	
+	.align 2
+marimba60::
+	.incbin "sound/direct_sound_samples/marimba60.bin"
+	
+	.align 2
+altosax72::
+	.incbin "sound/direct_sound_samples/altosax72.bin"
+	
+	.align 2
+sopranosax::
+	.incbin "sound/direct_sound_samples/sopranosax60.bin"

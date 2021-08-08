@@ -8,19 +8,19 @@ voicegroup002:: @ 8676148
 	voice_directsound 60, 0, DirectSoundWaveData_ethnic_flavours_ohtsuzumi, 255, 0, 255, 0  @ 8676184
 	voice_directsound 60, 0, DirectSoundWaveData_ethnic_flavours_hyoushigi, 255, 0, 255, 0  @ 8676190
 	voice_directsound_no_resample 60, 64, DirectSoundWaveData_sc88pro_rnd_kick, 255, 0, 255, 242  @ 867619C
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 86761A8
+	voice_directsound 60, 0, eggshaker, 255, 255, 255, 255  @ 86761A8
 	voice_directsound_no_resample 60, 64, DirectSoundWaveData_sc88pro_rnd_snare, 255, 0, 255, 242  @ 86761B4
 	voice_directsound_no_resample 60, 64, DirectSoundWaveData_sc88pro_tr909_hand_clap, 255, 255, 255, 127  @ 86761C0
 	voice_directsound_no_resample 60, 64, DirectSoundWaveData_sc88pro_orchestra_snare, 255, 0, 255, 242  @ 86761CC
 	voice_directsound 48, 44, DirectSoundWaveData_unused_sc55_tom, 255, 210, 77, 204  @ 86761D8
 	voice_directsound_no_resample 60, 79, DirectSoundWaveData_unknown_close_hihat, 255, 127, 0, 188  @ 86761E4
 	voice_directsound 51, 54, DirectSoundWaveData_unused_sc55_tom, 255, 216, 77, 204  @ 86761F0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 86761FC
+	voice_directsound 60, 0, ridecymbal, 255, 245, 0, 255  @ 86761FC
 	voice_directsound 54, 64, DirectSoundWaveData_unused_sc55_tom, 255, 216, 77, 204  @ 8676208
 	voice_directsound_no_resample 60, 79, DirectSoundWaveData_unknown_open_hihat, 255, 242, 141, 0  @ 8676214
 	voice_directsound 57, 69, DirectSoundWaveData_unused_sc55_tom, 255, 210, 77, 204  @ 8676220
 	voice_directsound 60, 79, DirectSoundWaveData_unused_sc55_tom, 255, 204, 77, 204  @ 867622C
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 8676238
+	voice_directsound 60, 0, sidestick, 255, 255, 255, 255  @ 8676238
 	voice_directsound 62, 84, DirectSoundWaveData_unused_sc55_tom, 255, 204, 77, 204  @ 8676244
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 8676250
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0  @ 867625C

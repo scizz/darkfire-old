@@ -1915,7 +1915,7 @@ gDecodingBuffer: @ Used as a buffer for audio decoded from compressed DPCM
 
     .global gMPlayTrack_BGM
 gMPlayTrack_BGM:
-    .space 0x320
+    .space 0x500
     .size gMPlayTrack_BGM, .-gMPlayTrack_BGM
 
     .global gMPlayTrack_SE1
