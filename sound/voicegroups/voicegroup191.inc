@@ -19,14 +19,14 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ drawbar organ (other percussive organ?)
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_organ2, 255, 0, 255, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ rock organ (other percussive organ?)
-	voice_directsound 60, 0, DirectSoundWaveData_unknown_church_organ, 255, 76, 154, 188  @ 8697754
-	voice_directsound 60, 0, DirectSoundWaveData_emu_ii_pipe_organ, 255, 76, 154, 188
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_church_organ3_low, 255, 76, 154, 188  @ 8697754
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_church_organ3_high, 255, 76, 154, 188
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_accordion, 64, 188, 108, 165
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ harmonica
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ tango accordian
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_nylon_str_guitar, 255, 249, 25, 127
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_nylon_str_guitar, 64, 216, 51, 224 @ maybe steel?
-	voice_directsound 60, 0, DirectSoundWaveData_unused_electric_guitar, 255, 165, 206, 127 @ electric guitar (jazz)?
+	voice_directsound 60, 0, DirectSoundWaveData_unused_guitar_separates_power_chord, 255, 165, 206, 127 @ electric guitar (jazz)?
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ electric guitar (clean)
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ electric guitar (muted)
 	voice_directsound 60, 0, DirectSoundWaveData_sd90_classical_overdrive_guitar, 128, 0, 255, 214
@@ -34,10 +34,10 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ soon to be guitar harmonics
 	voice_directsound 60, 0, acousticbass48, 255, 253, 0, 188 @ acoustic bass
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ soon to be electric bass (finger)
-	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_fingered_bass, 255, 253, 0, 149 (should be pick bass)
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_fingered_bass, 255, 253, 0, 149 @ (should be pick bass)
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_fretless_bass, 255, 253, 0, 188
-	voice_directsound 60, 0, DirectSoundWaveData_jv1080_slap_bass, 255, 235, 128, 99
-	voice_directsound 60, 0, DirectSoundWaveData_jv1080_slap_bass, 255, 255, 255, 127
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_slap_bass, 255, 235, 128, 99
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_slap_bass, 255, 255, 255, 127
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_synth_bass, 255, 252, 0, 115
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_synth_bass, 255, 252, 0, 165
 	voice_directsound 60, 0, violin, 255, 255, 0, 221
@@ -87,7 +87,7 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ charang
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ voice
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ fifths
-	voice_programmable_wave ProgrammableWaveData_86B49B0, 0, 7, 15, 1 @ bass (rough) switch "9B" to "99" for smooth
+	voice_programmable_wave 60, 0, ProgrammableWaveData_86B49B0, 0, 7, 15, 1 @ bass (rough) switch "9B" to "99" for smooth
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 2
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 3
