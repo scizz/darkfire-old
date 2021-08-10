@@ -734,6 +734,7 @@
 #define METATILE_Sootopolis_Door_Closed      0x262
 #define METATILE_Sootopolis_Door_PeakedRoof  0x260
 #define METATILE_Sootopolis_GymDoor_Closed   0x255
+#define METATILE_Sootopolis_RoughWater       0x367
 
 // gTileset_TrainerHill
 #define METATILE_TrainerHill_CounterDoor          0x334
