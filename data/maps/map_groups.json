@@ -64,7 +64,8 @@
     "ChandraVillage_PlayerHouse_1F",
     "ChandraVillage_PlayerHouse_2F",
     "ChandraVillage_TylerHouse_1F",
-    "ChandraVillage_TylerHouse_2F"
+    "ChandraVillage_TylerHouse_2F",
+    "ChandraVillage_Lab"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
