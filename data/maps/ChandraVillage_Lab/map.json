@@ -2,7 +2,7 @@
   "id": "MAP_CHANDRA_VILLAGE_LAB",
   "name": "ChandraVillage_Lab",
   "layout": "LAYOUT_CHANDRA_VILLAGE_LAB",
-  "music": "",
+  "music": "MUS_BIRCH_LAB",
   "region_map_section": "MAPSEC_CHANDRA_VILLAGE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
