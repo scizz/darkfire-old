@@ -71,7 +71,7 @@
 #define METATILE_BattlePike_Curtain_Stage3_Tile6  0x2BC
 
 // gTileset_BattleTent
-#define METATILE_BattleTent_Door  0x26B
+#define METATILE_BattleTent_Door  0x2A0
 
 // gTileset_BikeShop
 #define METATILE_BikeShop_Barrier_Blue_Bottom      0x2CF

@@ -3,6 +3,7 @@
   "group_order": [
     "gMapGroup_DarkfireMain",
     "gMapGroup_IndoorChandra",
+    "gMapGroup_IndoorSunrise",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -66,6 +67,9 @@
     "ChandraVillage_TylerHouse_1F",
     "ChandraVillage_TylerHouse_2F",
     "ChandraVillage_Lab"
+  ],
+  "gMapGroup_IndoorSunrise": [
+    "SunriseTown_House1"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

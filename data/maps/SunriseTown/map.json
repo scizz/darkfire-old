@@ -34,6 +34,13 @@
       "elevation": 0,
       "dest_map": "MAP_UNION_CITY",
       "dest_warp_id": 0
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_SUNRISE_TOWN_HOUSE1",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
