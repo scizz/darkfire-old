@@ -4670,6 +4670,16 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/SunriseTown_House1/border.bin",
       "blockdata_filepath": "data/layouts/SunriseTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUNRISE_TOWN_HOUSE2",
+      "name": "SunriseTown_House2_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/SunriseTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/SunriseTown_House2/map.bin"
     }
   ]
 }

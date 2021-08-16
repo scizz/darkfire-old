@@ -69,7 +69,8 @@
     "ChandraVillage_Lab"
   ],
   "gMapGroup_IndoorSunrise": [
-    "SunriseTown_House1"
+    "SunriseTown_House1",
+    "SunriseTown_House2"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

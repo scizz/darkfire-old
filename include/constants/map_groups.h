@@ -36,6 +36,7 @@
 
 // gMapGroup_IndoorSunrise
 #define MAP_SUNRISE_TOWN_HOUSE1 (0 | (2 << 8))
+#define MAP_SUNRISE_TOWN_HOUSE2 (1 | (2 << 8))
 
 // gMapGroup_TownsAndRoutes
 #define MAP_PETALBURG_CITY      (0 | (3 << 8))
