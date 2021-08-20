@@ -39,7 +39,7 @@ voicegroup191::
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_slap_bass, 255, 235, 128, 99
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_slap_bass, 255, 255, 255, 127
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_synth_bass, 255, 252, 0, 115
-	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_synth_bass, 255, 252, 0, 165
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_square_wave, 255, 0, 255, 127
 	voice_directsound 60, 0, violin, 255, 255, 0, 221
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ viola
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ cello
