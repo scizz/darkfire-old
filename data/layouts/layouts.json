@@ -4700,6 +4700,16 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/SunriseTown_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/SunriseTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUNRISE_TOWN_MART",
+      "name": "SunriseTown_Mart_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/SunriseTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/SunriseTown_Mart/map.bin"
     }
   ]
 }
