@@ -4690,6 +4690,16 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/SunriseTown_Hotel_1F/border.bin",
       "blockdata_filepath": "data/layouts/SunriseTown_Hotel_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUNRISE_TOWN_POKEMON_CENTER_1F",
+      "name": "SunriseTown_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/SunriseTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SunriseTown_PokemonCenter_1F/map.bin"
     }
   ]
 }

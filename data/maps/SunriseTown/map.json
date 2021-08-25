@@ -2,7 +2,7 @@
   "id": "MAP_SUNRISE_TOWN",
   "name": "SunriseTown",
   "layout": "LAYOUT_SUNRISE_TOWN",
-  "music": "MUS_B_ARENA",
+  "music": "MUS_TRAINER_BATTLE",
   "region_map_section": "MAPSEC_SUNRISE_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -32,7 +32,7 @@
       "x": 40,
       "y": 15,
       "elevation": 0,
-      "dest_map": "MAP_UNION_CITY",
+      "dest_map": "MAP_SUNRISE_TOWN_POKEMON_CENTER_1F",
       "dest_warp_id": 0
     },
     {
