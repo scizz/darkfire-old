@@ -4740,6 +4740,36 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/UnionCity_House1_3F/border.bin",
       "blockdata_filepath": "data/layouts/UnionCity_House1_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_HOUSE2",
+      "name": "UnionCity_House2_Layout",
+      "width": 77,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/UnionCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_HOUSE3_1F",
+      "name": "UnionCity_House3_1F_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/UnionCity_House3_1F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_House3_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_HOUSE3_2F",
+      "name": "UnionCity_House3_2F_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/UnionCity_House3_2F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_House3_2F/map.bin"
     }
   ]
 }

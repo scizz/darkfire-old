@@ -45,6 +45,9 @@
 #define MAP_UNION_CITY_HOUSE1_1F (0 | (3 << 8))
 #define MAP_UNION_CITY_HOUSE1_2F (1 | (3 << 8))
 #define MAP_UNION_CITY_HOUSE1_3F (2 | (3 << 8))
+#define MAP_UNION_CITY_HOUSE2    (3 | (3 << 8))
+#define MAP_UNION_CITY_HOUSE3_1F (4 | (3 << 8))
+#define MAP_UNION_CITY_HOUSE3_2F (5 | (3 << 8))
 
 // Map Group 4
 #define MAP_PETALBURG_CITY      (0 | (4 << 8))

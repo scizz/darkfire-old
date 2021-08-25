@@ -79,7 +79,10 @@
   "gMapGroup_IndoorUnion": [
     "UnionCity_House1_1F",
     "UnionCity_House1_2F",
-    "UnionCity_House1_3F"
+    "UnionCity_House1_3F",
+    "UnionCity_House2",
+    "UnionCity_House3_1F",
+    "UnionCity_House3_2F"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

@@ -1127,3 +1127,9 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/UnionCity_House1_2F/scripts.inc"
 
 	.include "data/maps/UnionCity_House1_3F/scripts.inc"
+
+	.include "data/maps/UnionCity_House2/scripts.inc"
+
+	.include "data/maps/UnionCity_House3_1F/scripts.inc"
+
+	.include "data/maps/UnionCity_House3_2F/scripts.inc"
