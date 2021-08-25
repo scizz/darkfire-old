@@ -4,6 +4,7 @@
     "gMapGroup_DarkfireMain",
     "gMapGroup_IndoorChandra",
     "gMapGroup_IndoorSunrise",
+    "gMapGroup_IndoorUnion",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -74,6 +75,11 @@
     "SunriseTown_Hotel_1F",
     "SunriseTown_PokemonCenter_1F",
     "SunriseTown_Mart"
+  ],
+  "gMapGroup_IndoorUnion": [
+    "UnionCity_House1_1F",
+    "UnionCity_House1_2F",
+    "UnionCity_House1_3F"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

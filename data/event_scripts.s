@@ -1121,3 +1121,9 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SunriseTown_PokemonCenter_1F/scripts.inc"
 
 	.include "data/maps/SunriseTown_Mart/scripts.inc"
+
+	.include "data/maps/UnionCity_House1_1F/scripts.inc"
+
+	.include "data/maps/UnionCity_House1_2F/scripts.inc"
+
+	.include "data/maps/UnionCity_House1_3F/scripts.inc"

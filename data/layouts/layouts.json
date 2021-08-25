@@ -4710,6 +4710,36 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/SunriseTown_Mart/border.bin",
       "blockdata_filepath": "data/layouts/SunriseTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_HOUSE1_1F",
+      "name": "UnionCity_House1_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/UnionCity_House1_1F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_House1_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_HOUSE1_2F",
+      "name": "UnionCity_House1_2F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/UnionCity_House1_2F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_House1_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_HOUSE1_3F",
+      "name": "UnionCity_House1_3F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/UnionCity_House1_3F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_House1_3F/map.bin"
     }
   ]
 }
