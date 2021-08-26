@@ -5,6 +5,7 @@
     "gMapGroup_IndoorChandra",
     "gMapGroup_IndoorSunrise",
     "gMapGroup_IndoorUnion",
+    "gMapGroup_IndoorGreendale",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -96,6 +97,13 @@
     "UnionCity_DepartmentStore_4F",
     "UnionCity_DepartmentStore_5F",
     "UnionCity_DepartmentStoreElevator"
+  ],
+  "gMapGroup_IndoorGreendale": [
+    "GreendaleVillage_House1",
+    "GreendaleVillage_RoseHouse",
+    "GreendaleVillage_TrainerSchool",
+    "GreendaleVillage_PokemonCenter_1F",
+    "GreendaleVillage_Mart"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

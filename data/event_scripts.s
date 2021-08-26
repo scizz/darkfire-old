@@ -1159,3 +1159,13 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/UnionCity_DepartmentStore_5F/scripts.inc"
 
 	.include "data/maps/UnionCity_DepartmentStoreElevator/scripts.inc"
+
+	.include "data/maps/GreendaleVillage_House1/scripts.inc"
+
+	.include "data/maps/GreendaleVillage_RoseHouse/scripts.inc"
+
+	.include "data/maps/GreendaleVillage_TrainerSchool/scripts.inc"
+
+	.include "data/maps/GreendaleVillage_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/GreendaleVillage_Mart/scripts.inc"

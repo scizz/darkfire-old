@@ -4900,6 +4900,56 @@
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/UnionCity_DepartmentStoreElevator/border.bin",
       "blockdata_filepath": "data/layouts/UnionCity_DepartmentStoreElevator/map.bin"
+    },
+    {
+      "id": "LAYOUT_GREENDALE_VILLAGE_HOUSE1",
+      "name": "GreendaleVillage_House1_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/GreendaleVillage_House1/border.bin",
+      "blockdata_filepath": "data/layouts/GreendaleVillage_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_GREENDALE_VILLAGE_ROSE_HOUSE",
+      "name": "GreendaleVillage_RoseHouse_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/GreendaleVillage_RoseHouse/border.bin",
+      "blockdata_filepath": "data/layouts/GreendaleVillage_RoseHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_GREENDALE_VILLAGE_TRAINER_SCHOOL",
+      "name": "GreendaleVillage_TrainerSchool_Layout",
+      "width": 12,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/GreendaleVillage_TrainerSchool/border.bin",
+      "blockdata_filepath": "data/layouts/GreendaleVillage_TrainerSchool/map.bin"
+    },
+    {
+      "id": "LAYOUT_GREENDALE_VILLAGE_POKEMON_CENTER_1F",
+      "name": "GreendaleVillage_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/GreendaleVillage_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/GreendaleVillage_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_GREENDALE_VILLAGE_MART",
+      "name": "GreendaleVillage_Mart_Layout",
+      "width": 12,
+      "height": 7,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/GreendaleVillage_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/GreendaleVillage_Mart/map.bin"
     }
   ]
 }
