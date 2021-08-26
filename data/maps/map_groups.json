@@ -6,6 +6,7 @@
     "gMapGroup_IndoorSunrise",
     "gMapGroup_IndoorUnion",
     "gMapGroup_IndoorGreendale",
+    "gMapGroup_IndoorAnheim",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -104,6 +105,12 @@
     "GreendaleVillage_TrainerSchool",
     "GreendaleVillage_PokemonCenter_1F",
     "GreendaleVillage_Mart"
+  ],
+  "gMapGroup_IndoorAnheim": [
+    "AnheimTown_House1",
+    "AnheimTown_House2",
+    "AnheimTown_PokemonCenter_1F",
+    "AnheimTown_Mart"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
