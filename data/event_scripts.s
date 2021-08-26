@@ -1139,3 +1139,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/UnionCity_GovOffice_2F/scripts.inc"
 
 	.include "data/maps/UnionCity_GovOffice_3F/scripts.inc"
+
+	.include "data/maps/UnionCity_AbandonedMuseum/scripts.inc"

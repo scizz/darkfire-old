@@ -4800,6 +4800,16 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/UnionCity_GovOffice_3F/border.bin",
       "blockdata_filepath": "data/layouts/UnionCity_GovOffice_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_ABANDONED_MUSEUM",
+      "name": "UnionCity_AbandonedMuseum_Layout",
+      "width": 38,
+      "height": 40,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleFrontierRankingHall",
+      "border_filepath": "data/layouts/UnionCity_AbandonedMuseum/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_AbandonedMuseum/map.bin"
     }
   ]
 }
