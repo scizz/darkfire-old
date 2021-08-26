@@ -1145,3 +1145,17 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/UnionCity_BikeShop/scripts.inc"
 
 	.include "data/maps/UnionCity_GameCorner/scripts.inc"
+
+	.include "data/maps/UnionCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/UnionCity_DepartmentStore_1F/scripts.inc"
+
+	.include "data/maps/UnionCity_DepartmentStore_2F/scripts.inc"
+
+	.include "data/maps/UnionCity_DepartmentStore_3F/scripts.inc"
+
+	.include "data/maps/UnionCity_DepartmentStore_4F/scripts.inc"
+
+	.include "data/maps/UnionCity_DepartmentStore_5F/scripts.inc"
+
+	.include "data/maps/UnionCity_DepartmentStoreElevator/scripts.inc"

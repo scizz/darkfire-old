@@ -88,7 +88,14 @@
     "UnionCity_GovOffice_3F",
     "UnionCity_AbandonedMuseum",
     "UnionCity_BikeShop",
-    "UnionCity_GameCorner"
+    "UnionCity_GameCorner",
+    "UnionCity_PokemonCenter_1F",
+    "UnionCity_DepartmentStore_1F",
+    "UnionCity_DepartmentStore_2F",
+    "UnionCity_DepartmentStore_3F",
+    "UnionCity_DepartmentStore_4F",
+    "UnionCity_DepartmentStore_5F",
+    "UnionCity_DepartmentStoreElevator"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
