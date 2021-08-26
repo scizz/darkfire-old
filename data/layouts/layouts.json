@@ -4770,6 +4770,36 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/UnionCity_House3_2F/border.bin",
       "blockdata_filepath": "data/layouts/UnionCity_House3_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_GOV_OFFICE_1F",
+      "name": "UnionCity_GovOffice_1F_Layout",
+      "width": 19,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/UnionCity_GovOffice_1F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_GovOffice_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_GOV_OFFICE_2F",
+      "name": "UnionCity_GovOffice_2F_Layout",
+      "width": 19,
+      "height": 9,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/UnionCity_GovOffice_2F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_GovOffice_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_GOV_OFFICE_3F",
+      "name": "UnionCity_GovOffice_3F_Layout",
+      "width": 19,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/UnionCity_GovOffice_3F/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_GovOffice_3F/map.bin"
     }
   ]
 }
