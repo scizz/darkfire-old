@@ -70,9 +70,6 @@
 #define METATILE_BattlePike_Curtain_Stage3_Tile5  0x2BB
 #define METATILE_BattlePike_Curtain_Stage3_Tile6  0x2BC
 
-// gTileset_BattleTent
-#define METATILE_BattleTent_Door  0x2A0
-
 // gTileset_BikeShop
 #define METATILE_BikeShop_Barrier_Blue_Bottom      0x2CF
 #define METATILE_BikeShop_Barrier_Blue_BottomMid   0x2C7
@@ -106,12 +103,6 @@
 #define METATILE_BrendansMaysHouse_MayPC_On          0x254
 #define METATILE_BrendansMaysHouse_MovingBox_Closed  0x232
 #define METATILE_BrendansMaysHouse_MovingBox_Open    0x231
-
-// gTileset_Building
-#define METATILE_Building_PC_Off  0x004
-#define METATILE_Building_PC_On   0x005
-#define METATILE_Building_TV_Off  0x002
-#define METATILE_Building_TV_On   0x003
 
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
