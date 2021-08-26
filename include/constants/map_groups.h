@@ -52,6 +52,8 @@
 #define MAP_UNION_CITY_GOV_OFFICE_2F    (7 | (3 << 8))
 #define MAP_UNION_CITY_GOV_OFFICE_3F    (8 | (3 << 8))
 #define MAP_UNION_CITY_ABANDONED_MUSEUM (9 | (3 << 8))
+#define MAP_UNION_CITY_BIKE_SHOP        (10 | (3 << 8))
+#define MAP_UNION_CITY_GAME_CORNER      (11 | (3 << 8))
 
 // Map Group 4
 #define MAP_PETALBURG_CITY      (0 | (4 << 8))
