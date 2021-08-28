@@ -4605,3 +4605,7 @@ altosax72::
 	.align 2
 sopranosax::
 	.incbin "sound/direct_sound_samples/sopranosax60.bin"
+	
+	.align 2
+goblin::
+	.incbin "sound/direct_sound_samples/fx6_goblin.bin"

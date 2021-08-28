@@ -102,7 +102,7 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 3
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 4
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 5
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 6
+	voice_directsound 60, 0, goblin, 10, 10, 255, 250 @ FX 6
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 7
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 8
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ sitar
