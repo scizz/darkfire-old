@@ -91,13 +91,13 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 2
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 3
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 4
+	voice_directsound 60, 0, pad4, 255, 254, 0, 250 @ Pad 4
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 5
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 6  ↑ Add in via directsound? Via 8-bit?
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 7  Not in sounfont
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ Pad 8  Not in soundfont
 	voice_keysplit_all voicegroup002 @ percussion 96
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 1
+	voice_directsound 60, 0, rain, 255, 254, 0, 150 @ FX 1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 2
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 3
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ FX 4

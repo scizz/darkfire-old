@@ -4609,3 +4609,11 @@ sopranosax::
 	.align 2
 goblin::
 	.incbin "sound/direct_sound_samples/fx6_goblin.bin"
+	
+	.align 2
+rain::
+	.incbin "sound/direct_sound_samples/fx1_rain.bin"
+	
+	.align 2
+pad4::
+	.incbin "sound/direct_sound_samples/pad4.bin"
