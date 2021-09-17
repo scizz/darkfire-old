@@ -1,4 +1,10 @@
 	.align 2
+voicegroupslowstrings:: @ 8676AC0
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_string_ensemble_60, 10, 254, 255, 196  @ 8676AC0
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_string_ensemble_72, 10, 254, 255, 196  @ 8676ACC
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_string_ensemble_84, 10, 254, 255, 196  @ 8676AD8
+
+	.align 2
 voicegroup191::
 	voice_keysplit voicegroup005, KeySplitTable1 @ piano
 	voice_directsound 60, 0, DirectSoundWaveData_steinway_b_piano, 255, 165, 103, 235
@@ -49,7 +55,7 @@ voicegroup191::
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_harp, 255, 246, 0, 235
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_timpani, 255, 165, 154, 235 @ several different versions are in use
 	voice_keysplit voicegroup006, KeySplitTable2 @ string ensemble
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ string ensemble 2
+	voice_keysplit voicegroupslowstrings, KeySplitTable2 @ string ensemble 2
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ soon to be synth strings
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ synth strings 2
 	voice_directsound 60, 0, DirectSoundWaveData_classical_choir_voice_ahhs, 128, 165, 128, 188 @ there are other versions
