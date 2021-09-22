@@ -4617,3 +4617,7 @@ rain::
 	.align 2
 pad4::
 	.incbin "sound/direct_sound_samples/pad4.bin"
+	
+	.align 2
+pan_flute::
+	.incbin "sound/direct_sound_samples/pan_flute.bin"

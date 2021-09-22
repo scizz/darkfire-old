@@ -81,7 +81,7 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ piccolo (adjust a flute?)
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_flute, 255, 127, 231, 127
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ recorder
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ pan flute
+	voice_directsound 60, 0, pan_flute, 255, 127, 231, 127 @ pan flute
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ blown bottle
 	voice_directsound 60, 0, DirectSoundWaveData_sd90_classical_shakuhachi, 255, 0, 255, 204
 	voice_directsound 60, 0, DirectSoundWaveData_sd90_classical_whistle, 255, 0, 255, 127

@@ -618,6 +618,7 @@ gSongTable:: @ 86B49F0
 	song mus_anheim_forest, 0, 0
 	song mus_cave, 0, 0
 	song mus_ice_palace, 0, 0
+	song snowdrift_forest, 0, 0
 
 	.align 2
 dummy_song_header: @ 86B5D00
