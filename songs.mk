@@ -1289,3 +1289,7 @@ $(MID_SUBDIR)/mus_snowdrift_forest.s: %.s: %.mid
 	
 $(MID_SUBDIR)/mus_snowdrift_forest.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V127
+
+$(MID_SUBDIR)/mus_tamarok_peak.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V127
+	
