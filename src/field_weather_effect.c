@@ -2292,7 +2292,6 @@ static const s16 sBubbleStartCoords[][2] =
 
 void Bubbles_InitVars(void)
 {
-    FogHorizontal_InitVars();
     if (!gWeatherPtr->bubblesSpritesCreated)
     {
         LoadSpriteSheet(&sWeatherBubbleSpriteSheet);
@@ -2312,7 +2311,6 @@ void Bubbles_InitAll(void)
 
 void Bubbles_Main(void)
 {
-    FogHorizontal_Main();
     if (++gWeatherPtr->bubblesDelayCounter > sBubbleStartDelays[gWeatherPtr->bubblesDelayIndex])
     {
         gWeatherPtr->bubblesDelayCounter = 0;
