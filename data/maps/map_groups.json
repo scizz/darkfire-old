@@ -2,6 +2,7 @@
   "layouts_table_label": "gMapLayouts",
   "group_order": [
     "gMapGroup_DarkfireMain",
+    "gMapGroup_DarkfireDungeons",
     "gMapGroup_IndoorChandra",
     "gMapGroup_IndoorSunrise",
     "gMapGroup_IndoorUnion",
