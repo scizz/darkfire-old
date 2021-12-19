@@ -72,7 +72,8 @@
   "gMapGroup_DarkfireDungeons": [
     "AnheimForest",
     "RockfallCave_1F",
-    "RockfallCave_B1F"
+    "RockfallCave_B1F",
+    "SteepRavine"
   ],
   "gMapGroup_IndoorChandra": [
     "ChandraVillage_PlayerHouse_1F",
