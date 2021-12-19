@@ -5380,6 +5380,16 @@
       "secondary_tileset": "gTileset_DewfordGym",
       "border_filepath": "data/layouts/SteepRavine/border.bin",
       "blockdata_filepath": "data/layouts/SteepRavine/map.bin"
+    },
+    {
+      "id": "LAYOUT_TAMAROK_TUNNELS",
+      "name": "TamarokTunnels_Layout",
+      "width": 70,
+      "height": 100,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/TamarokTunnels/border.bin",
+      "blockdata_filepath": "data/layouts/TamarokTunnels/map.bin"
     }
   ]
 }

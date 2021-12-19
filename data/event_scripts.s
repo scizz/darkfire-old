@@ -1255,3 +1255,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/RockfallCave_B1F/scripts.inc"
 
 	.include "data/maps/SteepRavine/scripts.inc"
+
+	.include "data/maps/TamarokTunnels/scripts.inc"
