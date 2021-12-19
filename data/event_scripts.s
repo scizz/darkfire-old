@@ -1225,3 +1225,25 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/NorthstarCity_PokemonCenter_1F/scripts.inc"
 
 	.include "data/maps/NorthstarCity_Mart/scripts.inc"
+
+	.include "data/maps/PinleafTown_House1/scripts.inc"
+
+	.include "data/maps/PinleafTown_House2/scripts.inc"
+
+	.include "data/maps/PinleafTown_House3/scripts.inc"
+
+	.include "data/maps/PinleafTown_House4/scripts.inc"
+
+	.include "data/maps/PinleafTown_House5/scripts.inc"
+
+	.include "data/maps/PinleafTown_FarmHouse/scripts.inc"
+
+	.include "data/maps/PinleafTown_StorageFacility/scripts.inc"
+
+	.include "data/maps/PinleafTown_FlowerShop/scripts.inc"
+
+	.include "data/maps/PinleafTown_Inn_1F/scripts.inc"
+
+	.include "data/maps/PinleafTown_Inn_2F/scripts.inc"
+
+	.include "data/maps/PinleafTown_Mart/scripts.inc"

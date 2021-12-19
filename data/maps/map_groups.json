@@ -10,6 +10,7 @@
     "gMapGroup_IndoorLaveria",
     "gMapGroup_IndoorHighwind",
     "gMapGroup_IndoorNorthstar",
+    "gMapGroup_IndoorPinleaf",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -144,6 +145,19 @@
     "NorthstarCity_TelescopeSea",
     "NorthstarCity_PokemonCenter_1F",
     "NorthstarCity_Mart"
+  ],
+  "gMapGroup_IndoorPinleaf": [
+    "PinleafTown_House1",
+    "PinleafTown_House2",
+    "PinleafTown_House3",
+    "PinleafTown_House4",
+    "PinleafTown_House5",
+    "PinleafTown_FarmHouse",
+    "PinleafTown_StorageFacility",
+    "PinleafTown_FlowerShop",
+    "PinleafTown_Inn_1F",
+    "PinleafTown_Inn_2F",
+    "PinleafTown_Mart"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

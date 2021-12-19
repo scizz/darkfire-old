@@ -5230,6 +5230,116 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/NorthstarCity_Mart/border.bin",
       "blockdata_filepath": "data/layouts/NorthstarCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_HOUSE1",
+      "name": "PinleafTown_House1_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/PinleafTown_House1/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_HOUSE2",
+      "name": "PinleafTown_House2_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/PinleafTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_HOUSE3",
+      "name": "PinleafTown_House3_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/PinleafTown_House3/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_HOUSE4",
+      "name": "PinleafTown_House4_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/PinleafTown_House4/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_House4/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_HOUSE5",
+      "name": "PinleafTown_House5_Layout",
+      "width": 8,
+      "height": 7,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/PinleafTown_House5/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_House5/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_FARM_HOUSE",
+      "name": "PinleafTown_FarmHouse_Layout",
+      "width": 8,
+      "height": 6,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/PinleafTown_FarmHouse/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_FarmHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_STORAGE_FACILITY",
+      "name": "PinleafTown_StorageFacility_Layout",
+      "width": 8,
+      "height": 6,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/PinleafTown_StorageFacility/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_StorageFacility/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_FLOWER_SHOP",
+      "name": "PinleafTown_FlowerShop_Layout",
+      "width": 15,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PrettyPetalFlowerShop",
+      "border_filepath": "data/layouts/PinleafTown_FlowerShop/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_FlowerShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_INN_1F",
+      "name": "PinleafTown_Inn_1F_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/PinleafTown_Inn_1F/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_Inn_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_INN_2F",
+      "name": "PinleafTown_Inn_2F_Layout",
+      "width": 12,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/PinleafTown_Inn_2F/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_Inn_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_PINLEAF_TOWN_MART",
+      "name": "PinleafTown_Mart_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/PinleafTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/PinleafTown_Mart/map.bin"
     }
   ]
 }
