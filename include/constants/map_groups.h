@@ -28,7 +28,9 @@
 #define MAP_ROUTE11           (19 | (0 << 8))
 
 // Map Group 1
-#define MAP_ANHEIM_FOREST (0 | (1 << 8))
+#define MAP_ANHEIM_FOREST     (0 | (1 << 8))
+#define MAP_ROCKFALL_CAVE_1F  (1 | (1 << 8))
+#define MAP_ROCKFALL_CAVE_B1F (2 | (1 << 8))
 
 // Map Group 2
 #define MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_1F (0 | (2 << 8))

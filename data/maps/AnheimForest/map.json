@@ -2,7 +2,7 @@
   "id": "MAP_ANHEIM_FOREST",
   "name": "AnheimForest",
   "layout": "LAYOUT_ANHEIM_FOREST",
-  "music": "",
+  "music": "MUS_ANHEIM_FOREST",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -17,7 +17,55 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 78,
+      "y": 61,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_FOREST",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 79,
+      "y": 61,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_FOREST",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 31,
+      "y": 45,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_FOREST",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 6,
+      "y": 35,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_FOREST",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 7,
+      "y": 35,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_FOREST",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 32,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_FOREST",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 33,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_FOREST",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

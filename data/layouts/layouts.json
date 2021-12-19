@@ -5350,6 +5350,26 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/AnheimForest/border.bin",
       "blockdata_filepath": "data/layouts/AnheimForest/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKFALL_CAVE_1F",
+      "name": "RockfallCave_1F_Layout",
+      "width": 94,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RusturfTunnel",
+      "border_filepath": "data/layouts/RockfallCave_1F/border.bin",
+      "blockdata_filepath": "data/layouts/RockfallCave_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKFALL_CAVE_B1F",
+      "name": "RockfallCave_B1F_Layout",
+      "width": 50,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RusturfTunnel",
+      "border_filepath": "data/layouts/RockfallCave_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/RockfallCave_B1F/map.bin"
     }
   ]
 }
