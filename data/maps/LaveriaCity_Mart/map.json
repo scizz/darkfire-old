@@ -1,8 +1,8 @@
 {
-  "id": "MAP_LAVERIA_TOWN_POKEMON_CENTER_1F",
-  "name": "LaveriaTown_PokemonCenter_1F",
-  "layout": "LAYOUT_LAVERIA_TOWN_POKEMON_CENTER_1F",
-  "music": "",
+  "id": "MAP_LAVERIA_CITY_MART",
+  "name": "LaveriaCity_Mart",
+  "layout": "LAYOUT_LAVERIA_CITY_MART",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LAVERIA_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

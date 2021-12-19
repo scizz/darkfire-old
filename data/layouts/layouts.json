@@ -4992,44 +4992,44 @@
       "blockdata_filepath": "data/layouts/AnheimTown_Mart/map.bin"
     },
     {
-      "id": "LAYOUT_LAVERIA_TOWN_HOUSE1",
-      "name": "LaveriaTown_House1_Layout",
+      "id": "LAYOUT_LAVERIA_CITY_HOUSE1",
+      "name": "LaveriaCity_House1_Layout",
       "width": 9,
       "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BattleTent",
-      "border_filepath": "data/layouts/LaveriaTown_House1/border.bin",
-      "blockdata_filepath": "data/layouts/LaveriaTown_House1/map.bin"
+      "border_filepath": "data/layouts/LaveriaCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/LaveriaCity_House1/map.bin"
     },
     {
-      "id": "LAYOUT_LAVERIA_TOWN_HOUSE2",
-      "name": "LaveriaTown_House2_Layout",
+      "id": "LAYOUT_LAVERIA_CITY_HOUSE2",
+      "name": "LaveriaCity_House2_Layout",
       "width": 9,
       "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BattleTent",
-      "border_filepath": "data/layouts/LaveriaTown_House2/border.bin",
-      "blockdata_filepath": "data/layouts/LaveriaTown_House2/map.bin"
+      "border_filepath": "data/layouts/LaveriaCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/LaveriaCity_House2/map.bin"
     },
     {
-      "id": "LAYOUT_LAVERIA_TOWN_POKEMON_CENTER_1F",
-      "name": "LaveriaTown_PokemonCenter_1F_Layout",
+      "id": "LAYOUT_LAVERIA_CITY_POKEMON_CENTER_1F",
+      "name": "LaveriaCity_PokemonCenter_1F_Layout",
       "width": 14,
       "height": 9,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/LaveriaTown_PokemonCenter_1F/border.bin",
-      "blockdata_filepath": "data/layouts/LaveriaTown_PokemonCenter_1F/map.bin"
+      "border_filepath": "data/layouts/LaveriaCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/LaveriaCity_PokemonCenter_1F/map.bin"
     },
     {
-      "id": "LAYOUT_LAVERIA_TOWN_MART",
-      "name": "LaveriaTown_Mart_Layout",
+      "id": "LAYOUT_LAVERIA_CITY_MART",
+      "name": "LaveriaCity_Mart_Layout",
       "width": 12,
       "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Shop",
-      "border_filepath": "data/layouts/LaveriaTown_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/LaveriaTown_Mart/map.bin"
+      "border_filepath": "data/layouts/LaveriaCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/LaveriaCity_Mart/map.bin"
     }
   ]
 }
