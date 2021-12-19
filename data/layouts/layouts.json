@@ -5210,6 +5210,26 @@
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/NorthstarCity_TelescopeSea/border.bin",
       "blockdata_filepath": "data/layouts/NorthstarCity_TelescopeSea/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_POKEMON_CENTER_1F",
+      "name": "NorthstarCity_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/NorthstarCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_MART",
+      "name": "NorthstarCity_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/NorthstarCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_Mart/map.bin"
     }
   ]
 }

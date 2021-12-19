@@ -1221,3 +1221,7 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/NorthstarCity_Lighthouse/scripts.inc"
 
 	.include "data/maps/NorthstarCity_TelescopeSea/scripts.inc"
+
+	.include "data/maps/NorthstarCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/NorthstarCity_Mart/scripts.inc"

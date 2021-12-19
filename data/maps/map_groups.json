@@ -141,7 +141,9 @@
     "NorthstarCity_Tournament_3F",
     "NorthstarCity_Tournament_4F",
     "NorthstarCity_Lighthouse",
-    "NorthstarCity_TelescopeSea"
+    "NorthstarCity_TelescopeSea",
+    "NorthstarCity_PokemonCenter_1F",
+    "NorthstarCity_Mart"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
