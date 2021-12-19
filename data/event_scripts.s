@@ -1257,3 +1257,9 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SteepRavine/scripts.inc"
 
 	.include "data/maps/TamarokTunnels/scripts.inc"
+
+	.include "data/maps/TamarokPeak/scripts.inc"
+
+	.include "data/maps/PalaceOfIce_Entrance/scripts.inc"
+
+	.include "data/maps/PalaceOfIce_Inside/scripts.inc"

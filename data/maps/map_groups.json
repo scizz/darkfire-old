@@ -74,7 +74,10 @@
     "RockfallCave_1F",
     "RockfallCave_B1F",
     "SteepRavine",
-    "TamarokTunnels"
+    "TamarokTunnels",
+    "TamarokPeak",
+    "PalaceOfIce_Entrance",
+    "PalaceOfIce_Inside"
   ],
   "gMapGroup_IndoorChandra": [
     "ChandraVillage_PlayerHouse_1F",

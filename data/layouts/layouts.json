@@ -5390,6 +5390,36 @@
       "secondary_tileset": "gTileset_MauvilleGym",
       "border_filepath": "data/layouts/TamarokTunnels/border.bin",
       "blockdata_filepath": "data/layouts/TamarokTunnels/map.bin"
+    },
+    {
+      "id": "LAYOUT_TAMAROK_PEAK",
+      "name": "TamarokPeak_Layout",
+      "width": 40,
+      "height": 48,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/TamarokPeak/border.bin",
+      "blockdata_filepath": "data/layouts/TamarokPeak/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALACE_OF_ICE_ENTRANCE",
+      "name": "PalaceOfIce_Entrance_Layout",
+      "width": 19,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RusturfTunnel",
+      "border_filepath": "data/layouts/PalaceOfIce_Entrance/border.bin",
+      "blockdata_filepath": "data/layouts/PalaceOfIce_Entrance/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALACE_OF_ICE_INSIDE",
+      "name": "PalaceOfIce_Inside_Layout",
+      "width": 126,
+      "height": 56,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/PalaceOfIce_Inside/border.bin",
+      "blockdata_filepath": "data/layouts/PalaceOfIce_Inside/map.bin"
     }
   ]
 }
