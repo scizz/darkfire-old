@@ -1201,3 +1201,23 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/NorthstarCity_House2/scripts.inc"
 
 	.include "data/maps/NorthstarCity_House3/scripts.inc"
+
+	.include "data/maps/NorthstarCity_Apartments/scripts.inc"
+
+	.include "data/maps/NorthstarCity_TrainerSchool/scripts.inc"
+
+	.include "data/maps/NorthstarCity_StorageFacility/scripts.inc"
+
+	.include "data/maps/NorthstarCity_ShippingCenter/scripts.inc"
+
+	.include "data/maps/NorthstarCity_Tournament_1F/scripts.inc"
+
+	.include "data/maps/NorthstarCity_Tournament_2F/scripts.inc"
+
+	.include "data/maps/NorthstarCity_Tournament_3F/scripts.inc"
+
+	.include "data/maps/NorthstarCity_Tournament_4F/scripts.inc"
+
+	.include "data/maps/NorthstarCity_Lighthouse/scripts.inc"
+
+	.include "data/maps/NorthstarCity_TelescopeSea/scripts.inc"

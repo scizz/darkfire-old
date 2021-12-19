@@ -5110,6 +5110,106 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/NorthstarCity_House3/border.bin",
       "blockdata_filepath": "data/layouts/NorthstarCity_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_APARTMENTS",
+      "name": "NorthstarCity_Apartments_Layout",
+      "width": 129,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/NorthstarCity_Apartments/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_Apartments/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_TRAINER_SCHOOL",
+      "name": "NorthstarCity_TrainerSchool_Layout",
+      "width": 12,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/NorthstarCity_TrainerSchool/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_TrainerSchool/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_STORAGE_FACILITY",
+      "name": "NorthstarCity_StorageFacility_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/NorthstarCity_StorageFacility/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_StorageFacility/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_SHIPPING_CENTER",
+      "name": "NorthstarCity_ShippingCenter_Layout",
+      "width": 38,
+      "height": 15,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/NorthstarCity_ShippingCenter/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_ShippingCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_TOURNAMENT_1F",
+      "name": "NorthstarCity_Tournament_1F_Layout",
+      "width": 18,
+      "height": 14,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/NorthstarCity_Tournament_1F/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_Tournament_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_TOURNAMENT_2F",
+      "name": "NorthstarCity_Tournament_2F_Layout",
+      "width": 18,
+      "height": 14,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/NorthstarCity_Tournament_2F/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_Tournament_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_TOURNAMENT_3F",
+      "name": "NorthstarCity_Tournament_3F_Layout",
+      "width": 18,
+      "height": 14,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/NorthstarCity_Tournament_3F/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_Tournament_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_TOURNAMENT_4F",
+      "name": "NorthstarCity_Tournament_4F_Layout",
+      "width": 18,
+      "height": 14,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/NorthstarCity_Tournament_4F/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_Tournament_4F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_LIGHTHOUSE",
+      "name": "NorthstarCity_Lighthouse_Layout",
+      "width": 38,
+      "height": 9,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/NorthstarCity_Lighthouse/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_Lighthouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_TELESCOPE_SEA",
+      "name": "NorthstarCity_TelescopeSea_Layout",
+      "width": 52,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/NorthstarCity_TelescopeSea/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_TelescopeSea/map.bin"
     }
   ]
 }
