@@ -5420,6 +5420,16 @@
       "secondary_tileset": "gTileset_MauvilleGym",
       "border_filepath": "data/layouts/PalaceOfIce_Inside/border.bin",
       "blockdata_filepath": "data/layouts/PalaceOfIce_Inside/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWDRIFT_FOREST",
+      "name": "SnowdriftForest_Layout",
+      "width": 48,
+      "height": 58,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/SnowdriftForest/border.bin",
+      "blockdata_filepath": "data/layouts/SnowdriftForest/map.bin"
     }
   ]
 }

@@ -36,6 +36,7 @@
 #define MAP_TAMAROK_PEAK           (5 | (1 << 8))
 #define MAP_PALACE_OF_ICE_ENTRANCE (6 | (1 << 8))
 #define MAP_PALACE_OF_ICE_INSIDE   (7 | (1 << 8))
+#define MAP_SNOWDRIFT_FOREST       (8 | (1 << 8))
 
 // Map Group 2
 #define MAP_CHANDRA_VILLAGE_PLAYER_HOUSE_1F (0 | (2 << 8))
