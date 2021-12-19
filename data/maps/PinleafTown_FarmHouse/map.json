@@ -2,7 +2,7 @@
   "id": "MAP_PINLEAF_TOWN_FARM_HOUSE",
   "name": "PinleafTown_FarmHouse",
   "layout": "LAYOUT_PINLEAF_TOWN_FARM_HOUSE",
-  "music": "",
+  "music": "MUS_ABANDONED_MUSEUM",
   "region_map_section": "MAPSEC_PINLEAF_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

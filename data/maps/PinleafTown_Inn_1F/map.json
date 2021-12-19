@@ -2,7 +2,7 @@
   "id": "MAP_PINLEAF_TOWN_INN_1F",
   "name": "PinleafTown_Inn_1F",
   "layout": "LAYOUT_PINLEAF_TOWN_INN_1F",
-  "music": "",
+  "music": "MUS_ABANDONED_MUSEUM",
   "region_map_section": "MAPSEC_PINLEAF_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -17,7 +17,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_PINLEAF_TOWN",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 
