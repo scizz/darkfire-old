@@ -9,6 +9,7 @@
     "gMapGroup_IndoorAnheim",
     "gMapGroup_IndoorLaveria",
     "gMapGroup_IndoorHighwind",
+    "gMapGroup_IndoorNorthstar",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -126,6 +127,11 @@
     "HighwindVillage_RangersLodge",
     "HighwindVillage_PokemonCenter_1F",
     "HighwindVillage_Mart"
+  ],
+  "gMapGroup_IndoorNorthstar": [
+    "NorthstarCity_House1",
+    "NorthstarCity_House2",
+    "NorthstarCity_House3"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

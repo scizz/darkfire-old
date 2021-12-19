@@ -5080,6 +5080,36 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/HighwindVillage_Mart/border.bin",
       "blockdata_filepath": "data/layouts/HighwindVillage_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_HOUSE1",
+      "name": "NorthstarCity_House1_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/NorthstarCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_HOUSE2",
+      "name": "NorthstarCity_House2_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/NorthstarCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_HOUSE3",
+      "name": "NorthstarCity_House3_Layout",
+      "width": 14,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/NorthstarCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_House3/map.bin"
     }
   ]
 }
