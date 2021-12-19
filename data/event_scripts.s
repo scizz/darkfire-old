@@ -1247,3 +1247,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/PinleafTown_Inn_2F/scripts.inc"
 
 	.include "data/maps/PinleafTown_Mart/scripts.inc"
+
+	.include "data/maps/AnheimForest/scripts.inc"

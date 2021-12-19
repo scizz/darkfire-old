@@ -69,6 +69,9 @@
     "Route10",
     "Route11"
   ],
+  "gMapGroup_DarkfireDungeons": [
+    "AnheimForest"
+  ],
   "gMapGroup_IndoorChandra": [
     "ChandraVillage_PlayerHouse_1F",
     "ChandraVillage_PlayerHouse_2F",

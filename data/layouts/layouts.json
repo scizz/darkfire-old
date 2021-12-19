@@ -5340,6 +5340,16 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/PinleafTown_Mart/border.bin",
       "blockdata_filepath": "data/layouts/PinleafTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANHEIM_FOREST",
+      "name": "AnheimForest_Layout",
+      "width": 86,
+      "height": 64,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/AnheimForest/border.bin",
+      "blockdata_filepath": "data/layouts/AnheimForest/map.bin"
     }
   ]
 }
