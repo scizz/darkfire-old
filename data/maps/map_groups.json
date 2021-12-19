@@ -7,6 +7,7 @@
     "gMapGroup_IndoorUnion",
     "gMapGroup_IndoorGreendale",
     "gMapGroup_IndoorAnheim",
+    "gMapGroup_IndoorLaveria",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -111,6 +112,12 @@
     "AnheimTown_House2",
     "AnheimTown_PokemonCenter_1F",
     "AnheimTown_Mart"
+  ],
+  "gMapGroup_IndoorLaveria": [
+    "LaveriaCity_House1",
+    "LaveriaCity_House2",
+    "LaveriaCity_PokemonCenter_1F",
+    "LaveriaCity_Mart"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

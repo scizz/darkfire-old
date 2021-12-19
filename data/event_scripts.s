@@ -1177,3 +1177,11 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/AnheimTown_PokemonCenter_1F/scripts.inc"
 
 	.include "data/maps/AnheimTown_Mart/scripts.inc"
+
+	.include "data/maps/LaveriaTown_House1/scripts.inc"
+
+	.include "data/maps/LaveriaTown_House2/scripts.inc"
+
+	.include "data/maps/LaveriaTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/LaveriaTown_Mart/scripts.inc"
