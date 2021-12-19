@@ -5030,6 +5030,56 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/LaveriaCity_Mart/border.bin",
       "blockdata_filepath": "data/layouts/LaveriaCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_HIGHWIND_VILLAGE_HOUSE1",
+      "name": "HighwindVillage_House1_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/HighwindVillage_House1/border.bin",
+      "blockdata_filepath": "data/layouts/HighwindVillage_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_HIGHWIND_VILLAGE_HOUSE2",
+      "name": "HighwindVillage_House2_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/HighwindVillage_House2/border.bin",
+      "blockdata_filepath": "data/layouts/HighwindVillage_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_HIGHWIND_VILLAGE_RANGERS_LODGE",
+      "name": "HighwindVillage_RangersLodge_Layout",
+      "width": 16,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/HighwindVillage_RangersLodge/border.bin",
+      "blockdata_filepath": "data/layouts/HighwindVillage_RangersLodge/map.bin"
+    },
+    {
+      "id": "LAYOUT_HIGHWIND_VILLAGE_POKEMON_CENTER_1F",
+      "name": "HighwindVillage_PokemonCenter_1F_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/HighwindVillage_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/HighwindVillage_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_HIGHWIND_VILLAGE_MART",
+      "name": "HighwindVillage_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/HighwindVillage_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/HighwindVillage_Mart/map.bin"
     }
   ]
 }

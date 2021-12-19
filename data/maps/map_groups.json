@@ -8,6 +8,7 @@
     "gMapGroup_IndoorGreendale",
     "gMapGroup_IndoorAnheim",
     "gMapGroup_IndoorLaveria",
+    "gMapGroup_IndoorHighwind",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -118,6 +119,13 @@
     "LaveriaCity_House2",
     "LaveriaCity_PokemonCenter_1F",
     "LaveriaCity_Mart"
+  ],
+  "gMapGroup_IndoorHighwind": [
+    "HighwindVillage_House1",
+    "HighwindVillage_House2",
+    "HighwindVillage_RangersLodge",
+    "HighwindVillage_PokemonCenter_1F",
+    "HighwindVillage_Mart"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

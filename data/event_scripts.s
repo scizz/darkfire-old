@@ -1185,3 +1185,13 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/LaveriaCity_PokemonCenter_1F/scripts.inc"
 
 	.include "data/maps/LaveriaCity_Mart/scripts.inc"
+
+	.include "data/maps/HighwindVillage_House1/scripts.inc"
+
+	.include "data/maps/HighwindVillage_House2/scripts.inc"
+
+	.include "data/maps/HighwindVillage_RangersLodge/scripts.inc"
+
+	.include "data/maps/HighwindVillage_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/HighwindVillage_Mart/scripts.inc"
