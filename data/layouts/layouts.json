@@ -5470,6 +5470,16 @@
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/Route5_House1/border.bin",
       "blockdata_filepath": "data/layouts/Route5_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE9_STARTER_DOME",
+      "name": "Route9_StarterDome_Layout",
+      "width": 36,
+      "height": 37,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PokemonFanClub",
+      "border_filepath": "data/layouts/Route9_StarterDome/border.bin",
+      "blockdata_filepath": "data/layouts/Route9_StarterDome/map.bin"
     }
   ]
 }
