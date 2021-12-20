@@ -5430,6 +5430,16 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/SnowdriftForest/border.bin",
       "blockdata_filepath": "data/layouts/SnowdriftForest/map.bin"
+    },
+    {
+      "id": "LAYOUT_ARCTIC_BAY",
+      "name": "ArcticBay_Layout",
+      "width": 76,
+      "height": 72,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/ArcticBay/border.bin",
+      "blockdata_filepath": "data/layouts/ArcticBay/map.bin"
     }
   ]
 }

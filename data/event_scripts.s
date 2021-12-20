@@ -1265,3 +1265,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/PalaceOfIce_Inside/scripts.inc"
 
 	.include "data/maps/SnowdriftForest/scripts.inc"
+
+	.include "data/maps/ArcticBay/scripts.inc"

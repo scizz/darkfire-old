@@ -3,6 +3,7 @@
   "group_order": [
     "gMapGroup_DarkfireMain",
     "gMapGroup_DarkfireDungeons",
+    "gMapGroup_DarkfireSpecialArea",
     "gMapGroup_IndoorChandra",
     "gMapGroup_IndoorSunrise",
     "gMapGroup_IndoorUnion",
@@ -12,6 +13,11 @@
     "gMapGroup_IndoorHighwind",
     "gMapGroup_IndoorNorthstar",
     "gMapGroup_IndoorPinleaf",
+    "gMapGroup_IndoorRoute3",
+    "gMapGroup_IndoorRoute4",
+    "gMapGroup_IndoorRoute5",
+    "gMapGroup_IndoorRoute9",
+    "gMapGroup_IndoorAnheimForest",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -79,6 +85,9 @@
     "PalaceOfIce_Entrance",
     "PalaceOfIce_Inside",
     "SnowdriftForest"
+  ],
+  "gMapGroup_DarkfireSpecialArea": [
+    "ArcticBay"
   ],
   "gMapGroup_IndoorChandra": [
     "ChandraVillage_PlayerHouse_1F",
