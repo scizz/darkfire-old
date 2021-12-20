@@ -180,6 +180,21 @@
     "PinleafTown_Inn_2F",
     "PinleafTown_Mart"
   ],
+  "gMapGroup_IndoorRoute3": [
+    "Route3_House1"
+  ],
+  "gMapGroup_IndoorRoute4": [
+    "Route4_PokemonDayCare"
+  ],
+  "gMapGroup_IndoorRoute5": [
+    "Route5_House1"
+  ],
+  "gMapGroup_IndoorRoute9": [
+
+  ],
+  "gMapGroup_IndoorAnheimForest": [
+
+  ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
     "SlateportCity",

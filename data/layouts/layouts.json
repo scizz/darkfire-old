@@ -5440,6 +5440,36 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/ArcticBay/border.bin",
       "blockdata_filepath": "data/layouts/ArcticBay/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE3_HOUSE1",
+      "name": "Route3_House1_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/Route3_House1/border.bin",
+      "blockdata_filepath": "data/layouts/Route3_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE4_POKEMON_DAY_CARE",
+      "name": "Route4_PokemonDayCare_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/Route4_PokemonDayCare/border.bin",
+      "blockdata_filepath": "data/layouts/Route4_PokemonDayCare/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE5_HOUSE1",
+      "name": "Route5_House1_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/Route5_House1/border.bin",
+      "blockdata_filepath": "data/layouts/Route5_House1/map.bin"
     }
   ]
 }

@@ -1267,3 +1267,9 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/SnowdriftForest/scripts.inc"
 
 	.include "data/maps/ArcticBay/scripts.inc"
+
+	.include "data/maps/Route3_House1/scripts.inc"
+
+	.include "data/maps/Route4_PokemonDayCare/scripts.inc"
+
+	.include "data/maps/Route5_House1/scripts.inc"
