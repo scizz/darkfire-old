@@ -27,7 +27,21 @@
       "x": 84,
       "y": 52,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE4",
+      "dest_map": "MAP_ANHEIM_FOREST",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 85,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_FOREST",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 55,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE4_POKEMON_DAY_CARE",
       "dest_warp_id": 0
     }
   ],

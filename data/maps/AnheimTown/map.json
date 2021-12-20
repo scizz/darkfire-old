@@ -21,7 +21,42 @@
       "x": 62,
       "y": 50,
       "elevation": 0,
-      "dest_map": "MAP_LAVERIA_CITY",
+      "dest_map": "MAP_ANHEIM_TOWN_POKEMON_CENTER_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 43,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_TOWN_HOUSE1",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 44,
+      "y": 40,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_TOWN_HOUSE2",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 35,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_TOWN_MART",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 32,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE5",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 33,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE5",
       "dest_warp_id": 0
     }
   ],

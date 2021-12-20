@@ -17,7 +17,76 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 4,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_LAVERIA_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_LAVERIA_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 4,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE9",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 5,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE9",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_LAVERIA_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_LAVERIA_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_LAVERIA_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

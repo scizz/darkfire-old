@@ -27,7 +27,21 @@
       "x": 10,
       "y": 85,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE5",
+      "dest_map": "MAP_ANHEIM_TOWN",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 11,
+      "y": 85,
+      "elevation": 0,
+      "dest_map": "MAP_ANHEIM_TOWN",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 19,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE5_HOUSE1",
       "dest_warp_id": 0
     }
   ],
