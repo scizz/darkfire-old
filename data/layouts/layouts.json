@@ -5500,6 +5500,36 @@
       "secondary_tileset": "gTileset_RusturfTunnel",
       "border_filepath": "data/layouts/MuddyUnderpass/border.bin",
       "blockdata_filepath": "data/layouts/MuddyUnderpass/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVERIA_CITY_INTERLINK",
+      "name": "LaveriaCity_Interlink_Layout",
+      "width": 17,
+      "height": 28,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/LaveriaCity_Interlink/border.bin",
+      "blockdata_filepath": "data/layouts/LaveriaCity_Interlink/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNION_CITY_INTERLINK",
+      "name": "UnionCity_Interlink_Layout",
+      "width": 40,
+      "height": 22,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/UnionCity_Interlink/border.bin",
+      "blockdata_filepath": "data/layouts/UnionCity_Interlink/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORTHSTAR_CITY_INTERLINK",
+      "name": "NorthstarCity_Interlink_Layout",
+      "width": 17,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/NorthstarCity_Interlink/border.bin",
+      "blockdata_filepath": "data/layouts/NorthstarCity_Interlink/map.bin"
     }
   ]
 }

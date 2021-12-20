@@ -1279,3 +1279,9 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/AnheimForest_House1/scripts.inc"
 
 	.include "data/maps/MuddyUnderpass/scripts.inc"
+
+	.include "data/maps/LaveriaCity_Interlink/scripts.inc"
+
+	.include "data/maps/UnionCity_Interlink/scripts.inc"
+
+	.include "data/maps/NorthstarCity_Interlink/scripts.inc"
