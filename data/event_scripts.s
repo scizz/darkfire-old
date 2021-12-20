@@ -1275,3 +1275,7 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/Route5_House1/scripts.inc"
 
 	.include "data/maps/Route9_StarterDome/scripts.inc"
+
+	.include "data/maps/AnheimForest_House1/scripts.inc"
+
+	.include "data/maps/MuddyUnderpass/scripts.inc"

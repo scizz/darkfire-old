@@ -84,7 +84,8 @@
     "TamarokPeak",
     "PalaceOfIce_Entrance",
     "PalaceOfIce_Inside",
-    "SnowdriftForest"
+    "SnowdriftForest",
+    "MuddyUnderpass"
   ],
   "gMapGroup_DarkfireSpecialArea": [
     "ArcticBay"
@@ -193,7 +194,7 @@
     "Route9_StarterDome"
   ],
   "gMapGroup_IndoorAnheimForest": [
-
+    "AnheimForest_House1"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

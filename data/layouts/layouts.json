@@ -5480,6 +5480,26 @@
       "secondary_tileset": "gTileset_PokemonFanClub",
       "border_filepath": "data/layouts/Route9_StarterDome/border.bin",
       "blockdata_filepath": "data/layouts/Route9_StarterDome/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANHEIM_FOREST_HOUSE1",
+      "name": "AnheimForest_House1_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BattleTent",
+      "border_filepath": "data/layouts/AnheimForest_House1/border.bin",
+      "blockdata_filepath": "data/layouts/AnheimForest_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MUDDY_UNDERPASS",
+      "name": "MuddyUnderpass_Layout",
+      "width": 76,
+      "height": 16,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RusturfTunnel",
+      "border_filepath": "data/layouts/MuddyUnderpass/border.bin",
+      "blockdata_filepath": "data/layouts/MuddyUnderpass/map.bin"
     }
   ]
 }
