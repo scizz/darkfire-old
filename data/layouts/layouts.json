@@ -5354,7 +5354,7 @@
     {
       "id": "LAYOUT_ROCKFALL_CAVE_1F",
       "name": "RockfallCave_1F_Layout",
-      "width": 94,
+      "width": 89,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_RusturfTunnel",
@@ -5364,7 +5364,7 @@
     {
       "id": "LAYOUT_ROCKFALL_CAVE_B1F",
       "name": "RockfallCave_B1F_Layout",
-      "width": 50,
+      "width": 46,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_RusturfTunnel",
@@ -5414,7 +5414,7 @@
     {
       "id": "LAYOUT_PALACE_OF_ICE_INSIDE",
       "name": "PalaceOfIce_Inside_Layout",
-      "width": 126,
+      "width": 59,
       "height": 56,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_MauvilleGym",
@@ -5495,7 +5495,7 @@
       "id": "LAYOUT_MUDDY_UNDERPASS",
       "name": "MuddyUnderpass_Layout",
       "width": 76,
-      "height": 16,
+      "height": 15,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_RusturfTunnel",
       "border_filepath": "data/layouts/MuddyUnderpass/border.bin",
