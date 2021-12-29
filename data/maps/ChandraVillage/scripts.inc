@@ -1,9 +1,19 @@
 ChandraVillage_MapScripts::
 	.byte 0
 
+ChandraVillage_Young_Girl::
+	msgbox ChandraVillage_Flowers, MSGBOX_NPC
+	end
+
 ChandraVillage_Fat_Guy::
 	msgbox ChandraVillage_Technology, MSGBOX_NPC
 	end
+
+ChandraVillage_Flowers:
+	.string "{COLOR}{RED}Chandra Village is best known for its\n"
+	.string "magical scent, from our flowers.\p"
+	.string "In the summertime, we often receive\n"
+	.string "visits from Sunflora and Skiploom!$"
 
 ChandraVillage_Technology:
 	.string "{COLOR}{BLUE}Technology is incredible!\p"	
