@@ -24,6 +24,9 @@ Route1_Jump_Event::
 	waitse
 	waitmovement 0
 	msgbox Route1_Jump_Text_3, MSGBOX_NPC
+	applymovement 2, Common_Movement_FaceDown
+	waitmovement 0
+	delay 30
 	applymovement 2, JumpDown
 	playse SE_LEDGE
 	waitse
