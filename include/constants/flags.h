@@ -652,8 +652,8 @@
 
 // Tenjo Script Flags
 #define FLAG_RECEIVED_POKE_BALL_CHANDRA     0x264
+#define FLAG_ROUTE_1_POND_JUMP              0x265
 
-#define FLAG_UNUSED_0x265                   0x265 // Unused Flag
 #define FLAG_UNUSED_0x266                   0x266 // Unused Flag
 #define FLAG_UNUSED_0x267                   0x267 // Unused Flag
 #define FLAG_UNUSED_0x268                   0x268 // Unused Flag
@@ -1046,7 +1046,8 @@
 #define FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT                0x3E7
 
 // Item Ball Flags
-#define FLAG_ITEM_ROUTE_102_POTION                                  0x3E8
+#define FLAG_ITEM_ROUTE_1_POTION                                    0x3E8
+
 #define FLAG_ITEM_ROUTE_116_X_SPECIAL                               0x3E9
 #define FLAG_ITEM_ROUTE_104_PP_UP                                   0x3EA
 #define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB
