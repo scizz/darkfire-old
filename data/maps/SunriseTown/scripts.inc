@@ -12,6 +12,14 @@ SunriseTown_OnTransition::
 SunriseTown_End::
 	end
 
+SunriseTown_Sign::
+	msgbox SunriseTown_Sign_Text, MSGBOX_SIGN
+	end
+
+SunriseTown_Hotel::
+	msgbox SunriseTown_Hotel_Text, MSGBOX_SIGN
+	end
+
 SunriseTown_Little_Boy_Before::
 	lock
 	faceplayer
@@ -72,6 +80,26 @@ SunriseTown_Little_Girl_Before::
 	release
 	end
 
+SunriseTown_Little_Boy_After::
+	msgbox SunriseTown_Little_Boy_After_Text, MSGBOX_NPC
+	end
+
+SunriseTown_Little_Girl_After::
+	lock
+	faceplayer
+	goto_if_set FLAG_SUNRISE_TOWN_TUBER_PEARL, SunriseTown_Little_Girl_Given
+	msgbox SunriseTown_Little_Girl_After_Text, MSGBOX_NPC
+	giveitem ITEM_PEARL, 1
+	compare VAR_RESULT, FALSE
+	goto_if_eq Common_EventScript_ShowBagIsFull
+	setflag FLAG_SUNRISE_TOWN_TUBER_PEARL
+	goto SunriseTown_Little_Girl_Given
+
+SunriseTown_Little_Girl_Given::
+	msgbox SunriseTown_Little_Girl_Given_Text, MSGBOX_DEFAULT
+	release
+	end
+
 SunriseTown_Player_Block::
 	applymovement OBJ_EVENT_ID_PLAYER, PlayerMove
 	waitmovement 0
@@ -125,6 +153,14 @@ SunriseTown_Cook_Talked_To::
 	release
 	end
 
+SunriseTown_Sign_Text:
+	.string "Welcome to Sunrise Town!\n"
+	.string "The Town of Illumination!$"
+
+SunriseTown_Hotel_Text:
+	.string "Welcome to Oritania Hotel.\n"
+	.string "Enjoy your stay!$"
+
 SunriseTown_Little_Girl_Text:
 	.string "{COLOR}{RED}My brother is angry because of the wild\n"
 	.string "Krabby that invaded the beach.\p"
@@ -139,6 +175,15 @@ SunriseTown_Little_Girl_Play:
 	.string "{COLOR}{RED}Come on, little brother!\n"
 	.string "We can finally play on the beach!$"
 
+SunriseTown_Little_Girl_After_Text:
+	.string "{COLOR}{RED}Hey, it's you!\n"
+	.string "Thanks for getting rid of the Krabby!\p"
+	.string "Listen, I found this on the beach…\n"
+	.string "You can have it since you helped us!$"
+
+SunriseTown_Little_Girl_Given_Text:
+	.string "{COLOR}{RED}I hope the Krabby don't ever return!$"
+
 SunriseTown_Little_Boy_Text:
 	.string "{COLOR}{BLUE}No fair! The adults won't let us play\n"
 	.string "because of the wild Krabby…\p"
@@ -152,6 +197,10 @@ SunriseTown_Little_Boy_Beach_Clear:
 SunriseTown_Little_Boy_Play:
 	.string "{COLOR}{BLUE}Come on, sis!\n"
 	.string "Let's go and play!$"
+
+SunriseTown_Little_Boy_After_Text:
+	.string "{COLOR}{BLUE}Hey, it's my friend!\n"
+	.string "Thanks for getting rid of the Krabby!$"
 
 SunriseTown_Fifteen:
 	.string "{COLOR}{BLUE}I've been living in this town for 15\n"

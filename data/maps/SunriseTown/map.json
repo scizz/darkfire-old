@@ -126,7 +126,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "SunriseTown_Little_Girl_After",
       "flag": "FLAG_SUNRISE_TOWN_TUBER_KIDS_AFTER"
     },
     {
@@ -139,7 +139,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "SunriseTown_Little_Boy_After",
       "flag": "FLAG_SUNRISE_TOWN_TUBER_KIDS_AFTER"
     },
     {
@@ -242,7 +242,7 @@
       "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": ""
+      "script": "SunriseTown_Sign"
     },
     {
       "type": "sign",
@@ -250,7 +250,7 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SunriseTown_Hotel"
     }
   ]
 }
