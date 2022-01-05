@@ -2,8 +2,8 @@ Route1_EventScript_ItemPotion::
 	finditem ITEM_POTION
 	end
 
-Route103_EventScript_ItemGuardSpec:: @ 8290CE5
-	finditem ITEM_GUARD_SPEC
+SunriseTown_EventScript_ItemPokeBall::
+	finditem ITEM_POKE_BALL
 	end
 
 Route103_EventScript_ItemPPUp:: @ 8290CF2

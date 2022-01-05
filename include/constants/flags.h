@@ -653,16 +653,16 @@
 // Tenjo Script Flags
 #define FLAG_RECEIVED_POKE_BALL_CHANDRA     0x264
 #define FLAG_ROUTE_1_POND_JUMP              0x265
+#define FLAG_SUNRISE_TOWN_HOTEL_COOK        0x266
+#define FLAG_SUNRISE_TOWN_FAT_GUY           0x267
+#define FLAG_SUNRISE_TOWN_TUBER_KIDS_BEFORE 0x268
+#define FLAG_SUNRISE_TOWN_TUBER_KIDS_AFTER  0x269 
+#define FLAG_SUNRISE_TOWN_TUBER_PEARL       0x26A
+#define FLAG_SUNRISE_TOWN_KRABBY_1          0x26B
+#define FLAG_SUNRISE_TOWN_KRABBY_2          0x26C
+#define FLAG_SUNRISE_TOWN_KRABBY_3          0x26D
+#define FLAG_SUNRISE_TOWN_KRABBY_4          0x26E
 
-#define FLAG_UNUSED_0x266                   0x266 // Unused Flag
-#define FLAG_UNUSED_0x267                   0x267 // Unused Flag
-#define FLAG_UNUSED_0x268                   0x268 // Unused Flag
-#define FLAG_UNUSED_0x269                   0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A                   0x26A // Unused Flag
-#define FLAG_UNUSED_0x26B                   0x26B // Unused Flag
-#define FLAG_UNUSED_0x26C                   0x26C // Unused Flag
-#define FLAG_UNUSED_0x26D                   0x26D // Unused Flag
-#define FLAG_UNUSED_0x26E                   0x26E // Unused Flag
 #define FLAG_UNUSED_0x26F                   0x26F // Unused Flag
 #define FLAG_UNUSED_0x270                   0x270 // Unused Flag
 #define FLAG_UNUSED_0x271                   0x271 // Unused Flag
@@ -1161,7 +1161,9 @@
 #define FLAG_ITEM_FIERY_PATH_FIRE_STONE                             0x457
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM_07                         0x458
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_NEVER_MELT_ICE                0x459
-#define FLAG_ITEM_ROUTE_103_GUARD_SPEC                              0x45A
+
+#define FLAG_ITEM_SUNRISE_TOWN_POKE_BALL                            0x45A
+
 #define FLAG_ITEM_ROUTE_104_X_ACCURACY                              0x45B
 #define FLAG_ITEM_MAUVILLE_CITY_X_SPEED                             0x45C
 #define FLAG_ITEM_PETALBURD_WOODS_PARALYZE_HEAL                     0x45D

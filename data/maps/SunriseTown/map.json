@@ -48,7 +48,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "SunriseTown_Girl",
       "flag": "0"
     },
     {
@@ -61,8 +61,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SunriseTown_EventScript_ItemPokeBall",
+      "flag": "FLAG_ITEM_SUNRISE_TOWN_POKE_BALL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
@@ -74,7 +74,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "SunriseTown_Fat_Guy",
       "flag": "0"
     },
     {
@@ -87,7 +87,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "SunriseTown_Old_Man",
       "flag": "0"
     },
     {
@@ -100,8 +100,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SunriseTown_Little_Boy_Before",
+      "flag": "FLAG_SUNRISE_TOWN_TUBER_KIDS_BEFORE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TUBER_F",
@@ -113,8 +113,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SunriseTown_Little_Girl_Before",
+      "flag": "FLAG_SUNRISE_TOWN_TUBER_KIDS_BEFORE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TUBER_F",
@@ -127,7 +127,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_SUNRISE_TOWN_TUBER_KIDS_AFTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TUBER_M_SWIMMING",
@@ -140,7 +140,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_SUNRISE_TOWN_TUBER_KIDS_AFTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",
@@ -242,7 +242,7 @@
       "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": ""
     },
     {
       "type": "sign",
