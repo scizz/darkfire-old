@@ -1,6 +1,11 @@
 ChandraVillage_MapScripts::
 	.byte 0
 
+ChandraVillage_Tyler_Debug::
+	givemon SPECIES_DRAGONITE, 77, ITEM_DRAGON_FANG
+	givemon SPECIES_METAGROSS, 91, ITEM_NONE
+	end
+
 ChandraVillage_Hoenn_Girl::
 	msgbox ChandraVillage_Hoenn, MSGBOX_NPC
 	end

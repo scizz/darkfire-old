@@ -975,8 +975,8 @@
 #define FLAG_HIDE_FALLARBOR_HOUSE_PROF_COZMO                        0x3A0
 #define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL                              0x3A1
 #define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL_ON_BIKE                      0x3A2
-#define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_1                             0x3A3
-#define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_2                             0x3A4
+#define FLAG_HIDE_ROUTE_2_ROCK_1                                    0x3A3 // Darkfire Flag
+#define FLAG_HIDE_ROUTE_2_ROCK_2                                    0x3A4 // Darkfire Flag
 #define FLAG_HIDE_FORTREE_CITY_HOUSE_4_WINGULL                      0x3A5
 #define FLAG_HIDE_MOSSDEEP_CITY_HOUSE_2_WINGULL                     0x3A6
 #define FLAG_HIDE_REGIROCK                                          0x3A7
@@ -1046,10 +1046,9 @@
 #define FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT                0x3E7
 
 // Item Ball Flags
-#define FLAG_ITEM_ROUTE_1_POTION                                    0x3E8
-
+#define FLAG_ITEM_ROUTE_1_POTION                                    0x3E8 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_116_X_SPECIAL                               0x3E9
-#define FLAG_ITEM_ROUTE_104_PP_UP                                   0x3EA
+#define FLAG_ITEM_ROUTE_2_POTION                                    0x3EA // Darkfire Flag
 #define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB
 #define FLAG_ITEM_ROUTE_106_PROTEIN                                 0x3EC
 #define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED
@@ -1161,9 +1160,7 @@
 #define FLAG_ITEM_FIERY_PATH_FIRE_STONE                             0x457
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM_07                         0x458
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_NEVER_MELT_ICE                0x459
-
-#define FLAG_ITEM_SUNRISE_TOWN_POKE_BALL                            0x45A
-
+#define FLAG_ITEM_SUNRISE_TOWN_POKE_BALL                            0x45A // Darkfire Flag
 #define FLAG_ITEM_ROUTE_104_X_ACCURACY                              0x45B
 #define FLAG_ITEM_MAUVILLE_CITY_X_SPEED                             0x45C
 #define FLAG_ITEM_PETALBURD_WOODS_PARALYZE_HEAL                     0x45D
@@ -1186,7 +1183,7 @@
 #define FLAG_ITEM_ROUTE_119_NUGGET                                  0x46E
 #define FLAG_ITEM_ROUTE_104_POTION                                  0x46F
 #define FLAG_UNUSED_0x470                                           0x470 // Unused Flag
-#define FLAG_ITEM_ROUTE_103_PP_UP                                   0x471
+#define FLAG_ITEM_ROUTE_2_POKE_BALL                                 0x471 // Darkfire Flag
 #define FLAG_UNUSED_0x472                                           0x472 // Unused Flag
 #define FLAG_ITEM_ROUTE_108_STAR_PIECE                              0x473
 #define FLAG_ITEM_ROUTE_109_POTION                                  0x474

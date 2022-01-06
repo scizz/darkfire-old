@@ -1,3 +1,42 @@
+Route2_Text_JoeyIntro:
+	.string "{COLOR}{BLUE}Heyo, Trainer!\p"
+	.string "Our eyes met, and that means it's time\n"
+	.string "for a Pokémon battle!$"
+
+Route2_Text_JoeyDefeated:
+	.string "Aww…\n"
+	.string "I got crushed.$"
+
+Route2_Text_JoeyPostBattle:
+	.string "{COLOR}{BLUE}I'm going to train harder from now on…\n"
+	.string "Come on, Rattata!$"
+
+Route2_Text_TianaIntro:
+	.string "{COLOR}{RED}Hey, I just found an Oddish here!\n"
+	.string "I want to see what it can do!\p"
+	.string "Here we come!$"
+
+Route2_Text_TianaDefeated:
+	.string "Oh, well…$"
+
+Route2_Text_TianaPostBattle:
+	.string "{COLOR}{RED}This is my favorite place to hang at.\n"
+	.string "I love the sand, sea and sun!$"
+
+Route2_Text_RickyIntro:
+	.string "{COLOR}{BLUE}Just started out, huh?\n"
+	.string "My bug Pokémon will take you down!$"
+
+Route2_Text_RickyDefeated:
+	.string "Darn…\n"
+	.string "I thought we could win…$"
+
+Route2_Text_RickyPostBattle:
+	.string "{COLOR}{BLUE}The noise coming from the highway\n"
+	.string "scares my bug Pokémon.\p"
+	.string "I should return to Greendale Village…$"
+	
+
 Route102_Text_CalvinIntro: @ 8294513
 	.string "If you have POKéMON with you, then\n"
 	.string "you're an official POKéMON TRAINER!\l"
@@ -33,41 +72,6 @@ Route102_Text_CalvinRematchDefeated: @ 829470C
 Route102_Text_CalvinRematchPostBattle: @ 829473C
 	.string "If you're going to get stronger,\n"
 	.string "I'll get stronger, too.$"
-
-Route102_Text_AllenIntro: @ 8294775
-	.string "Did you just become a TRAINER?\n"
-	.string "We're both beginners!$"
-
-Route102_Text_AllenDefeated: @ 82947AA
-	.string "I called you because I thought\n"
-	.string "I could beat you…$"
-
-Route102_Text_AllenPostBattle: @ 82947DB
-	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
-
-Route102_Text_RickIntro: @ 829480C
-	.string "Hahah! Our eyes met!\n"
-	.string "I'll take you on with my BUG POKéMON!$"
-
-Route102_Text_RickDefeated: @ 8294847
-	.string "Ow! Down and out!$"
-
-Route102_Text_RickPostBattle: @ 8294859
-	.string "If you lock eyes with a TRAINER,\n"
-	.string "you have to challenge! It's a rule!$"
-
-Route102_Text_TianaIntro: @ 829489E
-	.string "I'm going to keep winning and aim\n"
-	.string "to be the best TRAINER.\p"
-	.string "Help me further my career!$"
-
-Route102_Text_TianaDefeated: @ 82948F3
-	.string "I ended up furthering your career…$"
-
-Route102_Text_TianaPostBattle: @ 8294916
-	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more POKéMON.$"
 
 Route103_Text_DaisyIntro: @ 829495A
 	.string "Did you feel the tug of our\n"

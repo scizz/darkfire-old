@@ -1422,16 +1422,16 @@ bool8 Special_AreLeadMonEVsMaxedOut(void)
 
 u8 TryUpdateRusturfTunnelState(void)
 {
-    if (!FlagGet(FLAG_RUSTURF_TUNNEL_OPENED) 
-        && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(RUSTURF_TUNNEL) 
-        && gSaveBlock1Ptr->location.mapNum == MAP_NUM(RUSTURF_TUNNEL))
+    if (!FlagGet(FLAG_SYS_POKEMON_GET) 
+        && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE2) 
+        && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE2))
     {
-        if (FlagGet(FLAG_HIDE_RUSTURF_TUNNEL_ROCK_1))
+        if (FlagGet(FLAG_HIDE_ROUTE_2_ROCK_1))
         {
             VarSet(VAR_RUSTURF_TUNNEL_STATE, 4);
             return TRUE;
         }
-        else if (FlagGet(FLAG_HIDE_RUSTURF_TUNNEL_ROCK_2))
+        else if (FlagGet(FLAG_HIDE_ROUTE_2_ROCK_2))
         {
             VarSet(VAR_RUSTURF_TUNNEL_STATE, 5);
             return TRUE;

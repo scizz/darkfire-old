@@ -6,12 +6,12 @@ SunriseTown_EventScript_ItemPokeBall::
 	finditem ITEM_POKE_BALL
 	end
 
-Route103_EventScript_ItemPPUp:: @ 8290CF2
-	finditem ITEM_PP_UP
+Route2_EventScript_ItemPokeBall::
+	finditem ITEM_POKE_BALL
 	end
 
-Route104_EventScript_ItemPPUp:: @ 8290CFF
-	finditem ITEM_PP_UP
+Route2_EventScript_ItemPotion::
+	finditem ITEM_POTION
 	end
 
 Route104_EventScript_ItemPokeBall:: @ 8290D0C

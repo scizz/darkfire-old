@@ -60,21 +60,6 @@ Route102_EventScript_CalvinRematch:: @ 81EC19C
 	msgbox Route102_Text_CalvinRematchPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route102_EventScript_Rick:: @ 81EC1B3
-	trainerbattle_single TRAINER_RICK, Route102_Text_RickIntro, Route102_Text_RickDefeated
-	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Tiana:: @ 81EC1CA
-	trainerbattle_single TRAINER_TIANA, Route102_Text_TianaIntro, Route102_Text_TianaDefeated
-	msgbox Route102_Text_TianaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Allen:: @ 81EC1E1
-	trainerbattle_single TRAINER_ALLEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route102_Text_WatchMeCatchPokemon: @ 81EC1F8
 	.string "WALLY: {PLAYER}…\n"
 	.string "POKéMON hide in tall grass like this,\l"
