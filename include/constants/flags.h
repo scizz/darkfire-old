@@ -665,8 +665,8 @@
 #define FLAG_UNION_CITY_RARE_CANDY          0x26F 
 #define FLAG_UNION_CITY_COIN_CASE           0x270
 #define FLAG_UNION_CITY_SUBO_DEFEATED       0x271
+#define FLAG_GREENDALE_VILLAGE_GREAT_BALL   0x272
 
-#define FLAG_UNUSED_0x272                   0x272 // Unused Flag
 #define FLAG_UNUSED_0x273                   0x273 // Unused Flag
 #define FLAG_UNUSED_0x274                   0x274 // Unused Flag
 #define FLAG_UNUSED_0x275                   0x275 // Unused Flag
