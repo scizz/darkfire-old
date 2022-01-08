@@ -1,6 +1,18 @@
 UnionCity_MapScripts::
 	.byte 0
 
+UnionCity_Sign::
+	msgbox UnionCity_Text_Sign, MSGBOX_SIGN
+	end
+
+UnionCity_Museum_Sign::
+	msgbox UnionCity_Text_Museum_Sign, MSGBOX_SIGN
+	end
+
+UnionCity_Gov_Sign::
+	msgbox UnionCity_Text_Gov_Sign, MSGBOX_SIGN
+	end
+
 UnionCity_Trash_Bones::
 	msgbox UnionCity_Text_Trash_Bones, MSGBOX_SIGN
 	end
@@ -143,6 +155,63 @@ UnionCity_Biker::
 	msgbox UnionCity_Text_Biker, MSGBOX_NPC
 	end
 
+UnionCity_Boy_Museum::
+	msgbox UnionCity_Text_Boy_Museum, MSGBOX_NPC
+	end
+
+UnionCity_Cameraman::
+	lock
+	msgbox UnionCity_Text_Cameraman, MSGBOX_DEFAULT
+	release
+	end
+
+UnionCity_Reporter::
+	lock
+	msgbox UnionCity_Text_Reporter, MSGBOX_DEFAULT
+	release
+	end
+
+UnionCity_Coin_Case::
+	lock
+	faceplayer
+	goto_if_set FLAG_UNION_CITY_COIN_CASE, UnionCity_Coin_Case_Received
+	goto_if_set FLAG_UNION_CITY_SUBO_DEFEATED, UnionCity_SUBO_Defeated
+	msgbox UnionCity_Text_Coin_Case, MSGBOX_YESNO
+	compare VAR_RESULT, YES
+	goto_if_eq UnionCity_Gambler_Yes
+	msgbox UnionCity_Text_Gambler_No, MSGBOX_DEFAULT
+	release
+	end
+
+UnionCity_Coin_Case_Received::
+	msgbox UnionCity_Text_Coin_Case_Received, MSGBOX_DEFAULT
+	release
+	end
+
+UnionCity_SUBO_Defeated::
+	msgbox UnionCity_Text_SUBO_Defeated, MSGBOX_DEFAULT
+	giveitem ITEM_COIN_CASE, 1
+	setflag FLAG_UNION_CITY_COIN_CASE
+	msgbox UnionCity_Text_Coin_Case_Final, MSGBOX_DEFAULT
+	release
+	end
+
+UnionCity_Gambler_Yes::
+	msgbox UnionCity_Text_Gambler_Yes, MSGBOX_DEFAULT
+	release
+	end
+
+UnionCity_Text_Sign:
+	.string "Union City\p"
+	.string "“The city probing the integration of\na peaceful nature.”$"
+
+UnionCity_Text_Museum_Sign:
+	.string "No Ball Games!$"
+
+UnionCity_Text_Gov_Sign:
+	.string "Tenjo Government Offices\n"
+	.string "“Together We Are Free.”$"
+
 UnionCity_Text_Trash_Bones:
 	.string "There is nothing in here but smelly\n"
 	.string "chicken bones…$"
@@ -151,7 +220,7 @@ UnionCity_Text_Trash:
 	.string "A putrid stench emits from inside.\n"
 	.string "There are no goodies in here…$"
 
-.UnionCity_Text_Truck:
+UnionCity_Text_Truck:
 	.string "You're going to need a license\n"
 	.string "before you think about driving this!$"
 
@@ -249,7 +318,7 @@ UnionCity_Text_Mother:
 	.string "is always set on Pokémon…$"
 
 UnionCity_Text_Sewer_Man:
-	.string {COLOR}{BLUE}I wonder if it's possible to access\n"
+	.string "{COLOR}{BLUE}I wonder if it's possible to access\n"
 	.string "Union City's sewers.\p"
 	.string "I bet Poison-type Pokémon are found\n"
 	.string "down there.\p"
@@ -288,3 +357,92 @@ UnionCity_Text_Biker:
 	.string "raining or the sun is shining.\p"
 	.string "As long as I'm riding a bike I know\n"
 	.string "I'm the luckiest guy in the world.$"
+
+UnionCity_Text_Boy_Museum:
+	.string "{COLOR}{BLUE}The world awaited your birth, not only\n"
+	.string "yours either.\p"
+	.string "The Pokémon with you.\n"
+	.string "The people close to you.\p"
+	.string "All Pokémon and people were born\n"
+	.string "because they have a part in the world.\l"
+	.string "I am convinced of that.$"
+
+UnionCity_Text_Cameraman:
+	.string "{COLOR}{BLUE}Outta the way, kid!\n"
+	.string "I'm tryin' to get a good shot here!$"
+
+UnionCity_Text_Reporter:
+	.string "{COLOR}{BLUE}Well… First of all, Mary, I'll\n"
+	.string "begin by saying that this report has\l"
+	.string "uncovered a phenomenon that is only\l"
+	.string "going to grow.\p"
+	.string "We all have an opportunity to step in\n"
+	.string "before this problem spins out of\l"
+	.string "control!\p"
+	.string "We tried to approach some of the\n"
+	.string "children inside the Game Corner to ask\l"
+	.string "them some questions…\p"
+	.string "Many were too engrossed in the\n"
+	.string "flashing lights and colors of their\l"
+	.string "machines to formulate a response.\p"
+	.string "One child gambler, who chose to stay\n"
+	.string "anonymous, told our reporters that he\l"
+	.string "first began gambling at the Union City\l"
+	.string "Game Corner with just a single Coin.\p"
+	.string "Can you guess how old he was?\n"
+	.string "… Just nine years old!\p"
+	.string "It has evolved into such a big problem\n"
+	.string "that he began stealing money from his\l"
+	.string "parents in an attempt to win back his\l"
+	.string "losses, putting his family in debt.\p"
+	.string "A petition is currently in its final\n"
+	.string "stages to be presented to the Tenjo\l"
+	.string "Government Offices here in Union City.\p"
+	.string "It will be an attempt to crack down on\n"
+	.string "the claws of these reckless companies\l"
+	.string "and win our children back!\p"
+	.string "That will be the true jackpot.\p"
+	.string "Asher Gamble.\n"
+	.string "TEN News.$"
+
+UnionCity_Text_Coin_Case:
+	.string "{COLOR}{BLUE}Are you a gambler?$"
+
+UnionCity_Text_Gambler_No:
+	.string "{COLOR}{BLUE}Well, I guess you will not be needing\n"
+	.string "my lucky Coin Case…$"
+
+UnionCity_Text_Coin_Case_Received:
+	.string "{COLOR}{BLUE}I used to play in the Casino a lot when\n"
+	.string "I was younger, and I won many prizes.\p"
+	.string "But nowadays, I just don't have the time\n"
+	.string "for it anymore…\p"
+	.string "I hope the Coin Case that I gave to you\n"
+	.string "is being put to good use!$"
+
+UnionCity_Text_SUBO_Defeated:
+	.string "{COLOR}{BLUE}Hey, you're the kid who got rid of\n"
+	.string "those strange SUBO guys, right?\p"
+	.string "Here, take this as a token of my\n"
+	.string "appreciation!$"
+
+UnionCity_Text_Gambler_Yes:
+	.string "{COLOR}{BLUE}Well, if that is so, then you will\n"
+	.string "definitely be needing my Coin Case!\p"
+	.string "…\n"
+	.string "I'll tell you what.\p"
+	.string "If you can get rid of these SUBO\n"
+	.string "characters in the city, it's yours!\p"
+	.string "Is that a fair deal?\n"
+	.string "I think so! Hahaha!$"
+
+UnionCity_Text_Coin_Case_Final:
+	.string "{COLOR}{BLUE}That Coin Case will allow you to take\n"
+	.string "part in the Casino games!\p"
+	.string "I used to go a lot when I was a kid, but\n"
+	.string "nowadays I just don't have the time…\p"
+	.string "Well, enjoy!$"
+
+HeartEmote:
+	emote_heart
+	step_end

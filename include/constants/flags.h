@@ -663,9 +663,9 @@
 #define FLAG_SUNRISE_TOWN_KRABBY_3          0x26D
 #define FLAG_SUNRISE_TOWN_KRABBY_4          0x26E
 #define FLAG_UNION_CITY_RARE_CANDY          0x26F 
+#define FLAG_UNION_CITY_COIN_CASE           0x270
+#define FLAG_UNION_CITY_SUBO_DEFEATED       0x271
 
-#define FLAG_UNUSED_0x270                   0x270 // Unused Flag
-#define FLAG_UNUSED_0x271                   0x271 // Unused Flag
 #define FLAG_UNUSED_0x272                   0x272 // Unused Flag
 #define FLAG_UNUSED_0x273                   0x273 // Unused Flag
 #define FLAG_UNUSED_0x274                   0x274 // Unused Flag
@@ -1103,7 +1103,7 @@
 #define FLAG_ITEM_GRANITE_CAVE_B2F_RARE_CANDY                       0x41E
 #define FLAG_ITEM_PETALBURG_WOODS_X_ATTACK                          0x41F
 #define FLAG_ITEM_PETALBURG_WOODS_GREAT_BALL                        0x420
-#define FLAG_ITEM_ROUTE_104_POKE_BALL                               0x421
+#define FLAG_ITEM_UNION_CITY_POKE_BALL                              0x421 // Darkfire Flag
 #define FLAG_ITEM_PETALBURG_WOODS_ETHER                             0x422
 #define FLAG_ITEM_MAGMA_HIDEOUT_3F_3R_ECAPE_ROPE                    0x423
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_1_ORANGE_MAIL                  0x424

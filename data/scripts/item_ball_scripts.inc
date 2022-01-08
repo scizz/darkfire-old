@@ -14,7 +14,7 @@ Route2_EventScript_ItemPotion::
 	finditem ITEM_POTION
 	end
 
-Route104_EventScript_ItemPokeBall:: @ 8290D0C
+UnionCity_EventScript_ItemPokeBall::
 	finditem ITEM_POKE_BALL
 	end
 
