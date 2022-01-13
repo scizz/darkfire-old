@@ -4621,3 +4621,7 @@ pad4::
 	.align 2
 pan_flute::
 	.incbin "sound/direct_sound_samples/pan_flute.bin"
+    
+    .align 2
+breath_noise::
+    .incbin "sound/direct_sound_samples/breath_noise.bin"

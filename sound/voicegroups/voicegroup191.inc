@@ -20,7 +20,7 @@ voicegroup191::
 	voice_directsound 60, 0, vibraphone, 255, 235, 0, 216 @ vibraphone
 	voice_directsound 60, 0, marimba60, 255, 235, 0, 216 @ marimba
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_xylophone, 255, 235, 0, 216
-	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_tubular_bell, 255, 165, 90, 216
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_tubular_bell, 255, 253, 0, 216
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ dulcimer
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ drawbar organ (other percussive organ?)
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_organ2, 255, 0, 255, 165
@@ -128,7 +128,7 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ synth drum
 	voice_directsound 60, 0, gong, 255, 255, 255, 255 @ reverse symbal
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ guitar fret noise
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ breath noise
+	voice_directsound 60, 0, breath_noise, 255, 254, 0, 127 @ breath noise
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ seashore
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ bird tweet
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ telephone ring
