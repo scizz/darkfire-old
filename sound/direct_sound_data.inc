@@ -4625,3 +4625,7 @@ pan_flute::
     .align 2
 breath_noise::
     .incbin "sound/direct_sound_samples/breath_noise.bin"
+    
+    .align 2
+synth_voice::
+    .incbin "sound/direct_sound_samples/synth_voice.bin"

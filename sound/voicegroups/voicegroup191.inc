@@ -60,7 +60,7 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ synth strings 2
 	voice_directsound 60, 0, DirectSoundWaveData_classical_choir_voice_ahhs, 128, 165, 128, 188 @ there are other versions
 	voice_directsound 60, 0, DirectSoundWaveData_unknown_female_voice, 128, 165, 128, 204 @ ooh
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ soon to be synth voice
+	voice_directsound 60, 0, synth_voice, 128, 165, 128, 204 @ soon to be synth voice
 	voice_directsound 60, 0, orchestrahit72, 200, 255, 255, 255 @ not sure about envelope values
 	voice_keysplit voicegroup007, KeySplitTable3 @ trumpet
 	voice_keysplit voicegroup008, KeySplitTable4 @ trombone
