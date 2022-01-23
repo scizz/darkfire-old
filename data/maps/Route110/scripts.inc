@@ -206,11 +206,6 @@ Route110_EventScript_Dale:: @ 81EF482
 	msgbox Route110_Text_DalePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route110_EventScript_Jacob:: @ 81EF499
-	trainerbattle_single TRAINER_JACOB, Route110_Text_JacobIntro, Route110_Text_JacobDefeated
-	msgbox Route110_Text_JacobPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route110_EventScript_Anthony:: @ 81EF4B0
 	trainerbattle_single TRAINER_ANTHONY, Route110_Text_AnthonyIntro, Route110_Text_AnthonyDefeated
 	msgbox Route110_Text_AnthonyPostBattle, MSGBOX_AUTOCLOSE

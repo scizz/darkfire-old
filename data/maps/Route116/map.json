@@ -221,19 +221,6 @@
       "flag": "FLAG_ITEM_ROUTE_116_HP_UP"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
-      "x": 26,
-      "y": 6,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route116_EventScript_Janice",
-      "flag": "0"
-    },
-    {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
       "x": 22,
       "y": 16,

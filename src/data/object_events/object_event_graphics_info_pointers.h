@@ -131,7 +131,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Norman;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Winona;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Liza;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tate;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wallace;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mareep;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Steven;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wally;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireLittleBoy;
@@ -380,7 +380,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_WINONA] =                   &gObjectEventGraphicsInfo_Winona,
     [OBJ_EVENT_GFX_LIZA] =                     &gObjectEventGraphicsInfo_Liza,
     [OBJ_EVENT_GFX_TATE] =                     &gObjectEventGraphicsInfo_Tate,
-    [OBJ_EVENT_GFX_WALLACE] =                  &gObjectEventGraphicsInfo_Wallace,
+    [OBJ_EVENT_GFX_MAREEP] =                   &gObjectEventGraphicsInfo_Mareep,
     [OBJ_EVENT_GFX_STEVEN] =                   &gObjectEventGraphicsInfo_Steven,
     [OBJ_EVENT_GFX_WALLY] =                    &gObjectEventGraphicsInfo_Wally,
     [OBJ_EVENT_GFX_LITTLE_BOY_3] =             &gObjectEventGraphicsInfo_RubySapphireLittleBoy,

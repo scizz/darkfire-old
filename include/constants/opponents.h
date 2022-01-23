@@ -337,7 +337,7 @@
 #define TRAINER_TIANA                       333 // Darkfire Trainer
 #define TRAINER_TIMMY                       334
 #define TRAINER_WALLACE                     335
-#define TRAINER_ANDREW                      336
+#define TRAINER_HENRY_1                     336 // Darkfire Trainer
 #define TRAINER_IVAN                        337
 #define TRAINER_CLAUDE                      338
 #define TRAINER_ELLIOT_1                    339
@@ -352,7 +352,7 @@
 #define TRAINER_ELLIOT_4                    348
 #define TRAINER_ELLIOT_5                    349
 #define TRAINER_RONALD                      350
-#define TRAINER_JACOB                       351
+#define TRAINER_FRED                        351 // Darkfire Trainer
 #define TRAINER_ANTHONY                     352
 #define TRAINER_BENJAMIN_1                  353
 #define TRAINER_BENJAMIN_2                  354
@@ -546,7 +546,7 @@
 #define TRAINER_ISAAC_3                     542
 #define TRAINER_ISAAC_4                     543
 #define TRAINER_ISAAC_5                     544
-#define TRAINER_LYDIA_1                     545
+#define TRAINER_LYDIA                       545
 #define TRAINER_HALLE                       546
 #define TRAINER_GARRISON                    547
 #define TRAINER_LYDIA_2                     548
@@ -606,7 +606,7 @@
 #define TRAINER_MAXIE_MT_CHIMNEY            602
 #define TRAINER_JOEY_1                      603 // Darkfire Trainer
 #define TRAINER_HALEY_1                     604
-#define TRAINER_JANICE                      605
+#define TRAINER_LAURA_1                     605 // Darkfire Trainer
 #define TRAINER_VIVI                        606
 #define TRAINER_HALEY_2                     607
 #define TRAINER_HALEY_3                     608
@@ -716,7 +716,7 @@
 #define TRAINER_ANGELINA                    712
 #define TRAINER_KAI                         713
 #define TRAINER_CHARLOTTE                   714
-#define TRAINER_DEANDRE                     715
+#define TRAINER_JOSHUA_1                    715
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_1       716
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_2       717
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_3       718
@@ -856,12 +856,13 @@
 #define TRAINER_LEAF                        852
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
+#define TRAINER_DOUGLAS_1                   855
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      855
+#define TRAINERS_COUNT                      856
 #define MAX_TRAINERS_COUNT                  864
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

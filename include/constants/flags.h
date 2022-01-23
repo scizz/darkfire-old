@@ -594,10 +594,10 @@
 #define FLAG_HIDDEN_ITEM_SAFARI_ZONE_SOUTH_EAST_FULL_RESTORE (FLAG_HIDDEN_ITEMS_START + 0x69)
 #define FLAG_HIDDEN_ITEM_SS_TIDAL_LOWER_DECK_LEFTOVERS       (FLAG_HIDDEN_ITEMS_START + 0x23)
 #define FLAG_HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL          (FLAG_HIDDEN_ITEMS_START + 0x51)
-#define FLAG_HIDDEN_ITEM_ROUTE_104_SUPER_POTION              (FLAG_HIDDEN_ITEMS_START + 0x2C)
-#define FLAG_HIDDEN_ITEM_ROUTE_104_POKE_BALL                 (FLAG_HIDDEN_ITEMS_START + 0x3E)
-#define FLAG_HIDDEN_ITEM_ROUTE_104_POTION                    (FLAG_HIDDEN_ITEMS_START + 0x25)
-#define FLAG_HIDDEN_ITEM_ROUTE_104_ANTIDOTE                  (FLAG_HIDDEN_ITEMS_START + 0x55)
+#define FLAG_HIDDEN_ITEM_ROUTE_4_REPEL                       (FLAG_HIDDEN_ITEMS_START + 0x2C)
+#define FLAG_HIDDEN_ITEM_ROUTE_4_PARALYZE_HEAL               (FLAG_HIDDEN_ITEMS_START + 0x3E)
+#define FLAG_HIDDEN_ITEM_ROUTE_4_SUPER_POTION                (FLAG_HIDDEN_ITEMS_START + 0x25)
+#define FLAG_HIDDEN_ITEM_ROUTE_4_FULL_HEAL                   (FLAG_HIDDEN_ITEMS_START + 0x55)
 #define FLAG_HIDDEN_ITEM_ROUTE_104_HEART_SCALE               (FLAG_HIDDEN_ITEMS_START + 0x58)
 #define FLAG_HIDDEN_ITEM_ROUTE_105_HEART_SCALE               (FLAG_HIDDEN_ITEMS_START + 0x59)
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F)
@@ -666,8 +666,8 @@
 #define FLAG_UNION_CITY_COIN_CASE           0x270
 #define FLAG_UNION_CITY_SUBO_DEFEATED       0x271
 #define FLAG_GREENDALE_VILLAGE_GREAT_BALL   0x272
+#define FLAG_ROUTE_4_MOOMOO_MILK            0x273
 
-#define FLAG_UNUSED_0x273                   0x273 // Unused Flag
 #define FLAG_UNUSED_0x274                   0x274 // Unused Flag
 #define FLAG_UNUSED_0x275                   0x275 // Unused Flag
 #define FLAG_UNUSED_0x276                   0x276 // Unused Flag
@@ -1049,11 +1049,11 @@
 #define FLAG_ITEM_ROUTE_1_POTION                                    0x3E8 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_116_X_SPECIAL                               0x3E9
 #define FLAG_ITEM_ROUTE_2_POTION                                    0x3EA // Darkfire Flag
-#define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB
-#define FLAG_ITEM_ROUTE_106_PROTEIN                                 0x3EC
-#define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED
+#define FLAG_ITEM_ANHEIM_TOWN_HP_UP                                 0x3EB // Darkfire Flag
+#define FLAG_ITEM_ANHEIM_TOWN_ETHER                                 0x3EC // Darkfire Flag
+#define FLAG_ITEM_ROUTE_4_POTION                                    0x3ED // Darkfire Flag
 #define FLAG_ITEM_ROUTE_109_RARE_CANDY                              0x3EE
-#define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0x3EF
+#define FLAG_ITEM_ROUTE_4_X_ACCURACY                                0x3EF // Darkfire Flag
 #define FLAG_ITEM_ROUTE_111_TM_37                                   0x3F0
 #define FLAG_ITEM_ROUTE_111_STARDUST                                0x3F1
 #define FLAG_ITEM_ROUTE_111_HP_UP                                   0x3F2
@@ -1161,7 +1161,7 @@
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM_07                         0x458
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_NEVER_MELT_ICE                0x459
 #define FLAG_ITEM_SUNRISE_TOWN_POKE_BALL                            0x45A // Darkfire Flag
-#define FLAG_ITEM_ROUTE_104_X_ACCURACY                              0x45B
+#define FLAG_ITEM_ROUTE_4_POKE_BALL                                 0x45B // Darkfire Flag
 #define FLAG_ITEM_MAUVILLE_CITY_X_SPEED                             0x45C
 #define FLAG_ITEM_PETALBURD_WOODS_PARALYZE_HEAL                     0x45D
 #define FLAG_ITEM_ROUTE_115_GREAT_BALL                              0x45E
@@ -1181,11 +1181,11 @@
 #define FLAG_ITEM_AQUA_HIDEOUT_B1F_NUGGET                           0x46C
 #define FLAG_ITEM_MOSSDEEP_STEVENS_HOUSE_HM08                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
 #define FLAG_ITEM_ROUTE_119_NUGGET                                  0x46E
-#define FLAG_ITEM_ROUTE_104_POTION                                  0x46F
+#define FLAG_ITEM_ROUTE_4_SUPER_REPEL                               0x46F // Darkfire Flag
 #define FLAG_UNUSED_0x470                                           0x470 // Unused Flag
 #define FLAG_ITEM_ROUTE_2_POKE_BALL                                 0x471 // Darkfire Flag
 #define FLAG_UNUSED_0x472                                           0x472 // Unused Flag
-#define FLAG_ITEM_ROUTE_108_STAR_PIECE                              0x473
+#define FLAG_ITEM_ROUTE_4_PP_UP                                     0x473 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_109_POTION                                  0x474
 #define FLAG_ITEM_ROUTE_110_ELIXIR                                  0x475
 #define FLAG_ITEM_ROUTE_111_ELIXIR                                  0x476

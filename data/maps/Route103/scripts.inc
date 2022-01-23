@@ -246,11 +246,6 @@ Route102_EventScript_LivRematch:: @ 81EC6B6
 	msgbox Route103_Text_LivRematchPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route103_EventScript_Andrew:: @ 81EC6D1
-	trainerbattle_single TRAINER_ANDREW, Route103_Text_AndrewIntro, Route103_Text_AndrewDefeated
-	msgbox Route103_Text_AndrewPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route103_EventScript_Miguel:: @ 81EC6E8
 	trainerbattle_single TRAINER_MIGUEL_1, Route103_Text_MiguelIntro, Route103_Text_MiguelDefeated, Route102_EventScript_MiguelRegisterMatchCallAfterBattle
 	specialvar VAR_RESULT, ShouldTryRematchBattle

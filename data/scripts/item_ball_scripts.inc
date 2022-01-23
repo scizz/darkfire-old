@@ -18,28 +18,28 @@ UnionCity_EventScript_ItemPokeBall::
 	finditem ITEM_POKE_BALL
 	end
 
-Route104_EventScript_ItemXAccuracy:: @ 8290D19
-	finditem ITEM_X_ACCURACY
+Route4_EventScript_ItemPokeBall::
+	finditem ITEM_POKE_BALL
 	end
 
-Route104_EventScript_ItemPotion:: @ 8290D26
-	finditem ITEM_POTION
+Route4_EventScript_ItemSuperRepel::
+	finditem ITEM_SUPER_REPEL
 	end
 
-Route105_EventScript_ItemIron:: @ 8290D33
-	finditem ITEM_IRON
+AnheimTown_EventScript_ItemHPUp::
+	finditem ITEM_HP_UP
 	end
 
-Route106_EventScript_ItemProtein:: @ 8290D40
-	finditem ITEM_PROTEIN
+AnheimTown_EventScript_ItemEther::
+	finditem ITEM_ETHER
 	end
 
-Route108_EventScript_ItemStarPiece:: @ 8290D4D
-	finditem ITEM_STAR_PIECE
-	end
-
-Route109_EventScript_ItemPPUp:: @ 8290D5A
+Route4_EventScript_ItemPPUp::
 	finditem ITEM_PP_UP
+	end
+
+Route4_EventScript_ItemPotion::
+	finditem ITEM_POTION
 	end
 
 Route109_EventScript_ItemPotion:: @ 8290D67
@@ -50,8 +50,8 @@ Route110_EventScript_ItemRareCandy:: @ 8290D74
 	finditem ITEM_RARE_CANDY
 	end
 
-Route110_EventScript_ItemDireHit:: @ 8290D81
-	finditem ITEM_DIRE_HIT
+Route4_EventScript_ItemXAccuracy::
+	finditem ITEM_X_ACCURACY
 	end
 
 Route110_EventScript_ItemElixir:: @ 8290D8E

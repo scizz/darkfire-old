@@ -36,6 +36,79 @@ Route2_Text_RickyPostBattle:
 	.string "scares my bug Pokémon.\p"
 	.string "I should return to Greendale Village…$"
 	
+Route4_Text_DouglasIntro:
+	.string "{COLOR}{BLUE}Whew! I just made it out of Anheim\n"
+	.string "Forest.\p"
+	.string "You, too? Then let's battle!\p"
+	.string "Let's see which one of us ends up back\n"
+	.string "at the PokéCenter!$"
+
+Route4_Text_DouglasDefeated:
+	.string "Nooo! I lost!$"
+
+Route4_Text_DouglasPostBattle:
+	.string "{COLOR}{BLUE}Losing to you cost me a lot of time.$"
+
+Route4_Text_FredIntro:
+	.string "{COLOR}{BLUE}My bike is like, totally rad.\p"
+	.string "I got it from the Bike Shop in Union\n"
+	.string "City!$"
+
+Route4_Text_FredDefeated:
+	.string "There's dirt all over my new bike!\n"
+	.string "Bleah!$"
+
+Route4_Text_FredPostBattle:
+	.string "{COLOR}{BLUE}I probably need to get off my bike to\n"
+	.string "battle properly next time…$"
+
+Route4_Text_HenryIntro:
+	.string "{COLOR}{BLUE}I gave up my life as a farmer to\n"
+	.string "become a Fisherman.\p"
+	.string "Best decision of my life!$"
+
+Route4_Text_HenryDefeated:
+	.string "Urk…$"
+
+Route4_Text_HenryPostBattle:
+	.string "{COLOR}{BLUE}I lied. Becoming a Fisherman was the\n"
+	.string "worst decision of my life.\l"
+	.string "I haven't made any money at all…$"
+
+Route4_Text_LydiaIntro:
+	.string "{COLOR}{RED}I have bred Mareep for the entire\n"
+	.string "farmlands. I know all about breeding!$"
+
+Route4_Text_LydiaDefeated:
+	.string "Looks like I'll need to groom my\n"
+	.string "Pokémon better for them to do well…$"
+
+Route4_Text_LydiaPostBattle:
+	.string "{COLOR}{RED}If you see any Mareep walking around,\n"
+	.string "they may attack you!$"
+
+Route4_Text_LauraIntro:
+	.string "{COLOR}{RED}Oh? An amateur! Hi!\n"
+	.string "Come on, I'll take you on!$"
+
+Route4_Text_LauraDefeated:
+	.string "Wh-what?\n"
+	.string "My Pokémon…$"
+
+Route4_Text_LauraPostBattle:
+	.string "{COLOR}{RED}Hmph…\n"
+	.string "Get out of my face!$"
+
+Route4_Text_JoshuaIntro:
+	.string "{COLOR}{BLUE}My Pokémon is really attracted to the\n"
+	.string "scent of the farmlands.\p"
+	.string "If I ever left this place it would\n"
+	.string "definitely be miserable…\p"
+	.string "…\n"
+	.string "Hey, I know, let's battle!$"
+
+Route4_Text_JoshuaDefeated:
+	.string "That was close!$"
 
 Route102_Text_CalvinIntro: @ 8294513
 	.string "If you have POKéMON with you, then\n"

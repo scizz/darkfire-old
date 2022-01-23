@@ -304,11 +304,6 @@ Route116_EventScript_Clark:: @ 81F2F65
 	msgbox Route116_Text_ClarkPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route116_EventScript_Janice:: @ 81F2F7C
-	trainerbattle_single TRAINER_JANICE, Route116_Text_JaniceIntro, Route116_Text_JaniceDefeat
-	msgbox Route116_Text_JanicePostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route116_EventScript_Karen:: @ 81F2F93
 	trainerbattle_single TRAINER_KAREN_1, Route116_Text_KarenIntro, Route116_Text_KarenDefeat, Route116_EventScript_TryRegisterKarenAfterBattle
 	specialvar VAR_RESULT, ShouldTryRematchBattle

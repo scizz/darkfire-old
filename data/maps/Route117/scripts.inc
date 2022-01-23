@@ -60,28 +60,6 @@ Route117_EventScript_RematchIsaac:: @ 81F3A1B
 	msgbox Route117_Text_IsaacPostRematch, MSGBOX_AUTOCLOSE
 	end
 
-Route117_EventScript_Lydia:: @ 81F3A32
-	trainerbattle_single TRAINER_LYDIA_1, Route117_Text_LydiaIntro, Route117_Text_LydiaDefeat, Route117_EventScript_RegisterLydia
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route117_EventScript_RematchLydia
-	msgbox Route117_Text_LydiaPostBattle, MSGBOX_DEFAULT
-	release
-	end
-
-Route117_EventScript_RegisterLydia:: @ 81F3A5E
-	special PlayerFaceTrainerAfterBattle
-	waitmovement 0
-	msgbox Route117_Text_LydiaRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_LYDIA_1
-	release
-	end
-
-Route117_EventScript_RematchLydia:: @ 81F3A7D
-	trainerbattle_rematch TRAINER_LYDIA_1, Route117_Text_LydiaRematchIntro, Route117_Text_LydiaRematchDefeat
-	msgbox Route117_Text_LydiaPostRematch, MSGBOX_AUTOCLOSE
-	end
-
 Route117_EventScript_Dylan:: @ 81F3A94
 	trainerbattle_single TRAINER_DYLAN_1, Route117_Text_DylanIntro, Route117_Text_DylanDefeat, Route117_EventScript_RegisterDylan
 	specialvar VAR_RESULT, ShouldTryRematchBattle
