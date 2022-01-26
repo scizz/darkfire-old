@@ -4629,3 +4629,7 @@ breath_noise::
     .align 2
 synth_voice::
     .incbin "sound/direct_sound_samples/synth_voice.bin"
+    
+    .align 2
+bird::
+    .incbin "sound/direct_sound_samples/bird.bin"

@@ -130,7 +130,7 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ guitar fret noise
 	voice_directsound 60, 0, breath_noise, 255, 254, 0, 127 @ breath noise
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ seashore
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ bird tweet
+	voice_directsound 60, 0, bird, 255, 253, 0, 255 @ bird tweet
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ telephone ring
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ helicopter
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ applause (bottom two probably use voice_noise somehow)
