@@ -624,6 +624,7 @@ gSongTable:: @ 86B49F0
     song mus_subo_control, 0, 0
     song mus_subo_theme, 0, 0
     song mus_route_3_4, 0, 0
+    song mus_route_5_6, 0, 0
 
 	.align 2
 dummy_song_header: @ 86B5D00
