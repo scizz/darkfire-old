@@ -78,7 +78,7 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ soon to be english horn
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ soon to be bassoon
 	voice_directsound 60, 0, clarinet72, 255, 255, 0, 221 @ could do keysplit if I figure out how to make it work with clarinetgroup
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ piccolo (adjust a flute?)
+	voice_directsound 60, 0, piccolo, 255, 127, 231, 127 @ piccolo (adjust a flute?)
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_flute, 255, 127, 231, 127
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 @ recorder
 	voice_directsound 60, 0, pan_flute, 255, 127, 231, 127 @ pan flute

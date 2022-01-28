@@ -4633,3 +4633,7 @@ synth_voice::
     .align 2
 bird::
     .incbin "sound/direct_sound_samples/bird.bin"
+    
+    .align 2
+piccolo::
+    .incbin "sound/direct_sound_samples/piccolo.bin"
