@@ -1052,7 +1052,7 @@
 #define FLAG_ITEM_ANHEIM_TOWN_HP_UP                                 0x3EB // Darkfire Flag
 #define FLAG_ITEM_ANHEIM_TOWN_ETHER                                 0x3EC // Darkfire Flag
 #define FLAG_ITEM_ROUTE_4_POTION                                    0x3ED // Darkfire Flag
-#define FLAG_ITEM_ROUTE_109_RARE_CANDY                              0x3EE
+#define FLAG_ITEM_ROUTE_4_PARALYZE_HEAL                             0x3EE // Darkfire Flag
 #define FLAG_ITEM_ROUTE_4_X_ACCURACY                                0x3EF // Darkfire Flag
 #define FLAG_ITEM_ROUTE_111_TM_37                                   0x3F0
 #define FLAG_ITEM_ROUTE_111_STARDUST                                0x3F1

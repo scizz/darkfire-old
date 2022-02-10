@@ -4,6 +4,8 @@ ChandraVillage_MapScripts::
 ChandraVillage_Tyler_Debug::
 	givemon SPECIES_DRAGONITE, 77, ITEM_DRAGON_FANG
 	givemon SPECIES_METAGROSS, 91, ITEM_NONE
+	givemon SPECIES_DITTO, 91, ITEM_NONE
+	givemon SPECIES_DARKRAI, 91, ITEM_NONE
 	end
 
 ChandraVillage_Hoenn_Girl::

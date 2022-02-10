@@ -165,7 +165,7 @@ Route117_EventScript_Aisha:: @ 81F3C65
 	end
 
 Route117_Text_DayCarePokemonHadNewMove: @ 81F3C7C
-	.string "I left my POKéMON at the DAY CARE.\p"
+	.string "{COLOR}{RED}I left my Pokémon here at the Day Care.\p"
 	.string "When I got it back, it had a new move\n"
 	.string "that I didn't teach it.\l"
 	.string "I was really, really surprised.$"

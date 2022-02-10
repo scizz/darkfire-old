@@ -1,5 +1,18 @@
+.set LOCALID_DAYCARE_MAN, 18
+
 Route4_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route4_OnTransition
 	.byte 0
+
+Route4_OnTransition:
+	call Route4_EventScript_TryMoveDayCareMan
+	end
+
+Route4_EventScript_TryMoveDayCareMan::
+	goto_if_unset FLAG_PENDING_DAYCARE_EGG, Route4_EventScript_StopMoveDayCareMan
+	setobjectxyperm LOCALID_DAYCARE_MAN, 50, 19
+Route4_EventScript_StopMoveDayCareMan::
+	return
 
 Route4_Sign::
 	msgbox Route4_Sign_Text, MSGBOX_SIGN
@@ -52,7 +65,7 @@ Route4_Given::
 
 Route4_Sign_Text:
 	.string "Welcome to the Route 4 Farmlands!\n"
-	.string "{ARROW_LEFT} Greendale Village$"
+	.string "{LEFT_ARROW} Greendale Village$"
 
 Route4_Sign_Daycare_Text:
 	.string "Route 4\n"
