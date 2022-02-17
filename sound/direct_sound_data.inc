@@ -4637,3 +4637,7 @@ bird::
     .align 2
 piccolo::
     .incbin "sound/direct_sound_samples/piccolo.bin"
+    
+    .align 2
+pad2::
+    .incbin "sound/direct_sound_samples/pad2.bin"
