@@ -51,11 +51,6 @@ RustboroCity_Gym_EventScript_Tommy:: @ 8212FFA
 	msgbox RustboroCity_Gym_Text_TommyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-RustboroCity_Gym_EventScript_Marc:: @ 8213011
-	trainerbattle_single TRAINER_MARC, RustboroCity_Gym_Text_MarcIntro, RustboroCity_Gym_Text_MarcDefeat
-	msgbox RustboroCity_Gym_Text_MarcPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 RustboroCity_Gym_EventScript_GymGuide:: @ 8213028
 	lock
 	faceplayer
@@ -162,21 +157,6 @@ RustboroCity_Gym_Text_TommyPostBattle: @ 82134E6
 	.string "ROXANNE is stronger than me by\n"
 	.string "several times.\p"
 	.string "You'd better be on your guard!$"
-
-RustboroCity_Gym_Text_MarcIntro: @ 8213533
-	.string "We might be in the middle of town,\n"
-	.string "but so what?\p"
-	.string "My ROCK POKéMON need room to\n"
-	.string "rampage!$"
-
-RustboroCity_Gym_Text_MarcDefeat: @ 8213589
-	.string "Oh, man oh man!\n"
-	.string "Our challenger is one feisty customer!$"
-
-RustboroCity_Gym_Text_MarcPostBattle: @ 82135C0
-	.string "I have to hand it to our LEADER.\p"
-	.string "It took smarts and sense for her to\n"
-	.string "pick the ROCK type at her young age.$"
 
 RustboroCity_Gym_Text_RoxanneIntro: @ 821362A
 	.string "Hello, I am ROXANNE, the RUSTBORO\n"

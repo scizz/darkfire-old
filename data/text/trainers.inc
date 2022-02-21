@@ -110,6 +110,77 @@ Route4_Text_JoshuaIntro:
 Route4_Text_JoshuaDefeated:
 	.string "That was close!$"
 
+Route5_Text_PeteIntro:
+	.string "{COLOR}{BLUE}Ooh… Juicy prey!\n"
+	.string "Go, go, go!$"
+
+Route5_Text_PeteDefeated:
+	.string "Yaaaah!\n"
+	.string "We got wrecked!$"
+
+Route5_Text_PetePostBattle:
+	.string "{COLOR}{BLUE}Stalking in the tall grass is my\n"
+	.string "favorite hobby.\p"
+	.string "I need to practice my battling skills\n"
+	.string "more, though…$"
+
+Route5_Text_LianaIntro:
+	.string "{COLOR}{RED}I heard there is a great secret in this\n"
+	.string "route.\p"
+	.string "Perhaps the stone tablets around here\n"
+	.string "are hiding something…\p"
+	.string "What's that? A battle?\n"
+	.string "Very well. Here we go!$"
+
+Route5_Text_LianaDefeated:
+	.string "I'm still trying to figure out this\n"
+	.string "route's secret…$"
+
+Route5_Text_LianaPostBattle:
+	.string "{COLOR}{RED}These mysterious tablets light up when\n"
+	.string "you touch them.\p"
+	.string "Who put them here? What are they for?\n"
+	.string "So many questions…$"
+
+Route5_Text_EthanIntro:
+	.string "{COLOR}{BLUE}This is my favorite place to hang out.\p"
+	.string "My Pokémon are thrilled to be near\n"
+	.string "the river!$"
+
+Route5_Text_EthanDefeated:
+	.string "I should pick my battles more\n"
+	.string "carefully…$"
+
+Route5_Text_EthanPostBattle:
+	.string "{COLOR}{BLUE}The sound of the waterfalls nearby will\n"
+	.string "soothe my Pokémon…$"
+
+Route5_Text_MarcIntro:
+	.string "Howdy, Trainer! I'm on a break from\n"
+	.string "hikin', so how about a little battle?$"
+
+Route5_Text_MarcDefeated:
+	.string "Urk…\n"
+	.string "That was a bad idea…$"
+
+Route5_Text_MarcPostBattle:
+	.string "That's enough battlin' for me.\n"
+	.string "Hikin' is my strong suit!$"
+
+Route5_Text_TrevIntro:
+	.string "{COLOR}{BLUE}Woop! Looks like I ran into somebody!\n"
+	.string "It's battling time!$"
+
+Route5_Text_TrevDefeated:
+	.string "I thought you'd be too startled to\n"
+	.string "battle…$"
+
+Route5_Text_TrevPostBattle:
+	.string "{COLOR}{BLUE}You're definitely prepared for battle.\n"
+	.string "You made mush out of us!$"
+
+@ VANILLA TRAINERS
+
 Route102_Text_CalvinIntro: @ 8294513
 	.string "If you have POKéMON with you, then\n"
 	.string "you're an official POKéMON TRAINER!\l"
@@ -2271,18 +2342,6 @@ Route116_Text_JoeyPostBattle: @ 829BBC6
 	.string "Bandages are signs of toughness!\n"
 	.string "I've got another one!$"
 
-Route116_Text_JoseIntro: @ 829BBFD
-	.string "My BUG POKéMON are tough!\n"
-	.string "Let's battle!$"
-
-Route116_Text_JoseDefeat: @ 829BC25
-	.string "I lost!\n"
-	.string "I thought I had you!$"
-
-Route116_Text_JosePostBattle: @ 829BC42
-	.string "BUG POKéMON evolve quickly.\n"
-	.string "So they get strong quickly, too.$"
-
 Route116_Text_JaniceIntro: @ 829BC7F
 	.string "Let me teach you how strong my\n"
 	.string "adorable POKéMON is!$"
@@ -3056,31 +3115,6 @@ Route120_Text_RobertRematchDefeat: @ 829E7E1
 Route120_Text_RobertPostRematch: @ 829E804
 	.string "My POKéMON are growing stronger.\n"
 	.string "I have to grow stronger, too.$"
-
-Route120_Text_LorenzoIntro: @ 829E843
-	.string "I'll check your POKéMON and see if\n"
-	.string "they're fit for the outdoors.$"
-
-Route120_Text_LorenzoDefeat: @ 829E884
-	.string "With POKéMON that strong, you're in\n"
-	.string "no danger of needing rescue!$"
-
-Route120_Text_LorenzoPostBattle: @ 829E8C5
-	.string "To travel wherever your heart desires\n"
-	.string "with POKéMON…\l"
-	.string "That's the joy of being a TRAINER.$"
-
-Route120_Text_JennaIntro: @ 829E91C
-	.string "How's your physical fitness?\n"
-	.string "If you're not fit, you could have a\l"
-	.string "rough time in critical situations.$"
-
-Route120_Text_JennaDefeat: @ 829E980
-	.string "I'm totally fit, but…$"
-
-Route120_Text_JennaPostBattle: @ 829E996
-	.string "Fitness training is in my routine.\n"
-	.string "I always run with my POKéMON.$"
 
 Route120_Text_JeffreyIntro: @ 829E9D7
 	.string "… … … … … …\n"

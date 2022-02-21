@@ -1047,17 +1047,17 @@
 
 // Item Ball Flags
 #define FLAG_ITEM_ROUTE_1_POTION                                    0x3E8 // Darkfire Flag
-#define FLAG_ITEM_ROUTE_116_X_SPECIAL                               0x3E9
+#define FLAG_ITEM_ROUTE_5_SUPER_REPEL                               0x3E9 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_2_POTION                                    0x3EA // Darkfire Flag
 #define FLAG_ITEM_ANHEIM_TOWN_HP_UP                                 0x3EB // Darkfire Flag
 #define FLAG_ITEM_ANHEIM_TOWN_ETHER                                 0x3EC // Darkfire Flag
 #define FLAG_ITEM_ROUTE_4_POTION                                    0x3ED // Darkfire Flag
 #define FLAG_ITEM_ROUTE_4_PARALYZE_HEAL                             0x3EE // Darkfire Flag
 #define FLAG_ITEM_ROUTE_4_X_ACCURACY                                0x3EF // Darkfire Flag
-#define FLAG_ITEM_ROUTE_111_TM_37                                   0x3F0
-#define FLAG_ITEM_ROUTE_111_STARDUST                                0x3F1
-#define FLAG_ITEM_ROUTE_111_HP_UP                                   0x3F2
-#define FLAG_ITEM_ROUTE_112_NUGGET                                  0x3F3
+#define FLAG_ITEM_ROUTE_5_EXP_SHARE                                 0x3F0 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_5_GREAT_BALL                                0x3F1 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_5_SUPER_POTION                              0x3F2 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_5_REPEAT_BALL                               0x3F3 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_113_MAX_ETHER                               0x3F4
 #define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0x3F5
 #define FLAG_ITEM_ROUTE_114_RARE_CANDY                              0x3F6

@@ -315,16 +315,6 @@ Route120_EventScript_RematchRobert:: @ 81F5839
 	msgbox Route120_Text_RobertPostRematch, MSGBOX_AUTOCLOSE
 	end
 
-Route120_EventScript_Lorenzo:: @ 81F5850
-	trainerbattle_single TRAINER_LORENZO, Route120_Text_LorenzoIntro, Route120_Text_LorenzoDefeat
-	msgbox Route120_Text_LorenzoPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route120_EventScript_Jenna:: @ 81F5867
-	trainerbattle_single TRAINER_JENNA, Route120_Text_JennaIntro, Route120_Text_JennaDefeat
-	msgbox Route120_Text_JennaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route120_EventScript_Jeffrey:: @ 81F587E
 	trainerbattle_single TRAINER_JEFFREY_1, Route120_Text_JeffreyIntro, Route120_Text_JeffreyDefeat, Route120_EventScript_RegisterJeffrey
 	specialvar VAR_RESULT, ShouldTryRematchBattle

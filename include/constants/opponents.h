@@ -554,14 +554,14 @@
 #define TRAINER_LYDIA_4                     550
 #define TRAINER_LYDIA_5                     551
 #define TRAINER_JACKSON_1                   552
-#define TRAINER_LORENZO                     553
+#define TRAINER_ETHAN                       553 // Darkfire Trainer
 #define TRAINER_SEBASTIAN                   554
 #define TRAINER_JACKSON_2                   555
 #define TRAINER_JACKSON_3                   556
 #define TRAINER_JACKSON_4                   557
 #define TRAINER_JACKSON_5                   558
 #define TRAINER_CATHERINE_1                 559
-#define TRAINER_JENNA                       560
+#define TRAINER_LIANA                       560 // Darkfire Trainer
 #define TRAINER_SOPHIA                      561
 #define TRAINER_CATHERINE_2                 562
 #define TRAINER_CATHERINE_3                 563
@@ -572,7 +572,7 @@
 #define TRAINER_GRUNT_UNUSED                568
 #define TRAINER_GRUNT_MT_PYRE_4             569
 #define TRAINER_GRUNT_JAGGED_PASS           570
-#define TRAINER_MARC                        571
+#define TRAINER_MARC                        571 // Darkfire Trainer
 #define TRAINER_BRENDEN                     572
 #define TRAINER_LILITH                      573
 #define TRAINER_CRISTIAN                    574
@@ -617,8 +617,8 @@
 #define TRAINER_ANDREA                      613
 #define TRAINER_CRISSY                      614
 #define TRAINER_RICKY                       615 // Darkfire Trainer
-#define TRAINER_LYLE                        616
-#define TRAINER_JOSE                        617
+#define TRAINER_PETE_1                      616 // Darkfire Trainer
+#define TRAINER_TREV                        617 // Darkfire Trainer
 #define TRAINER_DOUG                        618
 #define TRAINER_GREG                        619
 #define TRAINER_KENT                        620

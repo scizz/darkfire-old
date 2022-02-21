@@ -274,11 +274,6 @@ PetalburgWoods_EventScript_Sign2:: @ 822E264
 	msgbox PetalburgWoods_Text_TrainerTipsPP, MSGBOX_SIGN
 	end
 
-PetalburgWoods_EventScript_Lyle:: @ 822E26D
-	trainerbattle_single TRAINER_LYLE, PetalburgWoods_Text_GoBugPokemonTeam, PetalburgWoods_Text_ICouldntWin
-	msgbox PetalburgWoods_Text_ImOutOfPokeBalls, MSGBOX_AUTOCLOSE
-	end
-
 PetalburgWoods_EventScript_James:: @ 822E284
 	trainerbattle_single TRAINER_JAMES_1, PetalburgWoods_Text_InstantlyPopularWithBugPokemon, PetalburgWoods_Text_CantBePopularIfILose, PetalburgWoods_EventScript_TryRegisterJames
 	specialvar VAR_RESULT, ShouldTryRematchBattle
@@ -386,19 +381,6 @@ PetalburgWoods_Text_ICantBeWastingTime: @ 822E712
 PetalburgWoods_Text_YoureLoadedWithItems: @ 822E741
 	.string "You're loaded with items.\n"
 	.string "I can't give you this GREAT BALL.$"
-
-PetalburgWoods_Text_GoBugPokemonTeam: @ 822E77D
-	.string "I caught a whole bunch of POKéMON!\p"
-	.string "Go, go, go!\n"
-	.string "My BUG POKéMON team!$"
-
-PetalburgWoods_Text_ICouldntWin: @ 822E7C1
-	.string "I have all these POKéMON,\n"
-	.string "but I couldn't win…$"
-
-PetalburgWoods_Text_ImOutOfPokeBalls: @ 822E7EF
-	.string "I caught a bunch of POKéMON.\n"
-	.string "Now I'm out of POKé BALLS.$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon: @ 822E827
 	.string "If you take BUG POKéMON to school,\n"

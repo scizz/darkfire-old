@@ -58,24 +58,24 @@ Route110_EventScript_ItemElixir:: @ 8290D8E
 	finditem ITEM_ELIXIR
 	end
 
-Route111_EventScript_ItemTM37:: @ 8290D9B
-	finditem ITEM_TM37
+Route5_EventScript_ItemEXPShare::
+	finditem ITEM_EXP_SHARE
 	end
 
-Route111_EventScript_ItemStardust:: @ 8290DA8
-	finditem ITEM_STARDUST
+Route5_EventScript_ItemGreatBall::
+	finditem ITEM_GREAT_BALL
 	end
 
-Route111_EventScript_ItemHPUp:: @ 8290DB5
-	finditem ITEM_HP_UP
+Route5_EventScript_ItemSuperPotion::
+	finditem ITEM_SUPER_POTION
 	end
 
 Route111_EventScript_ItemElixir:: @ 8290DC2
 	finditem ITEM_ELIXIR
 	end
 
-Route112_EventScript_ItemNugget:: @ 8290DCF
-	finditem ITEM_NUGGET
+Route5_EventScript_ItemRepeatBall::
+	finditem ITEM_REPEAT_BALL
 	end
 
 Route113_EventScript_ItemMaxEther:: @ 8290DDC
@@ -126,8 +126,8 @@ Route115_EventScript_ItemPPUp:: @ 8290E6B
 	finditem ITEM_PP_UP
 	end
 
-Route116_EventScript_ItemXSpecial:: @ 8290E78
-	finditem ITEM_X_SP_ATK
+Route5_EventScript_ItemSuperRepel::
+	finditem ITEM_SUPER_REPEL
 	end
 
 Route116_EventScript_ItemEther:: @ 8290E85

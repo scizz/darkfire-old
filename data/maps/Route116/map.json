@@ -91,19 +91,6 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
-      "x": 13,
-      "y": 17,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_ROTATE_CLOCKWISE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route116_EventScript_Jose",
-      "flag": "0"
-    },
-    {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 19,
       "y": 6,
@@ -258,19 +245,6 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route116_EventScript_DevonEmployee",
       "flag": "FLAG_HIDE_ROUTE_116_DEVON_EMPLOYEE"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 55,
-      "y": 12,
-      "elevation": 4,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route116_EventScript_ItemXSpecial",
-      "flag": "FLAG_ITEM_ROUTE_116_X_SPECIAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
