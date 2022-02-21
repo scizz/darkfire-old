@@ -35,11 +35,6 @@ Route127_EventScript_Donny:: @ 81F6A4C
 	msgbox Route127_Text_DonnyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route127_EventScript_Jonah:: @ 81F6A63
-	trainerbattle_single TRAINER_JONAH, Route127_Text_JonahIntro, Route127_Text_JonahDefeat
-	msgbox Route127_Text_JonahPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route127_EventScript_Henry:: @ 81F6A7A
 	trainerbattle_single TRAINER_HENRY, Route127_Text_HenryIntro, Route127_Text_HenryDefeat
 	msgbox Route127_Text_HenryPostBattle, MSGBOX_AUTOCLOSE

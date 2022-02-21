@@ -307,11 +307,6 @@ Route110_TrickHousePuzzle7_EventScript_Mariela:: @ 826E3CE
 	msgbox Route110_TrickHousePuzzle7_Text_MarielaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route110_TrickHousePuzzle7_EventScript_Alvaro:: @ 826E3E5
-	trainerbattle_single TRAINER_ALVARO, Route110_TrickHousePuzzle7_Text_AlvaroIntro, Route110_TrickHousePuzzle7_Text_AlvaroDefeat
-	msgbox Route110_TrickHousePuzzle7_Text_AlvaroPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route110_TrickHousePuzzle7_EventScript_Everett:: @ 826E3FC
 	trainerbattle_single TRAINER_EVERETT, Route110_TrickHousePuzzle7_Text_EverettIntro, Route110_TrickHousePuzzle7_Text_EverettDefeat
 	msgbox Route110_TrickHousePuzzle7_Text_EverettPostBattle, MSGBOX_AUTOCLOSE
@@ -370,18 +365,6 @@ Route110_TrickHousePuzzle7_Text_MarielaDefeat: @ 826E69C
 Route110_TrickHousePuzzle7_Text_MarielaPostBattle: @ 826E6BC
 	.string "Humph! I'm not upset!\n"
 	.string "Not me!$"
-
-Route110_TrickHousePuzzle7_Text_AlvaroIntro: @ 826E6DA
-	.string "I ever so closely watched you coming!$"
-
-Route110_TrickHousePuzzle7_Text_AlvaroDefeat: @ 826E700
-	.string "This outcome I didn't see coming…$"
-
-Route110_TrickHousePuzzle7_Text_AlvaroPostBattle: @ 826E722
-	.string "Well, anyway, we both picked a weird\n"
-	.string "place to get acquainted.\p"
-	.string "As one weirdo to another,\n"
-	.string "let's do our best!$"
 
 Route110_TrickHousePuzzle7_Text_EverettIntro: @ 826E78D
 	.string "It's awfully cramped in here…$"

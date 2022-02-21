@@ -27,11 +27,6 @@ Route110_TrickHousePuzzle6_EventScript_FoundScroll:: @ 826DDD6
 	goto Route110_TrickHousePuzzle_EventScript_FoundScroll
 	end
 
-Route110_TrickHousePuzzle6_EventScript_Sophia:: @ 826DDE1
-	trainerbattle_single TRAINER_SOPHIA, Route110_TrickHousePuzzle6_Text_SophiaIntro, Route110_TrickHousePuzzle6_Text_SophiaDefeat
-	msgbox Route110_TrickHousePuzzle6_Text_SophiaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route110_TrickHousePuzzle6_EventScript_Benny:: @ 826DDF8
 	trainerbattle_single TRAINER_BENNY, Route110_TrickHousePuzzle6_Text_BennyIntro, Route110_TrickHousePuzzle6_Text_BennyDefeat
 	msgbox Route110_TrickHousePuzzle6_Text_BennyPostBattle, MSGBOX_AUTOCLOSE
@@ -48,19 +43,6 @@ Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened: @ 826DE26
 	.string "“TRICK MASTER is my life.”\n"
 	.string "… … … … … … … …\p"
 	.string "The lock clicked open!$"
-
-Route110_TrickHousePuzzle6_Text_SophiaIntro: @ 826DE93
-	.string "When I heard there was a strange\n"
-	.string "house, I had to check it out.$"
-
-Route110_TrickHousePuzzle6_Text_SophiaDefeat: @ 826DED2
-	.string "I've discovered a tough TRAINER!$"
-
-Route110_TrickHousePuzzle6_Text_SophiaPostBattle: @ 826DEF3
-	.string "I'm sure having a good time checking\n"
-	.string "this place out.\p"
-	.string "It's a challenge I've found worth\n"
-	.string "repeating!$"
 
 Route110_TrickHousePuzzle6_Text_BennyIntro: @ 826DF55
 	.string "Maybe I could get my BIRD POKéMON\n"

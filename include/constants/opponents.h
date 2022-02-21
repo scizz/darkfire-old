@@ -32,7 +32,7 @@
 #define TRAINER_GRUNT_AQUA_HIDEOUT_6         28
 #define TRAINER_FREDRICK                     29
 #define TRAINER_MATT                         30
-#define TRAINER_ZANDER                       31
+#define TRAINER_KOICHI                       31 // Darkfire Trainer
 #define TRAINER_SHELLY_WEATHER_INSTITUTE     32
 #define TRAINER_SHELLY_SEAFLOOR_CAVERN       33
 #define TRAINER_ARCHIE                       34
@@ -183,7 +183,7 @@
 #define TRAINER_TAKAO                       179
 #define TRAINER_HITOSHI                     180
 #define TRAINER_KIYO                        181
-#define TRAINER_KOICHI                      182
+#define TRAINER_KOICHIS                     182
 #define TRAINER_NOB_1                       183
 #define TRAINER_NOB_2                       184
 #define TRAINER_NOB_3                       185
@@ -235,7 +235,7 @@
 #define TRAINER_JEFFREY_5                   231
 #define TRAINER_EDWARD                      232
 #define TRAINER_PRESTON                     233
-#define TRAINER_VIRGIL                      234
+#define TRAINER_VIRGILS                     234
 #define TRAINER_BLAKE                       235
 #define TRAINER_WILLIAM                     236
 #define TRAINER_JOSHUA                      237
@@ -562,12 +562,12 @@
 #define TRAINER_JACKSON_5                   558
 #define TRAINER_CATHERINE_1                 559
 #define TRAINER_LIANA                       560 // Darkfire Trainer
-#define TRAINER_SOPHIA                      561
+#define TRAINER_JENNY                       561 // Darkfire Trainer
 #define TRAINER_CATHERINE_2                 562
 #define TRAINER_CATHERINE_3                 563
 #define TRAINER_CATHERINE_4                 564
 #define TRAINER_CATHERINE_5                 565
-#define TRAINER_JULIO                       566
+#define TRAINER_CAMRON                      566 // Darkfire Trainer
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_5     567
 #define TRAINER_GRUNT_UNUSED                568
 #define TRAINER_GRUNT_MT_PYRE_4             569
@@ -627,7 +627,7 @@
 #define TRAINER_JAMES_3                     623
 #define TRAINER_JAMES_4                     624
 #define TRAINER_JAMES_5                     625
-#define TRAINER_BRICE                       626
+#define TRAINER_LUCAS                       626 // Darkfire Trainer
 #define TRAINER_TRENT_1                     627
 #define TRAINER_LENNY                       628
 #define TRAINER_LUCAS_1                     629
@@ -668,7 +668,7 @@
 #define TRAINER_MAY_LILYCOVE_MUDKIP         664
 #define TRAINER_MAY_LILYCOVE_TREECKO        665
 #define TRAINER_MAY_LILYCOVE_TORCHIC        666
-#define TRAINER_JONAH                       667
+#define TRAINER_ANDREW                      667 // Darkfire Trainer
 #define TRAINER_HENRY                       668
 #define TRAINER_ROGER                       669
 #define TRAINER_ALEXA                       670
@@ -712,7 +712,7 @@
 #define TRAINER_SOPHIE                      708
 #define TRAINER_COBY                        709
 #define TRAINER_LAWRENCE                    710
-#define TRAINER_WYATT                       711
+#define TRAINER_STEVE                       711 // Darkfire Trainer
 #define TRAINER_ANGELINA                    712
 #define TRAINER_KAI                         713
 #define TRAINER_CHARLOTTE                   714
@@ -740,7 +740,7 @@
 #define TRAINER_ISABELLE                    736
 #define TRAINER_ANDRES_1                    737
 #define TRAINER_JOSUE                       738
-#define TRAINER_CAMRON                      739
+#define TRAINER_CAMRONS                     739
 #define TRAINER_CORY_1                      740
 #define TRAINER_CAROLINA                    741
 #define TRAINER_ELIJAH                      742
@@ -850,7 +850,7 @@
 #define TRAINER_THALIA_4                    846
 #define TRAINER_THALIA_5                    847
 #define TRAINER_MARIELA                     848
-#define TRAINER_ALVARO                      849
+#define TRAINER_VIRGIL                      849 // Darkfire Trainer
 #define TRAINER_EVERETT                     850
 #define TRAINER_RED                         851
 #define TRAINER_LEAF                        852

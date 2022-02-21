@@ -59,7 +59,7 @@ Route115_EventScript_RematchTimothy:: @ 81F29D9
 	end
 
 Route115_EventScript_Koichi:: @ 81F29F0
-	trainerbattle_single TRAINER_KOICHI, Route115_Text_KoichiIntro, Route115_Text_KoichiDefeat
+	trainerbattle_single TRAINER_KOICHIS, Route115_Text_KoichiIntro, Route115_Text_KoichiDefeat
 	msgbox Route115_Text_KoichiPostBattle, MSGBOX_AUTOCLOSE
 	end
 

@@ -179,6 +179,92 @@ Route5_Text_TrevPostBattle:
 	.string "{COLOR}{BLUE}You're definitely prepared for battle.\n"
 	.string "You made mush out of us!$"
 
+Route6_Text_SteveIntro:
+	.string "I treasure my Pokémon like it's my own\n"
+	.string "own child…\p"
+	.string "No one will ever break our bond…\n"
+	.string "No one.$"
+
+Route6_Text_SteveDefeated:
+	.string "Hmph.\n"
+	.string "I still love my Pokémon.$"
+
+Route6_Text_StevePostBattle:
+	.string "There's so many Pokémon to collect\n"
+	.string "around here.$"
+
+Route6_Text_AndrewIntro:
+	.string "{COLOR}{BLUE}Waaahhh!\p"
+	.string "Don't creep up on me like that!$"
+
+Route6_Text_AndrewDefeated:
+	.string "This isn't fair!\n"
+	.string "You startled me!$"
+
+Route6_Text_AndrewPostBattle:
+	.string "I heard that there is a rare Water-type\n"
+	.string "Pokémon in this river.\p"
+	.string "My friend thinks that it only appears at\n"
+	.string "certain times of the day.\p"
+	.string "Sometimes I think can hear its cry.\n"
+	.string "Or it could just be my imagination…$"
+
+Route6_Text_VirgilIntro:
+	.string "I'm hunting for some Psychic-type\n"
+	.string "Pokémon, but I can't seem to find any…$"
+
+Route6_Text_VirgilDefeated:
+	.string "Darn the luck!$"
+
+Route6_Text_VirgilPostBattle:
+	.string "Could my prediction that I'd find\n"
+	.string "Psychic-type Pokémon here be wrong?$"
+
+Route6_Text_JennyIntro:
+	.string "{COLOR}{RED}Oh, a Trainer!\p"
+	.string "You must be tough if you made it through\n"
+	.string "the cave!$"
+
+Route6_Text_JennyDefeated:
+	.string "You're just too tough…$"
+
+Route6_Text_KoichiIntro:
+	.string "Hoo, hah! I'm on fire today!\n"
+	.string "Here I come! HAYAAAAAAAAAH!$"
+
+Route6_Text_KoichiDefeated:
+	.string "Oof…\n"
+	.string "I ran out of steam pretty badly.$"
+
+Route6_Text_KoichiPostBattle:
+	.string "I shall never forget the loss you\n"
+	.string "inflicted upon me.\p"
+	.string "That was the stuff of nightmares…$"
+
+Route6_Text_CamronIntro:
+	.string "{COLOR}{BLUE}Hah… Hah… Huff… Puff…\n"
+	.string "I… Have… To… Keep… Going…$"
+
+Route6_Text_CamronDefeated:
+	.string "Have… To… Keep… Going…$"
+
+Route6_Text_CamronPostBattle:
+	.string "{COLOR}{BLUE}If I'm to become the best of the best,\n"
+	.string "I must never stop training.\l"
+	.string "Even when it rains!$"
+
+Route6_Text_LucasIntro:
+	.string "I can feel the cold breeze from Laveria\n"
+	.string "City float over the mountains.\p"
+	.string "A battle will warm me up!$"
+
+Route6_Text_LucasDefeated:
+	.string "You cold-hearted kid!$"
+
+Route6_Text_LucasPostBattle:
+	.string "There is a Fire-type Pokémon in Rockfall\n"
+	.string "Cave that will warm me up!$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
@@ -1657,20 +1743,6 @@ Route111_Text_BiancaPostBattle: @ 829975D
 	.string "This road here…\n"
 	.string "You have quite a ways to travel.$"
 
-Route112_Text_BriceIntro: @ 829978E
-	.string "Hahahaha!\n"
-	.string "How about we have a battle?\l"
-	.string "You and me!\l"
-	.string "Hahahaha!$"
-
-Route112_Text_BriceDefeat: @ 82997CA
-	.string "I lost!\n"
-	.string "Hahahaha!$"
-
-Route112_Text_BricePostBattle: @ 82997DC
-	.string "Hahahahaha! Something flew up my nose!\n"
-	.string "Hahahaha-hatchoo!$"
-
 Route112_Text_TrentIntro: @ 8299815
 	.string "My legs are solid from pounding up\n"
 	.string "and down the mountains.\p"
@@ -1919,20 +1991,6 @@ Route113_Text_LawrenceDefeat: @ 829A5A0
 
 Route113_Text_LawrencePostBattle: @ 829A5BE
 	.string "I ought to hide under the ashes, too.$"
-
-Route113_Text_WyattIntro: @ 829A5E4
-	.string "Y-you want to battle with me?\n"
-	.string "Even though I just caught my POKéMON?$"
-
-Route113_Text_WyattDefeat: @ 829A628
-	.string "Y-you're all happy to win?\n"
-	.string "Even though it's only me?$"
-
-Route113_Text_WyattPostBattle: @ 829A65D
-	.string "Oh, so now you want to say a word to\n"
-	.string "the loser?\p"
-	.string "Aren't you just the coolest?\n"
-	.string "Humph!$"
 
 Route114_Text_LennyIntro: @ 829A6B1
 	.string "Yodelayhihoo!\p"
@@ -4167,19 +4225,6 @@ Route127_Text_DonnyPostBattle: @ 82A232C
 	.string "If you have a rival, don't you get the\n"
 	.string "feeling that you have to keep getting\l"
 	.string "better?$"
-
-Route127_Text_JonahIntro: @ 82A2381
-	.string "Through fishing, I have attained a\n"
-	.string "state of becalmed serenity…\p"
-	.string "Please, allow me to demonstrate…$"
-
-Route127_Text_JonahDefeat: @ 82A23E1
-	.string "Though I have lost, my heart remains\n"
-	.string "calm…$"
-
-Route127_Text_JonahPostBattle: @ 82A240C
-	.string "It matters not that I catch nothing.\n"
-	.string "The line remains in the water…$"
 
 Route127_Text_HenryIntro: @ 82A2450
 	.string "Whoops! Don't tell me I snagged\n"

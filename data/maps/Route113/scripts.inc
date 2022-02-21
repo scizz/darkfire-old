@@ -132,11 +132,6 @@ Route113_EventScript_Lawrence:: @ 81F232D
 	msgbox Route113_Text_LawrencePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route113_EventScript_Wyatt:: @ 81F2344
-	trainerbattle_single TRAINER_WYATT, Route113_Text_WyattIntro, Route113_Text_WyattDefeat
-	msgbox Route113_Text_WyattPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route113_Text_AshCanBeFashionedIntoGlass: @ 81F235B
 	.string "Wahahaha! Today's technology is a\n"
 	.string "wondrous thing!\p"

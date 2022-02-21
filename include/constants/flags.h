@@ -1057,8 +1057,8 @@
 #define FLAG_ITEM_ROUTE_5_EXP_SHARE                                 0x3F0 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_5_GREAT_BALL                                0x3F1 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_5_SUPER_POTION                              0x3F2 // Darkfire Flag
-#define FLAG_ITEM_ROUTE_5_REPEAT_BALL                               0x3F3 // Darkfire Flag
-#define FLAG_ITEM_ROUTE_113_MAX_ETHER                               0x3F4
+#define FLAG_ITEM_ROUTE_5_REPEAT_BALL                               0x3F3 // Darkfire Flag 
+#define FLAG_ROUTE_6_FRESH_WATER                                    0x3F4 // Darkfire Flag, CHANGE FROM ITEM BALL FLAG TO REGULAR FLAG
 #define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0x3F5
 #define FLAG_ITEM_ROUTE_114_RARE_CANDY                              0x3F6
 #define FLAG_ITEM_ROUTE_114_PROTEIN                                 0x3F7

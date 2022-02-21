@@ -49,7 +49,7 @@ Route107_EventScript_Ray:: @ 81EE657
 	end
 
 Route107_EventScript_Camron:: @ 81EE672
-	trainerbattle_single TRAINER_CAMRON, Route107_Text_CamronIntro, Route107_Text_CamronDefeated
+	trainerbattle_single TRAINER_CAMRONS, Route107_Text_CamronIntro, Route107_Text_CamronDefeated
 	msgbox Route107_Text_CamronPostBattle, MSGBOX_AUTOCLOSE
 	end
 

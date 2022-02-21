@@ -63,11 +63,6 @@ Route112_EventScript_Hiker:: @ 81F1E61
 	msgbox Route112_Text_NotEasyToGetBackToLavaridge, MSGBOX_NPC
 	end
 
-Route112_EventScript_Brice:: @ 81F1E6A
-	trainerbattle_single TRAINER_BRICE, Route112_Text_BriceIntro, Route112_Text_BriceDefeat
-	msgbox Route112_Text_BricePostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route112_EventScript_Trent:: @ 81F1E81
 	trainerbattle_single TRAINER_TRENT_1, Route112_Text_TrentIntro, Route112_Text_TrentDefeat, Route112_EventScript_RegisterTrent
 	specialvar VAR_RESULT, ShouldTryRematchBattle

@@ -212,7 +212,7 @@ MossdeepCity_Gym_EventScript_Preston:: @ 8220AFD
 	end
 
 MossdeepCity_Gym_EventScript_Virgil:: @ 8220B14
-	trainerbattle_single TRAINER_VIRGIL, MossdeepCity_Gym_Text_VirgilIntro, MossdeepCity_Gym_Text_VirgilDefeat
+	trainerbattle_single TRAINER_VIRGILS, MossdeepCity_Gym_Text_VirgilIntro, MossdeepCity_Gym_Text_VirgilDefeat
 	msgbox MossdeepCity_Gym_Text_VirgilPostBattle, MSGBOX_AUTOCLOSE
 	end
 
