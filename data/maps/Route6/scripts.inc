@@ -61,7 +61,7 @@ Route6_Text_Sign:
 
 Route6_Text_Sign_West:
 	.string "Route 6\n"
-	.string "{LEFT_ARROW} Laveria City$"
+	.string "{LEFT_ARROW} Laveria City.$"
 
 Route6_Text_Jenny_Gift:
 	.string "{COLOR}{RED}Battling in this mountain is hard work!\n"
