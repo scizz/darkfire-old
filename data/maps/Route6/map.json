@@ -335,7 +335,7 @@
       "y": 24,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": ""
+      "script": "Route6_Sign_West"
     },
     {
       "type": "sign",
@@ -343,7 +343,7 @@
       "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route6_Sign"
     },
     {
       "type": "hidden_item",

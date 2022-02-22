@@ -1,6 +1,14 @@
 Route6_MapScripts::
 	.byte 0
 
+Route6_Sign::
+	msgbox Route6_Text_Sign, MSGBOX_SIGN
+	end
+
+Route6_Sign_West::
+	msgbox Route6_Text_Sign_West, MSGBOX_SIGN
+	end
+
 Route6_EventScript_Steve::
 	trainerbattle_single TRAINER_STEVE, Route6_Text_SteveIntro, Route6_Text_SteveDefeated
 	msgbox Route6_Text_StevePostBattle, MSGBOX_AUTOCLOSE
@@ -46,6 +54,14 @@ Route6_EventScript_Lucas::
 	trainerbattle_single TRAINER_LUCAS, Route6_Text_LucasIntro, Route6_Text_LucasDefeated
 	msgbox Route6_Text_LucasPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route6_Text_Sign:
+	.string "Route 6\n"
+	.string "Not for inexperienced Hikers!$"
+
+Route6_Text_Sign_West:
+	.string "Route 6\n"
+	.string "{LEFT_ARROW} Laveria City$"
 
 Route6_Text_Jenny_Gift:
 	.string "{COLOR}{RED}Battling in this mountain is hard work!\n"
