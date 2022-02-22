@@ -232,7 +232,7 @@ $(TILESETGFXDIR)/secondary/battle_pike/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 382
 
 $(TILESETGFXDIR)/secondary/mirage_tower/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 420
+	$(GFX) $< $@ -num_tiles 512
 
 $(TILESETGFXDIR)/secondary/mossdeep_game_corner/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 95
