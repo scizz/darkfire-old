@@ -667,8 +667,8 @@
 #define FLAG_UNION_CITY_SUBO_DEFEATED       0x271
 #define FLAG_GREENDALE_VILLAGE_GREAT_BALL   0x272
 #define FLAG_ROUTE_4_MOOMOO_MILK            0x273
+#define FLAG_ROUTE_6_FRESH_WATER            0x274
 
-#define FLAG_UNUSED_0x274                   0x274 // Unused Flag
 #define FLAG_UNUSED_0x275                   0x275 // Unused Flag
 #define FLAG_UNUSED_0x276                   0x276 // Unused Flag
 #define FLAG_UNUSED_0x277                   0x277 // Unused Flag
@@ -1058,15 +1058,15 @@
 #define FLAG_ITEM_ROUTE_5_GREAT_BALL                                0x3F1 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_5_SUPER_POTION                              0x3F2 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_5_REPEAT_BALL                               0x3F3 // Darkfire Flag 
-#define FLAG_ROUTE_6_FRESH_WATER                                    0x3F4 // Darkfire Flag, CHANGE FROM ITEM BALL FLAG TO REGULAR FLAG
-#define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0x3F5
-#define FLAG_ITEM_ROUTE_114_RARE_CANDY                              0x3F6
-#define FLAG_ITEM_ROUTE_114_PROTEIN                                 0x3F7
-#define FLAG_ITEM_ROUTE_115_SUPER_POTION                            0x3F8
-#define FLAG_ITEM_ROUTE_115_TM_01                                   0x3F9
-#define FLAG_ITEM_ROUTE_115_IRON                                    0x3FA
-#define FLAG_ITEM_ROUTE_116_ETHER                                   0x3FB
-#define FLAG_ITEM_ROUTE_116_REPEL                                   0x3FC
+#define FLAG_ITEM_ROUTE_6_POTION                                    0x3F4 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_6_PROTEIN                                   0x3F5 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_6_EVERSTONE                                 0x3F6 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_6_FULL_HEAL                                 0x3F7 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_6_TIMER_BALL                                0x3F8 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_6_REPEL                                     0x3F9 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_6_RARE_CANDY                                0x3FA // Darkfire Flag
+#define FLAG_ITEM_ROUTE_6_REPEAT_BALL                               0x3FB // Darkfire Flag
+#define FLAG_ITEM_ROUTE_6_POTION_2                                  0x3FC // Darkfire Flag
 #define FLAG_ITEM_ROUTE_116_HP_UP                                   0x3FD
 #define FLAG_ITEM_ROUTE_117_GREAT_BALL                              0x3FE
 #define FLAG_ITEM_ROUTE_117_REVIVE                                  0x3FF
@@ -1186,7 +1186,7 @@
 #define FLAG_ITEM_ROUTE_2_POKE_BALL                                 0x471 // Darkfire Flag
 #define FLAG_UNUSED_0x472                                           0x472 // Unused Flag
 #define FLAG_ITEM_ROUTE_4_PP_UP                                     0x473 // Darkfire Flag
-#define FLAG_ITEM_ROUTE_109_POTION                                  0x474
+#define FLAG_UNUSED_0x474                                           0x474 // Unused Flag
 #define FLAG_ITEM_ROUTE_110_ELIXIR                                  0x475
 #define FLAG_ITEM_ROUTE_111_ELIXIR                                  0x476
 #define FLAG_ITEM_ROUTE_113_HYPER_POTION                            0x477

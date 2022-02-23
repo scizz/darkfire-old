@@ -9,6 +9,22 @@ Route6_Sign_West::
 	msgbox Route6_Text_Sign_West, MSGBOX_SIGN
 	end
 
+Route6_Ranger_Female::
+	msgbox Route6_Text_Ranger_Female, MSGBOX_NPC
+	end
+
+Route6_Ranger_Male::
+	msgbox Route6_Text_Ranger_Male, MSGBOX_NPC
+	end
+
+Route6_Man::
+	msgbox Route6_Text_Man, MSGBOX_NPC
+	end
+
+Route6_Old_Lady::
+	msgbox Route6_Text_Old_Lady, MSGBOX_NPC
+	end
+
 Route6_EventScript_Steve::
 	trainerbattle_single TRAINER_STEVE, Route6_Text_SteveIntro, Route6_Text_SteveDefeated
 	msgbox Route6_Text_StevePostBattle, MSGBOX_AUTOCLOSE
@@ -62,6 +78,26 @@ Route6_Text_Sign:
 Route6_Text_Sign_West:
 	.string "Route 6\n"
 	.string "{LEFT_ARROW} Laveria City.$"
+
+Route6_Text_Ranger_Female:
+	.string "{COLOR}{RED}Halt, trainer!\p"
+	.string "We've been sent here from the Rangers'\n"
+	.string "Federation to guard this unsafe spot!$"
+
+Route6_Text_Ranger_Male:
+	.string "{COLOR}{BLUE}Dangerous Pokémon have been spotted\n"
+	.string "past this point.\p"
+	.string "We can't allow anyone to pass before\n"
+	.string "we fully investigate.$"
+
+Route6_Text_Man:
+	.string "{COLOR}{BLUE}This route is a hotspot for Hikers.\n"
+	.string "There is so much to do!$"
+
+Route6_Text_Old_Lady:
+	.string "Oh, young one…\n"
+	.string "You have a twinkle in your eye…\p"
+	.string "You will amass great fortunes, indeed.$"
 
 Route6_Text_Jenny_Gift:
 	.string "{COLOR}{RED}Battling in this mountain is hard work!\n"

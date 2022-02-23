@@ -42,7 +42,7 @@ Route4_EventScript_ItemPotion::
 	finditem ITEM_POTION
 	end
 
-Route109_EventScript_ItemPotion:: @ 8290D67
+Route6_EventScript_ItemPotion::
 	finditem ITEM_POTION
 	end
 
@@ -82,36 +82,36 @@ Route113_EventScript_ItemMaxEther:: @ 8290DDC
 	finditem ITEM_MAX_ETHER
 	end
 
-Route113_EventScript_ItemSuperRepel:: @ 8290DE9
-	finditem ITEM_SUPER_REPEL
+Route6_EventScript_ItemProtein::
+	finditem ITEM_PROTEIN
 	end
 
 Route113_EventScript_ItemHyperPotion:: @ 8290DF6
 	finditem ITEM_HYPER_POTION
 	end
 
-Route114_EventScript_ItemRareCandy:: @ 8290E03
-	finditem ITEM_RARE_CANDY
+Route6_EventScript_ItemEverstone::
+	finditem ITEM_EVERSTONE
 	end
 
-Route114_EventScript_ItemProtein:: @ 8290E10
-	finditem ITEM_PROTEIN
+Route6_EventScript_ItemFullHeal::
+	finditem ITEM_FULL_HEAL
 	end
 
 Route114_EventScript_ItemEnergyPowder:: @ 8290E1D
 	finditem ITEM_ENERGY_POWDER
 	end
 
-Route115_EventScript_ItemSuperPotion:: @ 8290E2A
-	finditem ITEM_SUPER_POTION
+Route6_EventScript_ItemTimerBall::
+	finditem ITEM_TIMER_BALL
 	end
 
-Route115_EventScript_ItemTM01:: @ 8290E37
-	finditem ITEM_TM01
+Route6_EventScript_ItemRepel::
+	finditem ITEM_REPEL
 	end
 
-Route115_EventScript_ItemIron:: @ 8290E44
-	finditem ITEM_IRON
+Route6_EventScript_ItemRareCandy::
+	finditem ITEM_RARE_CANDY
 	end
 
 Route115_EventScript_ItemGreatBall:: @ 8290E51
@@ -130,12 +130,12 @@ Route5_EventScript_ItemSuperRepel::
 	finditem ITEM_SUPER_REPEL
 	end
 
-Route116_EventScript_ItemEther:: @ 8290E85
-	finditem ITEM_ETHER
+Route6_EventScript_ItemRepeatBall::
+	finditem ITEM_REPEAT_BALL
 	end
 
-Route116_EventScript_ItemRepel:: @ 8290E92
-	finditem ITEM_REPEL
+Route6_EventScript_ItemPotion2::
+	finditem ITEM_POTION
 	end
 
 Route116_EventScript_ItemHPUp:: @ 8290E9F
