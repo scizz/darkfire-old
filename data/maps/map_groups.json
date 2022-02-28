@@ -86,7 +86,8 @@
     "PalaceOfIce_Entrance",
     "PalaceOfIce_Inside",
     "SnowdriftForest",
-    "MuddyUnderpass"
+    "MuddyUnderpass",
+    "Underwater"
   ],
   "gMapGroup_DarkfireSpecialArea": [
     "ArcticBay"

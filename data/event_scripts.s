@@ -1285,3 +1285,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/UnionCity_Interlink/scripts.inc"
 
 	.include "data/maps/NorthstarCity_Interlink/scripts.inc"
+
+	.include "data/maps/Underwater/scripts.inc"

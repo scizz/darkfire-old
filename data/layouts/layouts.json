@@ -5530,6 +5530,16 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/NorthstarCity_Interlink/border.bin",
       "blockdata_filepath": "data/layouts/NorthstarCity_Interlink/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNDERWATER",
+      "name": "Underwater_Layout",
+      "width": 100,
+      "height": 50,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Underwater",
+      "border_filepath": "data/layouts/Underwater/border.bin",
+      "blockdata_filepath": "data/layouts/Underwater/map.bin"
     }
   ]
 }

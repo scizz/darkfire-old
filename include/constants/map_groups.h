@@ -38,6 +38,7 @@
 #define MAP_PALACE_OF_ICE_INSIDE   (7 | (1 << 8))
 #define MAP_SNOWDRIFT_FOREST       (8 | (1 << 8))
 #define MAP_MUDDY_UNDERPASS        (9 | (1 << 8))
+#define MAP_UNDERWATER             (10 | (1 << 8))
 
 // Map Group 2
 #define MAP_ARCTIC_BAY (0 | (2 << 8))
