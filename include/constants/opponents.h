@@ -556,17 +556,17 @@
 #define TRAINER_JACKSON                     552 // Darkfire Trainer
 #define TRAINER_ETHAN                       553 // Darkfire Trainer
 #define TRAINER_SEBASTIAN                   554
-#define TRAINER_JACKSON_2                   555
-#define TRAINER_JACKSON_3                   556
-#define TRAINER_JACKSON_4                   557
-#define TRAINER_JACKSON_5                   558
+#define TRAINER_UNUSED_555                  555 // UNUSED
+#define TRAINER_UNUSED_556                  556 // UNUSED
+#define TRAINER_UNUSED_557                  557 // UNUSED
+#define TRAINER_UNUSED_558                  558 // UNUSED
 #define TRAINER_MARTA                       559 // Darkfire Trainer
 #define TRAINER_LIANA                       560 // Darkfire Trainer
 #define TRAINER_JENNY                       561 // Darkfire Trainer
-#define TRAINER_CATHERINE_2                 562
-#define TRAINER_CATHERINE_3                 563
-#define TRAINER_CATHERINE_4                 564
-#define TRAINER_CATHERINE_5                 565
+#define TRAINER_UNUSED_562                  562 // UNUSED
+#define TRAINER_UNUSED_563                  563 // UNUSED
+#define TRAINER_UNUSED_564                  564 // UNUSED
+#define TRAINER_UNUSED_565                  565 // UNUSED
 #define TRAINER_CAMRON                      566 // Darkfire Trainer
 #define TRAINER_GRUNT_SEAFLOOR_CAVERN_5     567
 #define TRAINER_GRUNT_UNUSED                568

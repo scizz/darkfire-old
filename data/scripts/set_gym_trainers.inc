@@ -22,7 +22,6 @@ DewfordTown_Gym_SetGymTrainers:: @ 8271FAB
 	settrainerflag TRAINER_LAURA
 	settrainerflag TRAINER_BRENDEN
 	settrainerflag TRAINER_CRISTIAN
-	settrainerflag TRAINER_LILITH
 	return
 
 MauvilleCity_Gym_SetGymTrainers:: @ 8271FBE
