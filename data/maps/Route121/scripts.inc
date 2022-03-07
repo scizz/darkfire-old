@@ -101,16 +101,6 @@ Route121_EventScript_Tammy:: @ 81F5EED
 	msgbox Route121_Text_TammyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route121_EventScript_Kate:: @ 81F5F04
-	trainerbattle_double TRAINER_KATE_AND_JOY, Route121_Text_KateIntro, Route121_Text_KateDefeat, Route121_Text_KateNotEnoughMons
-	msgbox Route121_Text_KatePostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route121_EventScript_Joy:: @ 81F5F1F
-	trainerbattle_double TRAINER_KATE_AND_JOY, Route121_Text_JoyIntro, Route121_Text_JoyDefeat, Route121_Text_JoyNotEnoughMons
-	msgbox Route121_Text_JoyPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route121_EventScript_Jessica:: @ 81F5F3A
 	trainerbattle_single TRAINER_JESSICA_1, Route121_Text_JessicaIntro, Route121_Text_JessicaDefeat, Route121_EventScript_RegisterJessica
 	specialvar VAR_RESULT, ShouldTryRematchBattle

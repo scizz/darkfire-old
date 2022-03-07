@@ -369,50 +369,6 @@ Route119_EventScript_Kent:: @ 81F47F9
 	msgbox Route119_Text_KentPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route119_EventScript_Jackson:: @ 81F4810
-	trainerbattle_single TRAINER_JACKSON_1, Route119_Text_JacksonIntro, Route119_Text_JacksonDefeat, Route119_EventScript_RegisterJackson
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route119_EventScript_RematchJackson
-	msgbox Route119_Text_JacksonPostBattle, MSGBOX_DEFAULT
-	release
-	end
-
-Route119_EventScript_RegisterJackson:: @ 81F483C
-	special PlayerFaceTrainerAfterBattle
-	waitmovement 0
-	msgbox Route119_Text_JacksonRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_JACKSON_1
-	release
-	end
-
-Route119_EventScript_RematchJackson:: @ 81F485B
-	trainerbattle_rematch TRAINER_JACKSON_1, Route119_Text_JacksonRematchIntro, Route119_Text_JacksonRematchDefeat
-	msgbox Route119_Text_JacksonPostRematch, MSGBOX_AUTOCLOSE
-	end
-
-Route119_EventScript_Catherine:: @ 81F4872
-	trainerbattle_single TRAINER_CATHERINE_1, Route119_Text_CatherineIntro, Route119_Text_CatherineDefeat, Route119_EventScript_RegisterCatherine
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	compare VAR_RESULT, TRUE
-	goto_if_eq Route119_EventScript_RematchCatherine
-	msgbox Route119_Text_CatherinePostBattle, MSGBOX_DEFAULT
-	release
-	end
-
-Route119_EventScript_RegisterCatherine:: @ 81F489E
-	special PlayerFaceTrainerAfterBattle
-	waitmovement 0
-	msgbox Route119_Text_CatherineRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_CATHERINE_1
-	release
-	end
-
-Route119_EventScript_RematchCatherine:: @ 81F48BD
-	trainerbattle_rematch TRAINER_CATHERINE_1, Route119_Text_CatherineRematchIntro, Route119_Text_CatherineRematchDefeat
-	msgbox Route119_Text_CatherinePostRematch, MSGBOX_AUTOCLOSE
-	end
-
 Route119_EventScript_Hugh:: @ 81F48D4
 	trainerbattle_single TRAINER_HUGH, Route119_Text_HughIntro, Route119_Text_HughDefeat
 	msgbox Route119_Text_HughPostBattle, MSGBOX_AUTOCLOSE

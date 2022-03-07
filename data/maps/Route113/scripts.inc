@@ -108,12 +108,12 @@ Route113_EventScript_Lung:: @ 81F22B2
 	end
 
 Route113_EventScript_Tori:: @ 81F22C9
-	trainerbattle_double TRAINER_TORI_AND_TIA, Route113_Text_ToriIntro, Route113_Text_ToriDefeat, Route113_Text_ToriNotEnoughMons
+	trainerbattle_double TRAINER_TORI_AND_TIA_2, Route113_Text_ToriIntro, Route113_Text_ToriDefeat, Route113_Text_ToriNotEnoughMons
 	msgbox Route113_Text_ToriPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route113_EventScript_Tia:: @ 81F22E4
-	trainerbattle_double TRAINER_TORI_AND_TIA, Route113_Text_TiaIntro, Route113_Text_TiaDefeat, Route113_Text_TiaNotEnoughMons
+	trainerbattle_double TRAINER_TORI_AND_TIA_2, Route113_Text_TiaIntro, Route113_Text_TiaDefeat, Route113_Text_TiaNotEnoughMons
 	msgbox Route113_Text_TiaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -125,11 +125,6 @@ Route113_EventScript_Sophie:: @ 81F22FF
 Route113_EventScript_Coby:: @ 81F2316
 	trainerbattle_single TRAINER_COBY, Route113_Text_CobyIntro, Route113_Text_CobyDefeat
 	msgbox Route113_Text_CobyPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route113_EventScript_Lawrence:: @ 81F232D
-	trainerbattle_single TRAINER_LAWRENCE, Route113_Text_LawrenceIntro, Route113_Text_LawrenceDefeat
-	msgbox Route113_Text_LawrencePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route113_Text_AshCanBeFashionedIntoGlass: @ 81F235B

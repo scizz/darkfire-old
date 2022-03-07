@@ -501,11 +501,6 @@ Route111_EventScript_Travis:: @ 81F12C2
 	msgbox Route111_Text_TravisPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route111_EventScript_Irene:: @ 81F12D9
-	trainerbattle_single TRAINER_IRENE, Route111_Text_IreneIntro, Route111_Text_IreneDefeat
-	msgbox Route111_Text_IrenePostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route111_EventScript_Daisuke:: @ 81F12F0
 	trainerbattle_single TRAINER_DAISUKE, Route111_Text_DaisukeIntro, Route111_Text_DaisukeDefeat
 	msgbox Route111_Text_DaisukePostBattle, MSGBOX_AUTOCLOSE

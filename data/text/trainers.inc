@@ -265,6 +265,141 @@ Route6_Text_LucasPostBattle:
 	.string "There is a Fire-type Pokémon in Rockfall\n"
 	.string "Cave that will warm me up!$"
 
+Route7_Text_DillionIntro:
+	.string "{COLOR}{BLUE}I'm just at the foot of the mountain,\n"
+	.string "but I'm freezing already!\l"
+	.string "How am I supposed to climb to the top?\p"
+	.string "Whatever!\n"
+	.string "I'll give it all I got!$"
+
+Route7_Text_DillionDefeated:
+	.string "Brrr…$"
+
+Route7_Text_DillionPostBattle:
+	.string "{COLOR}{BLUE}What am I thinking? My Pokémon isn't\n"
+	.string "made to withstand the cold…\p"
+	.string "I'll try to catch some Ice-types around\n"
+	.string "here and try the climb again.$"
+
+Route7_Text_ToriIntro:
+	.string "{COLOR}{RED}Tori: Both of us, we love snow.\n"
+	.string "We battle Pokémon, too.$"
+
+Route7_Text_ToriDefeat:
+	.string "Tori: We lost…\n"
+	.string "I'm sad and cold…$"
+
+Route7_Text_ToriNotEnoughMons:
+	.string "{COLOR}{RED}Tori: We battle 2-on-2 only!$"
+
+Route7_Text_ToriPostBattle:
+	.string "{COLOR}{RED}Tori: The mountain ahead is scary…\n"
+	.string "Don't go up there!$"
+
+Route7_Text_TiaIntro:
+	.string "{COLOR}{RED}Tia: Both of us, we love snow.\n"
+	.string "We battle Pokémon, too.$"
+
+Route7_Text_TiaDefeat:
+	.string "Tia: We couldn't win…\n"
+	.string "I'm going to play in the snow.$"
+
+Route7_Text_TiaNotEnoughMons:
+	.string "{COLOR}{RED}Tia: Oh? A battle?\n"
+	.string "Fine… But we only battle 2-on-2…$"
+
+Route7_Text_TiaPostBattle:
+	.string "{COLOR}{RED}You're heading up the mountain?\n"
+	.string "Fine… But be careful…$"
+
+Route7_Text_IreneIntro:
+	.string "{COLOR}{RED}The ice here is extremely slippery.\p"
+	.string "Be careful, otherwise you might end up\l"
+	.string "sliding face-first into a wall!$"
+
+Route7_Text_IreneDefeated:
+	.string "I wasn't at my best there…$"
+
+Route7_Text_IrenePostBattle:
+	.string "{COLOR}{RED}There are lots of wild Pokémon that\n"
+	.string "can withstand the cold here.\p"
+	.string "Ice-types are a tough lot.$"
+
+Route7_Text_MartaIntro:
+	.string "{COLOR}{RED}My spirit burns hotter than coal!\p"
+	.string "It's evident, since I've made it so\n"
+	.string "far, so easily.\p"
+	.string "Let's go!$"
+
+Route7_Text_MartaDefeated:
+	.string "Fsss… That's my spirit cooling down\n"
+	.string "in the cold and wet snow…$"
+
+Route7_Text_MartaPostBattle:
+	.string "{COLOR}{RED}Wow…\p"
+	.string "I'm not even halfway through climbing\n"
+	.string "Mt. Tamarok and I got trounced…\p"
+	.string "I'll stick around here for a while and\n"
+	.string "train some more.$"
+
+Route7_Text_JacksonIntro:
+	.string "{COLOR}{BLUE}I'm jogging so my body stays hot!\n"
+	.string "It's the best way to ward off the cold.\p"
+	.string "My Pokémon and I are ready to take you\n"
+	.string "down!$"
+
+Route7_Text_JacksonDefeated:
+	.string "Well…\n"
+	.string "That was not according to plan…$"
+
+Route7_Text_JacksonPostBattle:
+	.string "{COLOR}{BLUE}I love spying on the Meditite who are\n"
+	.string "meditating in the harsh conditions of\l"
+	.string "the mountain cold.\p"
+	.string "The spirit they show is amazing.$"
+
+Route7_Text_CyndyIntro:
+	.string "{COLOR}{RED}This mountain is certainly not\n"
+	.string "forgiving…\p"
+	.string "… And neither am I!\n"
+	.string "HIYAAAAAH!$"
+
+Route7_Text_CyndyDefeated:
+	.string "That was intense!\n"
+	.string "I almost fell down the cliff!$"
+
+Route7_Text_CyndyPostBattle:
+	.string "{COLOR}{RED}When it's snowing gently, this is my\n"
+	.string "favorite place to meditate with my\l"
+	.string "Meditite.$"
+
+Route7_Text_LawrenceIntro:
+	.string "{COLOR}{BLUE}I'm lost and I'm cold…\n"
+	.string "Let's battle to warm up!$"
+
+Route7_Text_LawrenceDefeated:
+	.string "Brr…\n"
+	.string "We got beaten cleanly…$"
+
+Route7_Text_LawrencePostBattle:
+	.string "{COLOR}{BLUE}Do you wanna build a snowman?$"
+
+Route7_Text_EdgarIntro:
+	.string "{COLOR}{BLUE}As someone who climbs Mt. Tamarok\n"
+	.string "regularly for fun, I can tell you,\l"
+	.string "you haven't seen the worst part of\l"
+	.string "the climb yet…\p"
+	.string "And you never will, if you can't get\n"
+	.string "past me! Hahaha!$"
+
+Route7_Text_EdgarDefeated:
+	.string "Argh!\n"
+	.string "There's no way that just happened!$"
+
+Route7_Text_EdgarPostBattle:
+	.string "{COLOR}{BLUE}Hmph…\n"
+	.string "Good luck in your training.$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
@@ -1569,18 +1704,6 @@ Route111_Text_TravisPostBattle: @ 8298DF1
 	.string "When I see a TRAINER with a lot of pep,\n"
 	.string "I can't help looking.$"
 
-Route111_Text_IreneIntro: @ 8298E2F
-	.string "I don't know where you're going,\n"
-	.string "but would you like to battle?$"
-
-Route111_Text_IreneDefeat: @ 8298E6E
-	.string "Oh, you're disgustingly good!$"
-
-Route111_Text_IrenePostBattle: @ 8298E8C
-	.string "I'm thinking that I should go to\n"
-	.string "MT. CHIMNEY, but the view around\l"
-	.string "here is very nice, too.$"
-
 Route111_Text_DaisukeIntro: @ 8298EE6
 	.string "To train myself, I challenge all\n"
 	.string "whom I meet!$"
@@ -1980,17 +2103,6 @@ Route113_Text_SophiePostBattle: @ 829A529
 	.string "Losing burns me up…\n"
 	.string "I'm just going to sleep right here!\l"
 	.string "Zzz!$"
-
-Route113_Text_LawrenceIntro: @ 829A566
-	.string "Were you maybe in the middle\n"
-	.string "of gathering volcanic ashes?$"
-
-Route113_Text_LawrenceDefeat: @ 829A5A0
-	.string "Ehehe.\n"
-	.string "We got beaten cleanly.$"
-
-Route113_Text_LawrencePostBattle: @ 829A5BE
-	.string "I ought to hide under the ashes, too.$"
 
 Route114_Text_LennyIntro: @ 829A6B1
 	.string "Yodelayhihoo!\p"
@@ -2521,17 +2633,6 @@ Route116_Text_DevanPostBattle: @ 829C380
 	.string "I should try different POKéMON\n"
 	.string "types, that's what I ought to do.$"
 
-Route116_Text_JohnsonIntro: @ 829C3C1
-	.string "It's a dead end up here.\n"
-	.string "I'm bored, so can we battle?$"
-
-Route116_Text_JohnsonDefeat: @ 829C3F7
-	.string "That was fun even though I lost.$"
-
-Route116_Text_JohnsonPostBattle: @ 829C418
-	.string "Want to stay here and keep\n"
-	.string "me company?$"
-
 Route117_Text_IsaacIntro: @ 829C43F
 	.string "Listen, could I get you to battle\n"
 	.string "the POKéMON I'm raising?$"
@@ -2957,69 +3058,6 @@ Route119_Text_KentDefeat: @ 829DC20
 Route119_Text_KentPostBattle: @ 829DC2B
 	.string "Won't you join our MIMIC CIRCLE?$"
 
-Route119_Text_JacksonIntro: @ 829DC4C
-	.string "Who has the knowledge and\n"
-	.string "the technique for survival?\p"
-	.string "POKéMON RANGERS, that's who!$"
-
-Route119_Text_JacksonDefeat: @ 829DC9F
-	.string "I didn't have enough POKéMON\n"
-	.string "know-how…$"
-
-Route119_Text_JacksonPostBattle: @ 829DCC6
-	.string "To break away from civilization and\n"
-	.string "awaken the wild spirit within!\p"
-	.string "That's our vision.$"
-
-Route119_Text_JacksonRegister: @ 829DD1C
-	.string "I hope you'll give me a rematch without\n"
-	.string "mocking my lack of knowledge.$"
-
-Route119_Text_JacksonRematchIntro: @ 829DD62
-	.string "I'm going to regain my wild spirit by\n"
-	.string "being together with POKéMON.$"
-
-Route119_Text_JacksonRematchDefeat: @ 829DDA5
-	.string "You've remained strong!$"
-
-Route119_Text_JacksonPostRematch: @ 829DDBD
-	.string "Believe in your POKéMON.\n"
-	.string "Believe in yourself.\p"
-	.string "The road will reveal itself to you.$"
-
-Route119_Text_CatherineIntro: @ 829DE0F
-	.string "Oh? Look at you.\p"
-	.string "For someone on an adventure,\n"
-	.string "you're traveling awfully light.$"
-
-Route119_Text_CatherineDefeat: @ 829DE5D
-	.string "Accidents happen when you're not\n"
-	.string "prepared!$"
-
-Route119_Text_CatherinePostBattle: @ 829DE88
-	.string "You're traveling light but you have\n"
-	.string "everything you need.\p"
-	.string "You're on top of things mentally and\n"
-	.string "physically, too.$"
-
-Route119_Text_CatherineRegister: @ 829DEF7
-	.string "Do you have a POKéNAV?\n"
-	.string "It's a must-have tool for any TRAINER.\p"
-	.string "Oh, you do have one!\n"
-	.string "Let's register each other, then!$"
-
-Route119_Text_CatherineRematchIntro: @ 829DF6B
-	.string "How's your journey with POKéMON\n"
-	.string "going?$"
-
-Route119_Text_CatherineRematchDefeat: @ 829DF92
-	.string "I'm still missing something…$"
-
-Route119_Text_CatherinePostRematch: @ 829DFAF
-	.string "In the same way that you, as a TRAINER,\n"
-	.string "rely on your POKéMON, your POKéMON\l"
-	.string "rely on you.$"
-
 Route119_Text_HughIntro: @ 829E007
 	.string "The vast sky holds untold promise!\p"
 	.string "Nothing can compare to the sheer\n"
@@ -3361,39 +3399,6 @@ Route121_Text_TammyPostBattle: @ 829F3C6
 	.string "MT. PYRE…\n"
 	.string "There is a mysterious power\l"
 	.string "at work there…$"
-
-Route121_Text_KateIntro: @ 829F3FB
-	.string "KATE: Together, we're fearless!\n"
-	.string "We'll demonstrate how tough we are!$"
-
-Route121_Text_KateDefeat: @ 829F43F
-	.string "KATE: I blew it in front of my junior\n"
-	.string "student partner…$"
-
-Route121_Text_KatePostBattle: @ 829F476
-	.string "KATE: When someone's relying on me,\n"
-	.string "I get this urge to look cool in front\l"
-	.string "of them…$"
-
-Route121_Text_KateNotEnoughMons: @ 829F4C9
-	.string "KATE: If you've only got one POKéMON,\n"
-	.string "we can't battle with you.\p"
-	.string "That would be bullying.$"
-
-Route121_Text_JoyIntro: @ 829F521
-	.string "JOY: Together, we're fearless!\n"
-	.string "We'll demonstrate how tough we are!$"
-
-Route121_Text_JoyDefeat: @ 829F564
-	.string "JOY: Please forgive me, KATE!$"
-
-Route121_Text_JoyPostBattle: @ 829F582
-	.string "JOY: Ehehe, I'll have to train with KATE,\n"
-	.string "my senior student partner, again.$"
-
-Route121_Text_JoyNotEnoughMons: @ 829F5CE
-	.string "JOY: You need at least two POKéMON\n"
-	.string "if you're going to challenge us!$"
 
 Route121_Text_JessicaIntro: @ 829F612
 	.string "Stop! Have a good look at my precious\n"

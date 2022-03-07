@@ -98,11 +98,6 @@ VictoryRoad_1F_EventScript_RematchWally:: @ 8235E5C
 	msgbox VictoryRoad_1F_Text_WallyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-VictoryRoad_1F_EventScript_Edgar:: @ 8235E73
-	trainerbattle_single TRAINER_EDGAR, VictoryRoad_1F_Text_EdgarIntro, VictoryRoad_1F_Text_EdgarDefeat
-	msgbox VictoryRoad_1F_Text_EdgarPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 VictoryRoad_1F_EventScript_Albert:: @ 8235E8A
 	trainerbattle_single TRAINER_ALBERT, VictoryRoad_1F_Text_AlbertIntro, VictoryRoad_1F_Text_AlbertDefeat
 	msgbox VictoryRoad_1F_Text_AlbertPostBattle, MSGBOX_AUTOCLOSE
@@ -159,18 +154,6 @@ VictoryRoad_1F_Text_WallyPostBattle: @ 82360FE
 	.string "too… But one of these days, {PLAYER},\l"
 	.string "I'm going to catch up to you…\p"
 	.string "And challenge the POKéMON LEAGUE!$"
-
-VictoryRoad_1F_Text_EdgarIntro: @ 8236184
-	.string "I've made it this far a couple times,\n"
-	.string "but the last stretch is so long…$"
-
-VictoryRoad_1F_Text_EdgarDefeat: @ 82361CB
-	.string "My dream ends here again…$"
-
-VictoryRoad_1F_Text_EdgarPostBattle: @ 82361E5
-	.string "You've made it this far. Keep the\n"
-	.string "momentum going and become the\l"
-	.string "CHAMPION! If anyone can, it's you!$"
 
 VictoryRoad_1F_Text_AlbertIntro: @ 8236248
 	.string "I didn't come all this way to lose now.\n"

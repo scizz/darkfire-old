@@ -77,7 +77,7 @@ Route6_Text_Sign:
 
 Route6_Text_Sign_West:
 	.string "Route 6\n"
-	.string "{LEFT_ARROW} Laveria City.$"
+	.string "{LEFT_ARROW} Laveria City$"
 
 Route6_Text_Ranger_Female:
 	.string "{COLOR}{RED}Halt, trainer!\p"

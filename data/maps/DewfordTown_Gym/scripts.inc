@@ -135,10 +135,7 @@ DewfordTown_Gym_EventScript_CheckBrenden:: @ 81FC797
 	goto_if_not_defeated TRAINER_BRENDEN, DewfordTown_Gym_EventScript_CheckCristian
 	addvar VAR_0x8000, 1
 DewfordTown_Gym_EventScript_CheckCristian:: @ 81FC7A5
-	goto_if_not_defeated TRAINER_CRISTIAN, DewfordTown_Gym_EventScript_CheckLilith
-	addvar VAR_0x8000, 1
-DewfordTown_Gym_EventScript_CheckLilith:: @ 81FC7B3
-	goto_if_not_defeated TRAINER_LILITH, DewfordTown_Gym_EventScript_StopCountingTrainers
+	goto_if_not_defeated TRAINER_CRISTIAN, DewfordTown_Gym_EventScript_StopCountingTrainers
 	addvar VAR_0x8000, 1
 DewfordTown_Gym_EventScript_StopCountingTrainers:: @ 81FC7C1
 	return
@@ -252,16 +249,6 @@ DewfordTown_Gym_EventScript_CristianBrightenRoom:: @ 81FC95A
 	release
 	end
 
-DewfordTown_Gym_EventScript_Lilith:: @ 81FC961
-	trainerbattle_single TRAINER_LILITH, DewfordTown_Gym_Text_LilithIntro, DewfordTown_Gym_Text_LilithDefeat, DewfordTown_Gym_EventScript_LilithBrightenRoom
-	msgbox DewfordTown_Gym_Text_LilithPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-DewfordTown_Gym_EventScript_LilithBrightenRoom:: @ 81FC97C
-	call DewfordTown_Gym_EventScript_BrightenRoom
-	release
-	end
-
 DewfordTown_Gym_EventScript_GymGuide:: @ 81FC983
 	lock
 	faceplayer
@@ -357,18 +344,6 @@ DewfordTown_Gym_Text_LauraPostBattle: @ 81FCD4F
 	.string "stronger.\p"
 	.string "But because it's so dark, I can never\n"
 	.string "see BRAWLY's face…$"
-
-DewfordTown_Gym_Text_LilithIntro: @ 81FCDB8
-	.string "Ufufu…\n"
-	.string "Are you stumbling around in the dark?$"
-
-DewfordTown_Gym_Text_LilithDefeat: @ 81FCDE5
-	.string "Oh, you…\n"
-	.string "I don't want to know you!$"
-
-DewfordTown_Gym_Text_LilithPostBattle: @ 81FCE08
-	.string "You deserve to stay lost and end up\n"
-	.string "back at the entrance again!$"
 
 DewfordTown_Gym_Text_BrendenIntro: @ 81FCE48
 	.string "I'll show you the gumption of\n"

@@ -357,11 +357,6 @@ Route116_EventScript_Devan:: @ 81F306F
 	msgbox Route116_Text_DevanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route116_EventScript_Johnson:: @ 81F3086
-	trainerbattle_single TRAINER_JOHNSON, Route116_Text_JohnsonIntro, Route116_Text_JohnsonDefeat
-	msgbox Route116_Text_JohnsonPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route116_Text_ScoundrelMadeOffWithPeeko: @ 81F309D
 	.string "Ohhh, what am I to do?\p"
 	.string "We were on our walk, PEEKO and I, when\n"

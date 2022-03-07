@@ -80,7 +80,7 @@
 #define TRAINER_VINCENT                      76
 #define TRAINER_LEROY                        77
 #define TRAINER_WILTON_1                     78
-#define TRAINER_EDGAR                        79
+#define TRAINER_EDGAR                        79 // Darkfire Trainer
 #define TRAINER_ALBERT                       80
 #define TRAINER_SAMUEL                       81
 #define TRAINER_VITO                         82
@@ -287,7 +287,7 @@
 #define TRAINER_KAREN_3                     283
 #define TRAINER_KAREN_4                     284
 #define TRAINER_KAREN_5                     285
-#define TRAINER_KATE_AND_JOY                286
+#define TRAINER_TORI_AND_TIA                286 // Darkfire Trainer
 #define TRAINER_ANNA_AND_MEG_1              287
 #define TRAINER_ANNA_AND_MEG_2              288
 #define TRAINER_ANNA_AND_MEG_3              289
@@ -477,7 +477,7 @@
 #define TRAINER_MARTHA                      473
 #define TRAINER_DIANA_1                     474
 #define TRAINER_CEDRIC                      475
-#define TRAINER_IRENE                       476
+#define TRAINER_IRENE                       476 // Darkfire Trainer
 #define TRAINER_DIANA_2                     477
 #define TRAINER_DIANA_3                     478
 #define TRAINER_DIANA_4                     479
@@ -553,14 +553,14 @@
 #define TRAINER_LYDIA_3                     549
 #define TRAINER_LYDIA_4                     550
 #define TRAINER_LYDIA_5                     551
-#define TRAINER_JACKSON_1                   552
+#define TRAINER_JACKSON                     552 // Darkfire Trainer
 #define TRAINER_ETHAN                       553 // Darkfire Trainer
 #define TRAINER_SEBASTIAN                   554
 #define TRAINER_JACKSON_2                   555
 #define TRAINER_JACKSON_3                   556
 #define TRAINER_JACKSON_4                   557
 #define TRAINER_JACKSON_5                   558
-#define TRAINER_CATHERINE_1                 559
+#define TRAINER_MARTA                       559 // Darkfire Trainer
 #define TRAINER_LIANA                       560 // Darkfire Trainer
 #define TRAINER_JENNY                       561 // Darkfire Trainer
 #define TRAINER_CATHERINE_2                 562
@@ -574,7 +574,7 @@
 #define TRAINER_GRUNT_JAGGED_PASS           570
 #define TRAINER_MARC                        571 // Darkfire Trainer
 #define TRAINER_BRENDEN                     572
-#define TRAINER_LILITH                      573
+#define TRAINER_CYNDY                       573 // Darkfire Trainer
 #define TRAINER_CRISTIAN                    574
 #define TRAINER_SYLVIA                      575
 #define TRAINER_LEONARDO                    576
@@ -678,7 +678,7 @@
 #define TRAINER_AIDAN                       674
 #define TRAINER_REED                        675
 #define TRAINER_TISHA                       676
-#define TRAINER_TORI_AND_TIA                677
+#define TRAINER_TORI_AND_TIA_2              677
 #define TRAINER_KIM_AND_IRIS                678
 #define TRAINER_TYRA_AND_IVY                679
 #define TRAINER_MEL_AND_PAUL                680
@@ -711,7 +711,7 @@
 #define TRAINER_HAYDEN                      707
 #define TRAINER_SOPHIE                      708
 #define TRAINER_COBY                        709
-#define TRAINER_LAWRENCE                    710
+#define TRAINER_LAWRENCE                    710 // Darkfire Trainer
 #define TRAINER_STEVE                       711 // Darkfire Trainer
 #define TRAINER_ANGELINA                    712
 #define TRAINER_KAI                         713
@@ -755,7 +755,7 @@
 #define TRAINER_HELENE                      751
 #define TRAINER_MARLENE                     752
 #define TRAINER_DEVAN                       753
-#define TRAINER_JOHNSON                     754
+#define TRAINER_DILLION                     754 // Darkfire Trainer
 #define TRAINER_MELINA                      755
 #define TRAINER_BRANDI                      756
 #define TRAINER_AISHA                       757
