@@ -36,30 +36,6 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 42,
-      "y": 51,
-      "elevation": 0,
-      "item": "ITEM_CARBOS",
-      "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_124_CARBOS"
-    },
-    {
-      "type": "hidden_item",
-      "x": 14,
-      "y": 40,
-      "elevation": 0,
-      "item": "ITEM_GREEN_SHARD",
-      "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_124_GREEN_SHARD"
-    },
-    {
-      "type": "hidden_item",
-      "x": 66,
-      "y": 34,
-      "elevation": 3,
-      "item": "ITEM_PEARL",
-      "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_124_PEARL"
-    },
-    {
-      "type": "hidden_item",
       "x": 64,
       "y": 54,
       "elevation": 3,

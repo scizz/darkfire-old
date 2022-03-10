@@ -138,28 +138,28 @@ Route6_EventScript_ItemPotion2::
 	finditem ITEM_POTION
 	end
 
-Route116_EventScript_ItemHPUp:: @ 8290E9F
-	finditem ITEM_HP_UP
+Route7_EventScript_ItemFullHeal::
+	finditem ITEM_FULL_HEAL
 	end
 
 Route116_EventScript_ItemPotion:: @ 8290EAC
 	finditem ITEM_POTION
 	end
 
-Route117_EventScript_ItemGreatBall:: @ 8290EB9
-	finditem ITEM_GREAT_BALL
+Route7_EventScript_ItemMaxEther::
+	finditem ITEM_MAX_ETHER
 	end
 
-Route117_EventScript_ItemRevive:: @ 8290EC6
-	finditem ITEM_REVIVE
+Route7_EventScript_ItemHyperPotion::
+	finditem ITEM_HYPER_POTION
 	end
 
 Route118_EventScript_ItemHyperPotion:: @ 8290ED3
 	finditem ITEM_HYPER_POTION
 	end
 
-Route119_EventScript_ItemSuperRepel:: @ 8290EE0
-	finditem ITEM_SUPER_REPEL
+Route7_EventScript_ItemCarbos:: 
+	finditem ITEM_CARBOS
 	end
 
 Route119_EventScript_ItemZinc:: @ 8290EED
