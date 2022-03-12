@@ -556,7 +556,7 @@
 #define TRAINER_JACKSON                     552 // Darkfire Trainer
 #define TRAINER_ETHAN                       553 // Darkfire Trainer
 #define TRAINER_SEBASTIAN                   554
-#define TRAINER_UNUSED_555                  555 // UNUSED
+#define TRAINER_CATHERINE                   555
 #define TRAINER_UNUSED_556                  556 // UNUSED
 #define TRAINER_UNUSED_557                  557 // UNUSED
 #define TRAINER_UNUSED_558                  558 // UNUSED

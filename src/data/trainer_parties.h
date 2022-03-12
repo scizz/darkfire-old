@@ -7429,6 +7429,19 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sebastian[] = {
     }
 };
 
+static const struct TrainerMonNoItemDefaultMoves sParty_Catherine[] = {
+    {
+    .iv = 70,
+    .lvl = 18,
+    .species = SPECIES_ODDISH,
+    },
+    {
+    .iv = 70,
+    .lvl = 19,
+    .species = SPECIES_ROSELIA,
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Marta[] = {
     {
     .iv = 60,

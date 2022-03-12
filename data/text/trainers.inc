@@ -400,6 +400,20 @@ Route7_Text_EdgarPostBattle:
 	.string "{COLOR}{BLUE}Hmph…\n"
 	.string "Good luck in your training.$"
 
+Route8_Text_CatherineIntro:
+	.string "{COLOR}{RED}I'm trying to figure out the secret of\n"
+	.string "this frozen lake.\p"
+	.string "I've been here for hours and found\n"
+	.string "nothing yet…$"
+
+Route8_Text_CatherineDefeated:
+	.string "That was savage…\n"
+	.string "I didn't stand a chance!$"
+
+Route8_Text_CatherinePostBattle:
+	.string "{COLOR}{RED}I'm stuck here.\n"
+	.string "I'm too afraid to slide down the ice!$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
@@ -4733,18 +4747,6 @@ Route132_Text_PaxtonDefeat: @ 82A3FA8
 Route132_Text_PaxtonPostBattle: @ 82A3FE5
 	.string "My wife must be looking for me.\n"
 	.string "I'd best go find her right away.$"
-
-Route132_Text_DarcyIntro: @ 82A4026
-	.string "I liked training here by myself.\n"
-	.string "It's awful that all these people came!$"
-
-Route132_Text_DarcyDefeat: @ 82A406E
-	.string "Okay! I won't complain about other\n"
-	.string "people being here.$"
-
-Route132_Text_DarcyPostBattle: @ 82A40A4
-	.string "I suppose I can partner up with that\n"
-	.string "old man and challenge that other team.$"
 
 Route133_Text_FranklinIntro: @ 82A40F0
 	.string "Did the currents carry you here, too?\n"
