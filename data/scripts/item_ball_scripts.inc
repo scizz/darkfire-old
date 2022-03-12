@@ -162,12 +162,12 @@ Route7_EventScript_ItemCarbos::
 	finditem ITEM_CARBOS
 	end
 
-Route119_EventScript_ItemZinc:: @ 8290EED
-	finditem ITEM_ZINC
+Route8_EventScript_ItemTM27::
+	finditem ITEM_TM27
 	end
 
-Route119_EventScript_ItemElixir:: @ 8290EFA
-	finditem ITEM_ELIXIR
+Route8_EventScript_ItemXAttack::
+	finditem ITEM_X_ATTACK
 	end
 
 Route119_EventScript_ItemLeafStone:: @ 8290F07

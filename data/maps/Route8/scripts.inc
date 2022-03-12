@@ -20,8 +20,38 @@ Route8_Seel::
 	end
 
 Route8_EventScript_Catherine::
-	trainerbattle_single TRAINER_CATHERINE, Route8_Text_CatherineIntro, Route7_Text_CatherineDefeated
-	msgbox Route7_Text_CatherinePostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_CATHERINE, Route8_Text_CatherineIntro, Route8_Text_CatherineDefeated
+	msgbox Route8_Text_CatherinePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route8_EventScript_Hassan::
+	trainerbattle_single TRAINER_HASSAN, Route8_Text_HassanIntro, Route8_Text_HassanDefeated
+	msgbox Route8_Text_HassanPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route8_EventScript_Darcy::
+	trainerbattle_single TRAINER_DARCY, Route8_Text_DarcyIntro, Route8_Text_DarcyDefeated
+	msgbox Route8_Text_DarcyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route8_EventScript_Gerald::
+	trainerbattle_single TRAINER_GERALD, Route8_Text_GeraldIntro, Route8_Text_GeraldDefeated
+	msgbox Route8_Text_GeraldPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route8_EventScript_Marcus::
+	trainerbattle_single TRAINER_MARCUS, Route8_Text_MarcusIntro, Route8_Text_MarcusDefeated
+	msgbox Route8_Text_MarcusPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route8_EventScript_Rhett::
+	trainerbattle_single TRAINER_RHETT, Route8_Text_RhettIntro, Route8_Text_RhettDefeated
+	msgbox Route8_Text_RhettPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route8_EventScript_Nathan::
+	trainerbattle_single TRAINER_NATHAN, Route8_Text_NathanIntro, Route8_Text_NathanDefeated
+	msgbox Route8_Text_NathanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route8_Text_Sign:

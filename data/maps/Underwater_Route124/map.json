@@ -36,14 +36,6 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 64,
-      "y": 54,
-      "elevation": 3,
-      "item": "ITEM_BIG_PEARL",
-      "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_124_BIG_PEARL"
-    },
-    {
-      "type": "hidden_item",
       "x": 70,
       "y": 64,
       "elevation": 3,

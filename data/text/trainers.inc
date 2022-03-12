@@ -414,6 +414,87 @@ Route8_Text_CatherinePostBattle:
 	.string "{COLOR}{RED}I'm stuck here.\n"
 	.string "I'm too afraid to slide down the ice!$"
 
+Route8_Text_HassanIntro:
+	.string "{COLOR}{BLUE}It can get scary at night here…\p"
+	.string "There's snow as far as the eye can\n"
+	.string "see, so it's easy to get lost.\p"
+	.string "But, I never get lost!\n"
+	.string "C'mon!$"
+
+Route8_Text_HassanDefeated:
+	.string "Looks like… I lost…$"
+
+Route8_Text_HassanPostBattle:
+	.string "{COLOR}{BLUE}The cold here can reach -20 celsius\n"
+	.string "during the night.\p"
+	.string "Take care you don't get stuck here…$"
+
+Route8_Text_DarcyIntro:
+	.string "{COLOR}{RED}If you let the snow get in the way of\n"
+	.string "you and your Pokémon, you deserve pain!$"
+
+Route8_Text_DarcyDefeated:
+	.string "You got between me and my Pokémon…$"
+
+Route8_Text_DarcyPostBattle:
+	.string "{COLOR}{RED}This sucks!\p"
+	.string "Now I have to fly back to Northstar\n"
+	.string "City to heal my Pokémon!$"
+
+Route8_Text_GeraldIntro:
+	.string "{COLOR}{BLUE}Oh, a Trainer.\n"
+	.string "Welcome to my personal battling arena.\p"
+	.string "Let's do this!$"
+
+Route8_Text_GeraldDefeated:
+	.string "Darn!\n"
+	.string "I thought you were weak!$"
+
+Route8_Text_GeraldPostBattle:
+	.string "{COLOR}{BLUE}I took you for granted, so I lost.\p"
+	.string "You're more than ready for the\n"
+	.string "tournament in Northstar City.$"
+
+Route8_Text_MarcusIntro:
+	.string "{COLOR}{BLUE}I'd rather ski than battle with\n"
+	.string "Pokémon, to be honest.\p"
+	.string "Whatever, let's go!$"
+
+Route8_Text_MarcusDefeated:
+	.string "Should've just continued skiing…$"
+
+Route8_Text_MarcusPostBattle:
+	.string "{COLOR}{BLUE}This is a nice spot for skiing.\p"
+	.string "The snow is soft and there's a lot\n"
+	.string "of space to move around.$"
+
+Route8_Text_RhettIntro:
+	.string "This cold ain't nothing for me!\n"
+	.string "Hah… Hah… Nothing!\l"
+	.string "We can even take you on!$"
+
+Route8_Text_RhettDefeated:
+	.string "HIYAAAAAH-- oh, it's already over?!$"
+
+Route8_Text_RhettPostBattle:
+	.string "Man, you just ground us to dust.\n"
+	.string "My confidence will suffer for years…$"
+
+Route8_Text_NathanIntro:
+	.string "{COLOR}{BLUE}Listen to the steady snow fall…\p"
+	.string "There's often no other sounds around\n"
+	.string "here. It's real peaceful-like.$"
+
+Route8_Text_NathanDefeated:
+	.string "Awh!\n"
+	.string "You had to ruin it!$"
+
+Route8_Text_NathanPostBattle:
+	.string "{COLOR}{BLUE}I'm more at home here than I am in\n"
+	.string "Northstar City.\p"
+	.string "Life in a crammed apartment doesn't\n"
+	.string "really suit me…$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
@@ -603,18 +684,6 @@ Route103_Text_IsabelleDefeated: @ 8295146
 Route103_Text_IsabellePostBattle: @ 829514D
 	.string "I'm a poor swimmer so I was practicing…\n"
 	.string "Sorry for almost crashing into you.$"
-
-Route103_Text_RhettIntro: @ 8295199
-	.string "Whoa!\n"
-	.string "How'd you get into a space this small?$"
-
-Route103_Text_RhettDefeated: @ 82951C6
-	.string "Whoa!\n"
-	.string "The kid can rock!$"
-
-Route103_Text_RhettPostBattle: @ 82951DE
-	.string "Do you like cramped quarters\n"
-	.string "like this?$"
 
 Route103_Text_MarcosIntro: @ 8295206
 	.string "Did my guitar's wailing draw you in?$"

@@ -538,10 +538,10 @@
 // Hidden Items -- sorted by location
 #define FLAG_HIDDEN_ITEMS_START                                                         0x1F4
 #define FLAG_HIDDEN_ITEM_TRICK_HOUSE_NUGGET                  (FLAG_HIDDEN_ITEMS_START + 0x01)
-#define FLAG_HIDDEN_ITEM_ROUTE_7_NUGGET                      (FLAG_HIDDEN_ITEMS_START + 0x08)
-#define FLAG_HIDDEN_ITEM_ROUTE_7_CHARCOAL                    (FLAG_HIDDEN_ITEMS_START + 0x09)
-#define FLAG_HIDDEN_ITEM_ROUTE_7_TM_23                       (FLAG_HIDDEN_ITEMS_START + 0x0A)
-#define FLAG_HIDDEN_ITEM_UNDERWATER_124_BIG_PEARL            (FLAG_HIDDEN_ITEMS_START + 0x0B)
+#define FLAG_HIDDEN_ITEM_ROUTE_7_NUGGET                      (FLAG_HIDDEN_ITEMS_START + 0x08) // Darkfire Flag
+#define FLAG_HIDDEN_ITEM_ROUTE_7_CHARCOAL                    (FLAG_HIDDEN_ITEMS_START + 0x09) // Darkfire Flag
+#define FLAG_HIDDEN_ITEM_ROUTE_7_TM_23                       (FLAG_HIDDEN_ITEMS_START + 0x0A) // Darkfire Flag
+#define FLAG_HIDDEN_ITEM_ROUTE_8_RARE_CANDY                  (FLAG_HIDDEN_ITEMS_START + 0x0B) // Darkfire Flag
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_1        (FLAG_HIDDEN_ITEMS_START + 0x0D)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_CALCIUM              (FLAG_HIDDEN_ITEMS_START + 0x24)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_2        (FLAG_HIDDEN_ITEMS_START + 0x26)
@@ -1071,8 +1071,8 @@
 #define FLAG_ITEM_ROUTE_7_MAX_ETHER                                 0x3FE // Darkfire Flag
 #define FLAG_ITEM_ROUTE_7_HYPER_POTION                              0x3FF // Darkfire Flag
 #define FLAG_ITEM_ROUTE_7_CARBOS                                    0x400 // Darkfire Flag
-#define FLAG_ITEM_ROUTE_119_ZINC                                    0x401
-#define FLAG_ITEM_ROUTE_119_ELIXIR_1                                0x402
+#define FLAG_ITEM_ROUTE_8_X_ATTACK                                  0x401 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_8_TM_27                                     0x402 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_119_LEAF_STONE                              0x403
 #define FLAG_ITEM_ROUTE_119_RARE_CANDY                              0x404
 #define FLAG_ITEM_ROUTE_119_HYPER_POTION_1                          0x405

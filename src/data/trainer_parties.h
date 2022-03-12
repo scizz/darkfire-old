@@ -7442,6 +7442,54 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Catherine[] = {
     }
 };
 
+static const struct TrainerMonNoItemDefaultMoves sParty_Hassan[] = {
+    {
+    .iv = 0,
+    .lvl = 18,
+    .species = SPECIES_SEEL,
+    },
+    {
+    .iv = 0,
+    .lvl = 18,
+    .species = SPECIES_SHELLDER,
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Marcus[] = {
+    {
+    .iv = 70,
+    .lvl = 17,
+    .species = SPECIES_AZURILL,
+    .heldItem = ITEM_POKE_BALL
+    },
+    {
+    .iv = 80,
+    .lvl = 18,
+    .species = SPECIES_MARILL,
+    .heldItem = ITEM_LUXURY_BALL
+    },
+    .iv = 90,
+    .lvl = 19,
+    .species = SPECIES_AZUMARILL,
+    .heldItem = ITEM_FULL_RESTORE
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Nathan[] = {
+    {
+    .iv = 50,
+    .lvl = 17,
+    .species = SPECIES_CHINCHOU,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_SWINUB,
+    .heldItem = ITEM_MAX_REVIVE
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Marta[] = {
     {
     .iv = 60,
@@ -8542,8 +8590,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Johanna[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_Gerald[] = {
     {
-    .iv = 100,
-    .lvl = 23,
+    .iv = 80,
+    .lvl = 20,
     .species = SPECIES_KECLEON,
     .moves = {MOVE_FLAMETHROWER, MOVE_FURY_SWIPES, MOVE_FEINT_ATTACK, MOVE_BIND}
     }
@@ -9415,8 +9463,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marcos[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Rhett[] = {
     {
     .iv = 100,
-    .lvl = 15,
-    .species = SPECIES_MAKUHITA,
+    .lvl = 20,
+    .species = SPECIES_GEODUDE,
     }
 };
 
@@ -9701,13 +9749,14 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMagmaHideout[] = 
 static const struct TrainerMonNoItemDefaultMoves sParty_Darcy[] = {
     {
     .iv = 0,
-    .lvl = 33,
-    .species = SPECIES_PELIPPER,
+    .lvl = 17,
+    .species = SPECIES_SKITTY,
     },
     {
     .iv = 0,
-    .lvl = 33,
-    .species = SPECIES_CAMERUPT,
+    .lvl = 19,
+    .species = SPECIES_PELIPPER,
+    .moves = {MOVE_FLY, MOVE_WATER_GUN, MOVE_SUPERSONIC, MOVE_WING_ATTACK}
     }
 };
 

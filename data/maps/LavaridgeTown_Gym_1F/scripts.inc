@@ -1,5 +1,4 @@
 .set LOCALID_COLE, 2
-.set LOCALID_GERALD, 3
 .set LOCALID_AXLE, 4
 .set LOCALID_DANIELLE, 5
 
@@ -19,11 +18,7 @@ LavaridgeTown_Gym_1F_EventScript_SetTrainerTempVars:: @ 81FE705
 	setvar VAR_TEMP_D, 0
 	setvar VAR_TEMP_E, 0
 	setvar VAR_TEMP_F, 0
-	goto_if_defeated TRAINER_COLE LavaridgeTown_Gym_1F_EventScript_SetGeraldTempVar
 	setvar VAR_TEMP_B, 1
-LavaridgeTown_Gym_1F_EventScript_SetGeraldTempVar:: @ 81FE72C
-	goto_if_defeated TRAINER_GERALD, LavaridgeTown_Gym_1F_EventScript_SetAxleTempVar
-	setvar VAR_TEMP_C, 1
 LavaridgeTown_Gym_1F_EventScript_SetAxleTempVar:: @ 81FE73A
 	goto_if_defeated TRAINER_AXLE, LavaridgeTown_Gym_1F_EventScript_SetDanielleTempVar
 	setvar VAR_TEMP_D, 1
@@ -33,12 +28,6 @@ LavaridgeTown_Gym_1F_EventScript_SetDanielleTempVar:: @ 81FE748
 LavaridgeTown_Gym_1F_EventScript_EndSetTrainerTempVars:: @ 81FE756
 	return
 
-LavaridgeTown_Gym_1F_EventScript_CheckBuryTrainers:: @ 81FE757
-	goto_if_defeated TRAINER_COLE, LavaridgeTown_Gym_1F_EventScript_CheckBuryGerald
-	setobjectmovementtype LOCALID_COLE, MOVEMENT_TYPE_BURIED
-LavaridgeTown_Gym_1F_EventScript_CheckBuryGerald:: @ 81FE764
-	goto_if_defeated TRAINER_GERALD, LavaridgeTown_Gym_1F_EventScript_CheckBuryAxle
-	setobjectmovementtype LOCALID_GERALD, MOVEMENT_TYPE_BURIED
 LavaridgeTown_Gym_1F_EventScript_CheckBuryAxle:: @ 81FE771
 	goto_if_defeated TRAINER_AXLE, LavaridgeTown_Gym_1F_EventScript_CheckBuryDanielle
 	setobjectmovementtype LOCALID_AXLE, MOVEMENT_TYPE_BURIED
@@ -133,11 +122,6 @@ LavaridgeTown_Gym_B1F_EventScript_Keegan:: @ 81FE8CA
 LavaridgeTown_Gym_1F_EventScript_Danielle:: @ 81FE8E5
 	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_DANIELLE, LOCALID_DANIELLE, LavaridgeTown_Gym_1F_Text_DanielleIntro, LavaridgeTown_Gym_1F_Text_DanielleDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript
 	msgbox LavaridgeTown_Gym_1F_Text_DaniellePostBattle, MSGBOX_AUTOCLOSE
-	end
-
-LavaridgeTown_Gym_1F_EventScript_Gerald:: @ 81FE900
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_GERALD, LOCALID_GERALD, LavaridgeTown_Gym_1F_Text_GeraldIntro, LavaridgeTown_Gym_1F_Text_GeraldDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript
-	msgbox LavaridgeTown_Gym_1F_Text_GeraldPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 LavaridgeTown_Gym_B1F_EventScript_Jace:: @ 81FE91B
@@ -245,19 +229,6 @@ LavaridgeTown_Gym_B1F_Text_KeeganPostBattle: @ 81FED02
 	.string "But our LEADER FLANNERY is strong.\p"
 	.string "If you don't watch yourself, you'll be\n"
 	.string "burned seriously.$"
-
-LavaridgeTown_Gym_1F_Text_GeraldIntro: @ 81FED72
-	.string "Can your POKéMON withstand\n"
-	.string "392-degree heat?$"
-
-LavaridgeTown_Gym_1F_Text_GeraldDefeat: @ 81FED9E
-	.string "It didn't burn hotly enough…$"
-
-LavaridgeTown_Gym_1F_Text_GeraldPostBattle: @ 81FEDBB
-	.string "The temperature of magma is\n"
-	.string "392 degrees.\p"
-	.string "Your POKéMON beat me, so they should\n"
-	.string "easily survive in magma.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro: @ 81FEE22
 	.string "Um…\n"

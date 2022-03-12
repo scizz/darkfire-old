@@ -273,11 +273,6 @@ Route103_EventScript_Marcos:: @ 81EC74A
 	msgbox Route103_Text_MarcosPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route103_EventScript_Rhett:: @ 81EC761
-	trainerbattle_single TRAINER_RHETT, Route103_Text_RhettIntro, Route103_Text_RhettDefeated
-	msgbox Route103_Text_RhettPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route103_EventScript_Pete:: @ 81EC778
 	trainerbattle_single TRAINER_PETE, Route103_Text_PeteIntro, Route103_Text_PeteDefeated
 	msgbox Route103_Text_PetePostBattle, MSGBOX_AUTOCLOSE

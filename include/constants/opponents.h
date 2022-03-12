@@ -556,10 +556,10 @@
 #define TRAINER_JACKSON                     552 // Darkfire Trainer
 #define TRAINER_ETHAN                       553 // Darkfire Trainer
 #define TRAINER_SEBASTIAN                   554
-#define TRAINER_CATHERINE                   555
-#define TRAINER_UNUSED_556                  556 // UNUSED
-#define TRAINER_UNUSED_557                  557 // UNUSED
-#define TRAINER_UNUSED_558                  558 // UNUSED
+#define TRAINER_CATHERINE                   555 // Darkfire Trainer
+#define TRAINER_HASSAN                      556 // Darkfire Trainer
+#define TRAINER_MARCUS                      557 // Darkfire Trainer
+#define TRAINER_NATHAN                      558 // Darkfire Trainer
 #define TRAINER_MARTA                       559 // Darkfire Trainer
 #define TRAINER_LIANA                       560 // Darkfire Trainer
 #define TRAINER_JENNY                       561 // Darkfire Trainer
@@ -649,7 +649,7 @@
 #define TRAINER_KIRA_AND_DAN_4              645
 #define TRAINER_KIRA_AND_DAN_5              646
 #define TRAINER_JOHANNA                     647
-#define TRAINER_GERALD                      648
+#define TRAINER_GERALD                      648 // Darkfire Trainer
 #define TRAINER_VIVIAN                      649
 #define TRAINER_DANIELLE                    650
 #define TRAINER_HIDEO                       651
@@ -704,7 +704,7 @@
 #define TRAINER_JOSEPH                      700
 #define TRAINER_ALYSSA                      701
 #define TRAINER_MARCOS                      702
-#define TRAINER_RHETT                       703
+#define TRAINER_RHETT                       703 // Darkfire Trainer
 #define TRAINER_TYRON                       704
 #define TRAINER_CELINA                      705
 #define TRAINER_BIANCA                      706
@@ -734,7 +734,7 @@
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_15      730
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_16      731
 #define TRAINER_TABITHA_MAGMA_HIDEOUT       732
-#define TRAINER_DARCY                       733
+#define TRAINER_DARCY                       733 // Darkfire Trainer
 #define TRAINER_MAXIE_MOSSDEEP              734
 #define TRAINER_PETE                        735
 #define TRAINER_ISABELLE                    736
