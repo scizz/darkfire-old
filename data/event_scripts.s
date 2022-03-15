@@ -1289,3 +1289,5 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/Underwater/scripts.inc"
 
 	.include "data/maps/MiraniaTown/scripts.inc"
+
+	.include "data/maps/Route31/scripts.inc"
