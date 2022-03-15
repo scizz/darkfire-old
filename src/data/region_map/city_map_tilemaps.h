@@ -29,3 +29,4 @@ const u32 gPokenavCityMap_Laveria_0[] = INCBIN_U32("graphics/pokenav/city_maps/l
 const u32 gPokenavCityMap_Highwind_0[] = INCBIN_U32("graphics/pokenav/city_maps/highwind_0.bin.lz");
 const u32 gPokenavCityMap_Northstar_0[] = INCBIN_U32("graphics/pokenav/city_maps/northstar_0.bin.lz");
 const u32 gPokenavCityMap_Pinleaf_0[] = INCBIN_U32("graphics/pokenav/city_maps/pinleaf_0.bin.lz");
+const u32 gPokenavCityMap_Mirania_0[] = INCBIN_U32("graphics/pokenav/city_maps/mirania_0.bin.lz");

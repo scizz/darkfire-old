@@ -61,6 +61,11 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Pinleaf_0,
     },
     {
+        .mapSecId = MAPSEC_MIRANIA_TOWN,
+        .index = 0,
+        .tilemap = gPokenavCityMap_Mirania_0,
+    },
+    {
         .mapSecId = MAPSEC_LAVARIDGE_TOWN,
         .index = 0,
         .tilemap = gPokenavCityMap_Lavaridge_0,

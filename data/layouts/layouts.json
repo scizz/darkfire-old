@@ -5540,6 +5540,16 @@
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater/border.bin",
       "blockdata_filepath": "data/layouts/Underwater/map.bin"
+    },
+    {
+      "id": "LAYOUT_MIRANIA_TOWN",
+      "name": "MiraniaTown_Layout",
+      "width": 60,
+      "height": 80,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Unused2",
+      "border_filepath": "data/layouts/MiraniaTown/border.bin",
+      "blockdata_filepath": "data/layouts/MiraniaTown/map.bin"
     }
   ]
 }
