@@ -5544,8 +5544,8 @@
     {
       "id": "LAYOUT_MIRANIA_TOWN",
       "name": "MiraniaTown_Layout",
-      "width": 60,
-      "height": 80,
+      "width": 52,
+      "height": 70,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Unused2",
       "border_filepath": "data/layouts/MiraniaTown/border.bin",
