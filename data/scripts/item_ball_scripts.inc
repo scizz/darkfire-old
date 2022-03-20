@@ -170,16 +170,16 @@ Route8_EventScript_ItemXAttack::
 	finditem ITEM_X_ATTACK
 	end
 
-Route119_EventScript_ItemLeafStone:: @ 8290F07
-	finditem ITEM_LEAF_STONE
+Route9_EventScript_ItemUltraBall::
+	finditem ITEM_ULTRA_BALL
 	end
 
-Route119_EventScript_ItemRareCandy:: @ 8290F14
-	finditem ITEM_RARE_CANDY
+Route9_EventScript_ItemFullHeal::
+	finditem ITEM_FULL_HEAL
 	end
 
-Route119_EventScript_ItemHyperPotion:: @ 8290F21
-	finditem ITEM_HYPER_POTION
+Route9_EventScript_ItemSuperPotion::
+	finditem ITEM_SUPER_POTION
 	end
 
 Route119_EventScript_ItemHyperPotion2:: @ 8290F2E

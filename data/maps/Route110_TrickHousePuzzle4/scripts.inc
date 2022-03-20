@@ -13,11 +13,6 @@ Route110_TrickHousePuzzle4_EventScript_FoundScroll:: @ 826C873
 	goto Route110_TrickHousePuzzle_EventScript_FoundScroll
 	end
 
-Route110_TrickHousePuzzle4_EventScript_Cora:: @ 826C87E
-	trainerbattle_single TRAINER_CORA, Route110_TrickHousePuzzle4_Text_CoraIntro, Route110_TrickHousePuzzle4_Text_CoraDefeat
-	msgbox Route110_TrickHousePuzzle4_Text_CoraPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route110_TrickHousePuzzle4_EventScript_Yuji:: @ 826C895
 	trainerbattle_single TRAINER_YUJI, Route110_TrickHousePuzzle4_Text_YujiIntro, Route110_TrickHousePuzzle4_Text_YujiDefeat
 	msgbox Route110_TrickHousePuzzle4_Text_YujiPostBattle, MSGBOX_AUTOCLOSE
@@ -34,18 +29,6 @@ Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened: @ 826C8C3
 	.string "“TRICK MASTER is cool.”\n"
 	.string "… … … … … … … …\p"
 	.string "The lock clicked open!$"
-
-Route110_TrickHousePuzzle4_Text_CoraIntro: @ 826C92D
-	.string "It's too much bother to think this out.\n"
-	.string "I only wanted to battle!$"
-
-Route110_TrickHousePuzzle4_Text_CoraDefeat: @ 826C96E
-	.string "Even though I lost, I still like battling\n"
-	.string "the best!$"
-
-Route110_TrickHousePuzzle4_Text_CoraPostBattle: @ 826C9A2
-	.string "Wouldn't you agree? You would go\n"
-	.string "anywhere if TRAINERS were there.$"
 
 Route110_TrickHousePuzzle4_Text_YujiIntro: @ 826C9E4
 	.string "Heh! Boulders like this, I can brush\n"

@@ -5622,8 +5622,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy1[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Cora[] = {
     {
     .iv = 100,
-    .lvl = 27,
-    .species = SPECIES_MEDITITE,
+    .lvl = 23,
+    .species = SPECIES_BRELOOM,
     }
 };
 
@@ -7541,6 +7541,19 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenny[] = {
     }
 };
 
+static const struct TrainerMonNoItemDefaultMoves sParty_Cristin[] = {
+    {
+    .iv = 50,
+    .lvl = 16,
+    .species = SPECIES_WHISMUR,
+    },
+    {
+    .iv = 50,
+    .lvl = 16,
+    .species = SPECIES_SLAKOTH,
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Camron[] = {
     {
     .iv = 0,
@@ -9435,12 +9448,12 @@ static const struct TrainerMonItemDefaultMoves sParty_Kaleb[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Joseph[] = {
     {
     .iv = 0,
-    .lvl = 14,
+    .lvl = 22,
     .species = SPECIES_ELECTRIKE,
     },
     {
     .iv = 0,
-    .lvl = 14,
+    .lvl = 22,
     .species = SPECIES_VOLTORB,
     }
 };

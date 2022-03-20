@@ -495,6 +495,52 @@ Route8_Text_NathanPostBattle:
 	.string "Life in a crammed apartment doesn't\n"
 	.string "really suit me…$"
 
+Route9_Text_CristinIntro:
+	.string "{COLOR}{RED}You think you can just strut into my\n"
+	.string "quiet training spot?\p"
+	.string "No!\n"
+	.string "Not on my watch!$"
+
+Route9_Text_CristinDefeated:
+	.string "Shhhh!\n"
+	.string "Keep the noise down!$"
+
+Route9_Text_CristinPostBattle:
+	.string "{COLOR}{RED}Our battle disrupted the land and\n"
+	.string "caused Pidgey to fly from the trees.\p"
+	.string "Wah!\n"
+	.string "Now everyone will know where I am…$"
+
+Route9_Text_CoraIntro:
+	.string "{COLOR}{RED}My cousin won a Gold Symbol from the\n"
+	.string "Battle Frontier in Hoenn.\p"
+	.string "Are you scared, yet?\n"
+	.string "You should be!\p"
+	.string "He taught me everything he knows!$"
+
+Route9_Text_CoraDefeated:
+	.string "Theory can only take you so far…$"
+
+Route9_Text_CoraPostBattle:
+	.string "{COLOR}{RED}I learned a lot from our battle.\n"
+	.string "It taught me a lot.\p"
+	.string "In fact, it taught me more than my\n"
+	.string "cousin has ever taught me before…$"
+
+Route9_Text_JosephIntro:
+	.string "{COLOR}{BLUE}You wanna be as cool as me with all my\n"
+	.string "hot edges!\p"
+	.string "But you can't because you… Uh…\n"
+	.string "You ate too many hot wedges!$"
+
+Route9_Text_JosephDefeated:
+	.string "Whatever!\n"
+	.string "Rhyming is for nerds!$"
+
+Route9_Text_JosephPostBattle:
+	.string "{COLOR}{BLUE}If I scream my songs, then nobody will\n"
+	.string "notice that my lyrics suck!$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
@@ -1661,17 +1707,6 @@ Route110_Text_AlyssaDefeated: @ 82985F9
 Route110_Text_AlyssaPostBattle: @ 8298612
 	.string "Falling… Losing…\n"
 	.string "This is so humiliating for me!$"
-
-Route110_Text_JosephIntro: @ 8298642
-	.string "Okay! Full-throttle time! If you can't\n"
-	.string "groove, you get left behind!$"
-
-Route110_Text_JosephDefeated: @ 8298686
-	.string "You got into the groove all right…$"
-
-Route110_Text_JosephPostBattle: @ 82986A9
-	.string "This isn't going to bring me down!\n"
-	.string "Losing has made me a better man!$"
 
 Route110_Text_KalebIntro: @ 82986ED
 	.string "When cute POKéMON help each other…\n"

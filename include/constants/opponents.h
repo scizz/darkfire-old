@@ -429,7 +429,7 @@
 #define TRAINER_JOCELYN                     425
 #define TRAINER_LAURA                       426
 #define TRAINER_CYNDY_1                     427
-#define TRAINER_CORA                        428
+#define TRAINER_CORA                        428 // Darkfire Trainer
 #define TRAINER_PAULA                       429
 #define TRAINER_CYNDY_2                     430
 #define TRAINER_CYNDY_3                     431
@@ -563,7 +563,7 @@
 #define TRAINER_MARTA                       559 // Darkfire Trainer
 #define TRAINER_LIANA                       560 // Darkfire Trainer
 #define TRAINER_JENNY                       561 // Darkfire Trainer
-#define TRAINER_UNUSED_562                  562 // UNUSED
+#define TRAINER_CRISTIN                     562 // Darkfire Trainer
 #define TRAINER_UNUSED_563                  563 // UNUSED
 #define TRAINER_UNUSED_564                  564 // UNUSED
 #define TRAINER_UNUSED_565                  565 // UNUSED
@@ -701,7 +701,7 @@
 #define TRAINER_HAILEY                      697
 #define TRAINER_CHANDLER                    698
 #define TRAINER_KALEB                       699
-#define TRAINER_JOSEPH                      700
+#define TRAINER_JOSEPH                      700 // Darkfire Trainer
 #define TRAINER_ALYSSA                      701
 #define TRAINER_MARCOS                      702
 #define TRAINER_RHETT                       703 // Darkfire Trainer

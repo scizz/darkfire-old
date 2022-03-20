@@ -668,8 +668,8 @@
 #define FLAG_GREENDALE_VILLAGE_GREAT_BALL   0x272
 #define FLAG_ROUTE_4_MOOMOO_MILK            0x273
 #define FLAG_ROUTE_6_FRESH_WATER            0x274
+#define FLAG_ROUTE_9_AERIAL_ACE             0x275
 
-#define FLAG_UNUSED_0x275                   0x275 // Unused Flag
 #define FLAG_UNUSED_0x276                   0x276 // Unused Flag
 #define FLAG_UNUSED_0x277                   0x277 // Unused Flag
 #define FLAG_UNUSED_0x278                   0x278 // Unused Flag
@@ -1073,9 +1073,9 @@
 #define FLAG_ITEM_ROUTE_7_CARBOS                                    0x400 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_8_X_ATTACK                                  0x401 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_8_TM_27                                     0x402 // Darkfire Flag
-#define FLAG_ITEM_ROUTE_119_LEAF_STONE                              0x403
-#define FLAG_ITEM_ROUTE_119_RARE_CANDY                              0x404
-#define FLAG_ITEM_ROUTE_119_HYPER_POTION_1                          0x405
+#define FLAG_ITEM_ROUTE_9_ULTRA_BALL                                0x403 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_9_FULL_HEAL                                 0x404 // Darkfire Flag
+#define FLAG_ITEM_ROUTE_9_SUPER_POTION                              0x405 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_120_NUGGET                                  0x406
 #define FLAG_ITEM_ROUTE_120_FULL_HEAL                               0x407
 #define FLAG_ITEM_ROUTE_123_CALCIUM                                 0x408
