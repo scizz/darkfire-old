@@ -23,11 +23,6 @@ Route110_TrickHousePuzzle1_EventScript_FoundScroll:: @ 826B93D
 	goto Route110_TrickHousePuzzle_EventScript_FoundScroll
 	end
 
-Route110_TrickHousePuzzle1_EventScript_Sally:: @ 826B948
-	trainerbattle_single TRAINER_SALLY, Route110_TrickHousePuzzle1_Text_SallyIntro, Route110_TrickHousePuzzle1_Text_SallyDefeat
-	msgbox Route110_TrickHousePuzzle1_Text_SallyPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route110_TrickHousePuzzle1_EventScript_Eddie:: @ 826B95F
 	trainerbattle_single TRAINER_EDDIE, Route110_TrickHousePuzzle1_Text_EddieIntro, Route110_TrickHousePuzzle1_Text_EddieDefeat
 	msgbox Route110_TrickHousePuzzle1_Text_EddiePostBattle, MSGBOX_AUTOCLOSE
@@ -44,17 +39,6 @@ Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened:: @ 826B98D
 	.string "“TRICK MASTER is fabulous.”\n"
 	.string "… … … … … … … …\p"
 	.string "The lock clicked open!$"
-
-Route110_TrickHousePuzzle1_Text_SallyIntro: @ 826B9FB
-	.string "I'll hack and slash my way to victory\n"
-	.string "with the CUT we just learned!$"
-
-Route110_TrickHousePuzzle1_Text_SallyDefeat: @ 826BA3F
-	.string "Why are you so serious?$"
-
-Route110_TrickHousePuzzle1_Text_SallyPostBattle: @ 826BA57
-	.string "I never get tired of hacking\n"
-	.string "and slashing!$"
 
 Route110_TrickHousePuzzle1_Text_EddieIntro: @ 826BA82
 	.string "I wandered into this weird house\n"

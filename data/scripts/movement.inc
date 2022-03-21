@@ -80,6 +80,10 @@ Common_Movement_WalkInPlaceSlowRight:
 	walk_in_place_slow_right
 	step_end
 
+Common_Movement_WalkInPlaceSlowUp:
+	walk_in_place_slow_up
+	step_end
+
 Common_Movement_WalkUp6: @ 82725BA
 	walk_up
 	walk_up
@@ -102,11 +106,5 @@ Common_Movement_Delay32: @ 82725C6
 	step_end
 
 Common_Movement_WalkUp: @ 82725C9
-	walk_up
-	step_end
-
-@ Unused
-Common_Movement_WalkUp2:: @ 82725CB
-	walk_up
 	walk_up
 	step_end

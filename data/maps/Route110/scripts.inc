@@ -206,11 +206,6 @@ Route110_EventScript_Dale:: @ 81EF482
 	msgbox Route110_Text_DalePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route110_EventScript_Anthony:: @ 81EF4B0
-	trainerbattle_single TRAINER_ANTHONY, Route110_Text_AnthonyIntro, Route110_Text_AnthonyDefeated
-	msgbox Route110_Text_AnthonyPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route110_EventScript_Benjamin:: @ 81EF4C7
 	trainerbattle_single TRAINER_BENJAMIN_1, Route110_Text_BenjaminIntro, Route110_Text_BenjaminDefeated, Route110_EventScript_BenjaminRegisterMatchCallAfterBattle
 	specialvar VAR_RESULT, ShouldTryRematchBattle
@@ -288,11 +283,6 @@ Route110_EventScript_Timmy:: @ 81EF604
 	end
 
 Route110_EventScript_Unused:: @ 81EF61B
-	end
-
-Route110_EventScript_Kaleb:: @ 81EF61C
-	trainerbattle_single TRAINER_KALEB, Route110_Text_KalebIntro, Route110_Text_KalebDefeated
-	msgbox Route110_Text_KalebPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_Alyssa:: @ 81EF64A

@@ -190,12 +190,12 @@ Route119_EventScript_ItemElixir2:: @ 8290F3B
 	finditem ITEM_ELIXIR
 	end
 
-Route120_EventScript_ItemNugget:: @ 8290F48
-	finditem ITEM_NUGGET
+Route10_EventScript_ItemRepel:: 
+	finditem ITEM_REPEL
 	end
 
-Route120_EventScript_ItemFullHeal:: @ 8290F55
-	finditem ITEM_FULL_HEAL
+Route10_EventScript_ItemEther:: 
+	finditem ITEM_ETHER
 	end
 
 Route120_EventScript_ItemHyperPotion:: @ 8290F62
@@ -222,8 +222,12 @@ Route121_EventScript_ItemZinc:: @ 8290FA3
 	finditem ITEM_ZINC
 	end
 
-Route123_EventScript_ItemCalcium:: @ 8290FB0
-	finditem ITEM_CALCIUM
+Route10_EventScript_ItemRevive::
+	finditem ITEM_REVIVE
+	end
+
+Route10_EventScript_ItemPotion::
+	finditem ITEM_POTION
 	end
 
 Route123_EventScript_ItemUltraBall:: @ 8290FBD

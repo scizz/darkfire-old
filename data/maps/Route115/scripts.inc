@@ -112,11 +112,6 @@ Route115_EventScript_Hector:: @ 81F2ACB
 	msgbox Route115_Text_HectorPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route115_EventScript_Kyra:: @ 81F2AE2
-	trainerbattle_single TRAINER_KYRA, Route115_Text_KyraIntro, Route115_Text_KyraDefeat
-	msgbox Route115_Text_KyraPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route115_EventScript_Jaiden:: @ 81F2AF9
 	trainerbattle_single TRAINER_JAIDEN, Route115_Text_JaidenIntro, Route115_Text_JaidenDefeat
 	msgbox Route115_Text_JaidenPostBattle, MSGBOX_AUTOCLOSE

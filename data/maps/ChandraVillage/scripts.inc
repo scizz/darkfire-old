@@ -21,7 +21,7 @@ ChandraVillage_Fat_Guy::
 	end
 
 ChandraVillage_Old_Man::
-	lock
+	lockall
 	faceplayer
 	msgbox ChandraVillage_Structure, MSGBOX_NPC
 	applymovement 8, Common_Movement_FaceUp
@@ -35,7 +35,7 @@ ChandraVillage_Old_Man::
 	msgbox ChandraVillage_Dusclops, MSGBOX_NPC
 	applymovement 8, Common_Movement_FaceUp
 	waitmovement 0
-	release
+	releaseall
 	end
 
 ChandraVillage_Truck_Boy::
@@ -59,14 +59,14 @@ ChandraVillage_Town_Sign::
 	end
 
 ChandraVillage_Joker::
-    lock
+	lockall
 	faceplayer
 	goto_if_set FLAG_RECEIVED_POKE_BALL_CHANDRA, ChandraVillage_Joker_Received
 	msgbox ChandraVillage_Joker_Question, MSGBOX_YESNO
 	compare VAR_RESULT, YES
 	goto_if_eq ChandraVillage_Joker_Yes
 	msgbox ChandraVillage_Joker_No, MSGBOX_DEFAULT
-	release
+	releaseall
 	end
 
 ChandraVillage_Joker_Yes::
@@ -76,7 +76,7 @@ ChandraVillage_Joker_Yes::
 	goto_if_eq Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_POKE_BALL_CHANDRA
 	msgbox ChandraVillage_Joker_Gift, MSGBOX_DEFAULT
-	release
+	releaseall
 	end
 
 ChandraVillage_Joker_Received::

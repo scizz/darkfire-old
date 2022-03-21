@@ -541,6 +541,85 @@ Route9_Text_JosephPostBattle:
 	.string "{COLOR}{BLUE}If I scream my songs, then nobody will\n"
 	.string "notice that my lyrics suck!$"
 
+Route10_Text_CarterIntro:
+	.string "{COLOR}{BLUE}Welcome to Saltwater Bay!\p"
+	.string "You're my first catch of the day!\n"
+	.string "Gwahaha!$"
+
+Route10_Text_CarterDefeated:
+	.string "Urk…\n"
+	.string "I caught nothing but a thrashing.$"
+
+Route10_Text_CarterPostBattle:
+	.string "I was too eager and lost a battle…\n"
+	.string "Good things come to those who bait!$"
+
+Route10_Text_SarahIntro:
+	.string "{COLOR}{RED}I challenge you on behalf of the\n"
+	.string "Pokémon Breeders of Pinleaf Town!$"
+
+Route10_Text_SarahDefeated:
+	.string "But… Oh…\n"
+	.string "I thought I had it.$"
+
+Route10_Text_SarahPostBattle:
+	.string "{COLOR}{RED}Us Breeders who live in Pinleaf Town\n"
+	.string "are in constant competition with the\l"
+	.string "Breeders over at Greendale Village!$"
+
+Route10_Text_AnnyIntro:
+	.string "{COLOR}{RED}Heard the SUBO took over Farmond City,\n"
+	.string "renamed it to Mayhem City and turned it\l"
+	.string "into an ideal playground for Trainers!\p"
+	.string "My secret?\p"
+	.string "…\n"
+	.string "I wish I could join them!$"
+
+Route10_Text_AnnyDefeated:
+	.string "Ugh… I wouldn't last a second in\n"
+	.string "Mayhem City with this team!$"
+
+Route10_Text_AnnyPostBattle:
+	.string "{COLOR}{RED}They don't just let anybody get into\n"
+	.string "Mayhem City, only hotshot Trainers.\p"
+	.string "Maybe you have a chance!$"
+
+Route10_Text_MichaelIntro:
+	.string "{COLOR}{BLUE}Check out my bike!\n"
+	.string "It's brand new and shiny!$"
+
+Route10_Text_MichaelDefeated:
+	.string "Bikes can't help you in battle, it\n"
+	.string "appears…$"
+
+Route10_Text_MichaelPostBattle:
+	.string "{COLOR}{BLUE}I often cycle in one of Farmond City's\n"
+	.string "roads, but it looks too dangerous now.$"
+
+Route10_Text_EmilyIntro:
+	.string "{COLOR}{RED}Train, train, train is all I do!\n"
+	.string "I only battle to win!$"
+
+Route10_Text_EmilyDefeated:
+	.string "…\n"
+	.string "Back to training it is, then.$"
+
+Route10_Text_EmilyPostBattle:
+	.string "{COLOR}{RED}Crying over a loss is a waste of time.\n"
+	.string "I'm going back to my training!$"
+
+Route10_Text_KalebIntro:
+	.string "{COLOR}{BLUE}Trainer!\p"
+	.string "Let's put up our teams against each\n"
+	.string "other and see who comes out on top!$"
+
+Route10_Text_KalebDefeated:
+	.string "Gruesome…$"
+
+Route10_Text_KalebPostBattle:
+	.string "{COLOR}{BLUE}I love collecting Pokémon, but I've\n"
+	.string "always had trouble in Pokémon battles.$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
@@ -1419,17 +1498,6 @@ Route109_Text_GwenDefeated: @ 8297691
 Route109_Text_GwenPostBattle: @ 82976A4
 	.string "How did you get to be so strong?$"
 
-Route109_Text_CarterIntro: @ 82976C5
-	.string "Wahahah! This dude's going to catch\n"
-	.string "himself a big one!$"
-
-Route109_Text_CarterDefeated: @ 82976FC
-	.string "This dude just lost one…$"
-
-Route109_Text_CarterPostBattle: @ 8297715
-	.string "This dude thinks you're a big one.\n"
-	.string "No, you're a big-one-to-be!$"
-
 Route109_Text_PaulIntro: @ 8297754
 	.string "PAUL: Well, this is a mood-breaker.\p"
 	.string "I wish you wouldn't disturb our\n"
@@ -1513,17 +1581,6 @@ Route110_Text_JacobPostBattle: @ 8297B8F
 	.string "Flat tires and brake problems can\n"
 	.string "cause serious injury!\l"
 	.string "Inspect your BIKE for problems!$"
-
-Route110_Text_AnthonyIntro: @ 8297BE7
-	.string "Yo, you!\n"
-	.string "Can you keep up with my speed?$"
-
-Route110_Text_AnthonyDefeated: @ 8297C0F
-	.string "Crash and burn!$"
-
-Route110_Text_AnthonyPostBattle: @ 8297C1F
-	.string "Speed alone won't let me win at POKéMON.\n"
-	.string "I need to reconsider this…$"
 
 Route110_Text_BenjaminIntro: @ 8297C63
 	.string "Don't panic if your BIKE's going fast!$"
@@ -1707,17 +1764,6 @@ Route110_Text_AlyssaDefeated: @ 82985F9
 Route110_Text_AlyssaPostBattle: @ 8298612
 	.string "Falling… Losing…\n"
 	.string "This is so humiliating for me!$"
-
-Route110_Text_KalebIntro: @ 82986ED
-	.string "When cute POKéMON help each other…\n"
-	.string "You won't see a more adorable sight!$"
-
-Route110_Text_KalebDefeated: @ 8298735
-	.string "Have you no compassion or pity?$"
-
-Route110_Text_KalebPostBattle: @ 8298755
-	.string "Okay, okay, you've done the best you\n"
-	.string "could, my pretties.$"
 
 Route111_Text_DrewIntro: @ 829878E
 	.string "Oh, hey! Those GO-GOGGLES suit you.\n"
@@ -2546,18 +2592,6 @@ Route115_Text_HectorPostBattle: @ 829B7EA
 	.string "I have this rare POKéMON.\n"
 	.string "It's enough to keep me satisfied.$"
 
-Route115_Text_KyraIntro: @ 829B826
-	.string "I'll battle while I'm running!\n"
-	.string "Try to keep up with me!$"
-
-Route115_Text_KyraDefeat: @ 829B85D
-	.string "Gasp, gasp…$"
-
-Route115_Text_KyraPostBattle: @ 829B869
-	.string "I made the mistake of trying to battle\n"
-	.string "while running!\p"
-	.string "I should take a run to calm down…$"
-
 Route115_Text_JaidenIntro: @ 829B8C1
 	.string "Take that!\n"
 	.string "Ultra POKéMON ninja attack!$"
@@ -2711,20 +2745,6 @@ Route116_Text_KarenRematchDefeat: @ 829C11F
 Route116_Text_KarenPostRematch: @ 829C13B
 	.string "You've beaten ROXANNE?\n"
 	.string "I can't beat you, then. Not yet.$"
-
-Route116_Text_SarahIntro: @ 829C173
-	.string "Just so you know, I've never once been\n"
-	.string "bested by anyone at anything.$"
-
-Route116_Text_SarahDefeat: @ 829C1B8
-	.string "Oh, my goodness.\n"
-	.string "This is a new experience for me.$"
-
-Route116_Text_SarahPostBattle: @ 829C1EA
-	.string "My life of luxury affords me all that\n"
-	.string "I could possibly desire.\p"
-	.string "However, when it comes to POKéMON,\n"
-	.string "my wealth has no meaning.$"
 
 Route116_Text_DawsonIntro: @ 829C266
 	.string "When you lay your eyes on my POKéMON's\n"

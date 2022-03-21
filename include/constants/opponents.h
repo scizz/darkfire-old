@@ -346,14 +346,14 @@
 #define TRAINER_NOLAN                       342
 #define TRAINER_BARNY                       343
 #define TRAINER_WADE                        344
-#define TRAINER_CARTER                      345
+#define TRAINER_CARTER                      345 // Darkfire Trainer
 #define TRAINER_ELLIOT_2                    346
 #define TRAINER_ELLIOT_3                    347
 #define TRAINER_ELLIOT_4                    348
 #define TRAINER_ELLIOT_5                    349
 #define TRAINER_RONALD                      350
 #define TRAINER_FRED                        351 // Darkfire Trainer
-#define TRAINER_ANTHONY                     352
+#define TRAINER_MICHAEL                     352 // Darkfire Trainer
 #define TRAINER_BENJAMIN_1                  353
 #define TRAINER_BENJAMIN_2                  354
 #define TRAINER_BENJAMIN_3                  355
@@ -612,7 +612,7 @@
 #define TRAINER_HALEY_3                     608
 #define TRAINER_HALEY_4                     609
 #define TRAINER_HALEY_5                     610
-#define TRAINER_SALLY                       611
+#define TRAINER_ANNY                        611 // Darkfire Trainer
 #define TRAINER_ROBIN                       612
 #define TRAINER_ANDREA                      613
 #define TRAINER_CRISSY                      614
@@ -696,11 +696,11 @@
 #define TRAINER_LISA_AND_RAY                692
 #define TRAINER_CHRIS                       693
 #define TRAINER_DAWSON                      694
-#define TRAINER_SARAH                       695
+#define TRAINER_SARAH                       695 // Darkfire Trainer
 #define TRAINER_DARIAN                      696
 #define TRAINER_HAILEY                      697
 #define TRAINER_CHANDLER                    698
-#define TRAINER_KALEB                       699
+#define TRAINER_KALEB                       699 // Darkfire Trainer
 #define TRAINER_JOSEPH                      700 // Darkfire Trainer
 #define TRAINER_ALYSSA                      701
 #define TRAINER_MARCOS                      702
@@ -749,7 +749,7 @@
 #define TRAINER_BRANDEN                     745
 #define TRAINER_BRYANT                      746
 #define TRAINER_SHAYLA                      747
-#define TRAINER_KYRA                        748
+#define TRAINER_EMILY                       748 // Darkfire Trainer
 #define TRAINER_JAIDEN                      749
 #define TRAINER_ALIX                        750
 #define TRAINER_HELENE                      751
