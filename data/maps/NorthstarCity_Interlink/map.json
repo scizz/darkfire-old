@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Interlink_Chef",
       "flag": "0"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Interlink_Sailor",
       "flag": "0"
     }
   ],
@@ -95,7 +95,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "LilycoveCity_DepartmentStoreRooftop_EventScript_VendingMachine"
     },
     {
       "type": "sign",
@@ -103,7 +103,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "LilycoveCity_DepartmentStoreRooftop_EventScript_VendingMachine"
     }
   ]
 }
