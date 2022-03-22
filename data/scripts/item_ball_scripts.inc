@@ -70,8 +70,8 @@ Route5_EventScript_ItemSuperPotion::
 	finditem ITEM_SUPER_POTION
 	end
 
-Route111_EventScript_ItemElixir:: @ 8290DC2
-	finditem ITEM_ELIXIR
+HighwindVillage_EventScript_ItemSodaPop::
+	finditem ITEM_SODA_POP
 	end
 
 Route5_EventScript_ItemRepeatBall::
