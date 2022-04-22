@@ -17,6 +17,11 @@
       "direction": "right",
       "offset": 19,
       "map": "MAP_MIRANIA_TOWN"
+    },
+    {
+      "direction": "left",
+      "offset": -9,
+      "map": "MAP_CHANDRA_VILLAGE"
     }
   ],
   "object_events": [
