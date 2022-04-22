@@ -89,7 +89,7 @@ NorthstarCity_ShippingCenter_Text_Nerd_1:
 	.string "That's why I'm an engineer!$"
 
 NorthstarCity_ShippingCenter_Text_Maniac:
-	.string "{COLOR}{BLUE}There are places in the Tenjo region\n"
+	.string "There are places in the Tenjo region\n"
 	.string "that are still completely unexplored.\p"
 	.string "Who knows what could be lurking\n"
 	.string "there…$"
