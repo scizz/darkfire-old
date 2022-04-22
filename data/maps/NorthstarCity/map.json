@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Youngster",
       "flag": "0"
     },
     {
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Thug",
       "flag": "0"
     },
     {
@@ -115,20 +115,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
-      "x": 46,
-      "y": 44,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Nerd",
       "flag": "0"
     },
     {
@@ -141,7 +128,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_SUBO_1",
       "flag": "0"
     },
     {
@@ -154,7 +141,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Guitarist",
       "flag": "0"
     },
     {
@@ -167,7 +154,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Fat_Man",
       "flag": "0"
     },
     {
@@ -180,7 +167,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_SUBO_2",
       "flag": "0"
     },
     {
@@ -193,7 +180,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Old_Man_2",
       "flag": "0"
     },
     {
@@ -219,7 +206,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Ace_Trainer",
       "flag": "0"
     },
     {
@@ -232,7 +219,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Girl",
       "flag": "0"
     },
     {
@@ -245,7 +232,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_PokeFan_M",
       "flag": "0"
     },
     {
@@ -271,7 +258,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Woman_3",
       "flag": "0"
     },
     {
@@ -284,7 +271,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Fisherman",
       "flag": "0"
     },
     {
@@ -297,7 +284,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Sailor_1",
       "flag": "0"
     },
     {
@@ -310,7 +297,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Sailor_5",
       "flag": "0"
     },
     {
@@ -323,7 +310,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Sailor_3",
       "flag": "0"
     },
     {
@@ -336,7 +323,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Sailor_4",
       "flag": "0"
     },
     {
@@ -440,7 +427,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_SUBO_3",
       "flag": "0"
     },
     {
@@ -453,7 +440,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NorthstarCity_Sailor_2",
       "flag": "0"
     },
     {
@@ -620,7 +607,7 @@
       "y": 47,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": ""
     },
     {
       "type": "sign",
