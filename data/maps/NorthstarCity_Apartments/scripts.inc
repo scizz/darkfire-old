@@ -21,10 +21,6 @@ NorthstarCity_Apartments_Picnicker::
 	msgbox NorthstarCity_Apartments_Text_Picnicker, MSGBOX_NPC
 	end
 
-NorthstarCity_Apartments_Nerd::
-	msgbox NorthstarCity_Apartments_Text_Nerd, MSGBOX_NPC
-	end
-
 NorthstarCity_Apartments_Chef::
 	msgbox NorthstarCity_Apartments_Text_Chef, MSGBOX_NPC
 	end
@@ -82,8 +78,6 @@ NorthstarCity_Apartments_Text_Picnicker:
 	.string "{COLOR}{RED}I have a huge fear of bugs…\p"
 	.string "Thankfully, they don't usually show\n"
 	.string "up in these climates!$"
-
-NorthstarCity_Apartments_Text_Nerd:
 
 NorthstarCity_Apartments_Text_Chef:
 	.string "{COLOR}{BLUE}The best job is the one I have: Ship's\n"
