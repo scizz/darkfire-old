@@ -671,9 +671,9 @@
 #define FLAG_ROUTE_9_AERIAL_ACE             0x275
 #define FLAG_RECEIVED_NORTHSTAR_SHIPPING_SUPER_POTION                   0x276
 #define FLAG_RECEIVED_NORTHSTAR_GREAT_BALL                              0x277
+#define FLAG_RECEIVED_DIG_TM                0x278
+#define FLAG_NORTHSTAR_TOURNAMENT_NUGGET    0x279
 
-#define FLAG_UNUSED_0x278                   0x278 // Unused Flag
-#define FLAG_UNUSED_0x279                   0x279 // Unused Flag
 #define FLAG_UNUSED_0x27A                   0x27A // Unused Flag
 #define FLAG_UNUSED_0x27B                   0x27B // Unused Flag
 #define FLAG_UNUSED_0x27C                   0x27C // Unused Flag
@@ -1080,7 +1080,7 @@
 #define FLAG_ITEM_ROUTE_10_ETHER                                    0x407 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_10_REVIVE                                   0x408 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_10_POTION                                   0x409 // Darkfire Flag
-#define FLAG_ITEM_ROUTE_127_ZINC                                    0x40A
+#define FLAG_ITEM_NORTHSTAR_CITY_NEST_BALL                          0x40A // Darkfire Flag
 #define FLAG_ITEM_ROUTE_127_CARBOS                                  0x40B
 #define FLAG_ITEM_ROUTE_132_RARE_CANDY                              0x40C
 #define FLAG_ITEM_ROUTE_133_BIG_PEARL                               0x40D

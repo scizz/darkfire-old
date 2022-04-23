@@ -266,8 +266,8 @@ Route126_EventScript_ItemGreenShard:: @ 8291025
 	finditem ITEM_GREEN_SHARD
 	end
 
-Route127_EventScript_ItemZinc:: @ 8291032
-	finditem ITEM_ZINC
+NorthstarCity_EventScript_ItemNestBall::
+	finditem ITEM_NEST_BALL
 	end
 
 Route127_EventScript_ItemCarbos:: @ 829103F
