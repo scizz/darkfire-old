@@ -673,8 +673,8 @@
 #define FLAG_RECEIVED_NORTHSTAR_GREAT_BALL                              0x277
 #define FLAG_RECEIVED_DIG_TM                0x278
 #define FLAG_NORTHSTAR_TOURNAMENT_NUGGET    0x279
+#define FLAG_RECEIVED_PINLEAF_PP_UP         0x27A
 
-#define FLAG_UNUSED_0x27A                   0x27A // Unused Flag
 #define FLAG_UNUSED_0x27B                   0x27B // Unused Flag
 #define FLAG_UNUSED_0x27C                   0x27C // Unused Flag
 #define FLAG_UNUSED_0x27D                   0x27D // Unused Flag
