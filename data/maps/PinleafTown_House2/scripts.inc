@@ -2,11 +2,11 @@ PinleafTown_House2_MapScripts::
 	.byte 0
 
 PinleafTown_House2_Man::
-	msgbox PinleafTown_House2_Text_Old_Man, MSGBOX_NPC
+	msgbox PinleafTown_House2_Text_Man, MSGBOX_NPC
 	end
 
 PinleafTown_House2_Little_Boy::
-	msgbox PinleafTown_House2_Text_Old_Woman, MSGBOX_NPC
+	msgbox PinleafTown_House2_Text_Little_Boy, MSGBOX_NPC
 	end
 
 PinleafTown_House2_Text_Man:
