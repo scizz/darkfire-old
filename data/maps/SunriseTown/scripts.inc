@@ -149,7 +149,7 @@ SunriseTown_Cook_Talked_To::
 	applymovement 4, RunAway
 	waitmovement 0
 	removeobject 4
-    setflag FLAG_SUNRISE_TOWN_FAT_GUY
+	setflag FLAG_SUNRISE_TOWN_FAT_GUY
 	release
 	end
 
@@ -168,7 +168,7 @@ SunriseTown_Little_Girl_Text:
 	.string "can't…$"
 
 SunriseTown_Little_Girl_Beach_Clear:
-    .string "{COLOR}{RED}What? You got rid of all the Krabby?\n"
+	.string "{COLOR}{RED}What? You got rid of all the Krabby?\n"
 	.string "Oh my goodness! Thank you so much!$"
 
 SunriseTown_Little_Girl_Play:

@@ -4,7 +4,7 @@ PinleafTown_FlowerShop_MapScripts::
 PinleafTown_FlowerShop_Girl::
 	lockall
 	faceplayer
-	goto_if_set FLAG_RECEIVED_PINLEAF_BERRY, PinleafTown_FlowerShop_Girl_Given
+	goto_if_set FLAG_RECEIVED_PINLEAF_LUM_BERRY, PinleafTown_FlowerShop_Girl_Given
 	msgbox PinleafTown_FlowerShop_Text_Girl, MSGBOX_DEFAULT
 	giveitem ITEM_LUM_BERRY, 1
 	compare VAR_RESULT, FALSE
