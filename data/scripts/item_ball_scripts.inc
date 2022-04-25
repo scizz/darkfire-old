@@ -54,8 +54,8 @@ Route4_EventScript_ItemXAccuracy::
 	finditem ITEM_X_ACCURACY
 	end
 
-Route110_EventScript_ItemElixir:: @ 8290D8E
-	finditem ITEM_ELIXIR
+PinleafTown_EventScript_ItemMaxRevive::
+	finditem ITEM_MAX_REVIVE
 	end
 
 Route5_EventScript_ItemEXPShare::

@@ -676,8 +676,8 @@
 #define FLAG_RECEIVED_PINLEAF_PP_UP         0x27A
 #define FLAG_RECEIVED_PINLEAF_HP_UP         0x27B
 #define FLAG_UNUSED_0x27C                   0x27C // Unused Flag
+#define FLAG_RECEIVED_PINLEAF_LUM_BERRY     0x27D
 
-#define FLAG_UNUSED_0x27D                   0x27D // Unused Flag
 #define FLAG_UNUSED_0x27E                   0x27E // Unused Flag
 #define FLAG_UNUSED_0x27F                   0x27F // Unused Flag
 #define FLAG_UNUSED_0x280                   0x280 // Unused Flag
@@ -1187,7 +1187,7 @@
 #define FLAG_UNUSED_0x472                                           0x472 // Unused Flag
 #define FLAG_ITEM_ROUTE_4_PP_UP                                     0x473 // Darkfire Flag
 #define FLAG_UNUSED_0x474                                           0x474 // Unused Flag
-#define FLAG_ITEM_ROUTE_110_ELIXIR                                  0x475
+#define FLAG_ITEM_PINLEAF_TOWN_MAX_REVIVE                           0x475 // Darkfire Flag
 #define FLAG_ITEM_HIGHWIND_VILLAGE_SODA_POP                         0x476 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_113_HYPER_POTION                            0x477
 #define FLAG_ITEM_ROUTE_115_HEAL_POWDER                             0x478
