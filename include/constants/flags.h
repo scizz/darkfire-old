@@ -675,9 +675,9 @@
 #define FLAG_NORTHSTAR_TOURNAMENT_NUGGET    0x279
 #define FLAG_RECEIVED_PINLEAF_PP_UP         0x27A
 #define FLAG_RECEIVED_PINLEAF_HP_UP         0x27B
-#define FLAG_UNUSED_0x27C                   0x27C // Unused Flag
+#define FLAG_UNUSED_0x27C                   0x27C // Unused Flag ANHEIM TOWN HOUSE 3
 #define FLAG_RECEIVED_PINLEAF_LUM_BERRY     0x27D
-#define FLAG_UNUSED_0x27E                   0x27E // Unused Flag
+#define FLAG_UNION_CITY_TM_BULK_UP          0x27E
 #define FLAG_ROUTE_3_QUEST_DELIVERED        0x27F
 #define FLAG_ROUTE_3_QUEST_STARTED          0x280
 #define FLAG_ROUTE_3_QUEST_COMPLETED        0x281
