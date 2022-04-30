@@ -561,14 +561,14 @@
       "x": 48,
       "y": 50,
       "elevation": 0,
-      "dest_map": "MAP_UNION_CITY_HOUSE1_1F",
+      "dest_map": "MAP_UNION_CITY_HOUSE2",
       "dest_warp_id": 0
     },
     {
       "x": 45,
-      "y": 30,
+      "y": 29,
       "elevation": 0,
-      "dest_map": "MAP_UNION_CITY_HOUSE2",
+      "dest_map": "MAP_UNION_CITY_HOUSE1_1F",
       "dest_warp_id": 0
     },
     {

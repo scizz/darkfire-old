@@ -682,8 +682,8 @@
 #define FLAG_ROUTE_3_QUEST_STARTED          0x280
 #define FLAG_ROUTE_3_QUEST_COMPLETED        0x281
 #define FLAG_ABANDONED_MUSEUM_COMPLETE      0x282
+#define FLAG_RECEIVED_POKE_BALL_UNION_CITY  0x283
 
-#define FLAG_UNUSED_0x283                   0x283 // Unused Flag
 #define FLAG_UNUSED_0x284                   0x284 // Unused Flag
 #define FLAG_UNUSED_0x285                   0x285 // Unused Flag
 #define FLAG_UNUSED_0x286                   0x286 // Unused Flag
