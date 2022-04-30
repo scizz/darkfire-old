@@ -24,6 +24,6 @@ UnionCity_DepartmentStore_4F_Text_Old_Man:
 	.string "It's no easy matter to decide which TM\n"
 	.string "moves should be taught to Pokémon…$"
 
-UnionCity_DepartmentStore_4F_Text_Bug_Catcher
+UnionCity_DepartmentStore_4F_Text_Bug_Catcher:
 	.string "{COLOR}{BLUE}The good thing is TMs never run out,\n"
 	.string "you can use them as much as you like!$"
