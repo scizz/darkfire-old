@@ -685,8 +685,8 @@
 #define FLAG_RECEIVED_POKE_BALL_UNION_CITY  0x283
 #define FLAG_UNION_CITY_BIKE_QUEST_BEGIN    0x284
 #define FLAG_RECEIVED_UNION_CITY_BIKE       0x285
+#define FLAG_RECEIVED_OLD_ROD_LAVERIA_CITY  0x286
 
-#define FLAG_UNUSED_0x286                   0x286 // Unused Flag
 #define FLAG_UNUSED_0x287                   0x287 // Unused Flag
 #define FLAG_UNUSED_0x288                   0x288 // Unused Flag
 #define FLAG_UNUSED_0x289                   0x289 // Unused Flag
