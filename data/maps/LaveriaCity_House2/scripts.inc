@@ -11,4 +11,4 @@ LaveriaCity_House2_Text_Old_Man:
 	.string "Pallid, as far as could see, I'd\n"
 	.string "lived with her during my fears.\p"
 	.string "Then one day she just left me,\n"
-	.string "Warmth returned, and I was free.$"
+	.string "warmth returned, and I was free.$"
