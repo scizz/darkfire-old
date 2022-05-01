@@ -760,9 +760,9 @@ MauvilleCity_GameCorner_Text_CantWinJackpot: @ 82107FB
 
 MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor: @ 8210830
 	.string "Hey, kid, if you want to play here,\n"
-	.string "you need a COIN CASE.\p"
-	.string "I think the young lady next door\n"
-	.string "had one. Go see her!$"
+	.string "you'll need a Coin Case.\p"
+	.string "I think the young man outside had one.\n"
+	.string "Go see him!$"
 
 MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins: @ 82108A0
 	.string "My luck can only last so long.\n"
@@ -798,10 +798,10 @@ MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed: @ 8210A51
 	.string "the SLOTS.$"
 
 MauvilleCity_GameCorner_Text_DifficultToStopOn7: @ 8210A82
-	.string "It's very difficult to make it stop\n"
+	.string "{COLOR}{BLUE}It's very difficult to make it stop\n"
 	.string "right on “7.”\p"
-	.string "If it stops on “7” during the REEL TIME\n"
-	.string "bonus game, you'll receive extra COINS.$"
+	.string "If it stops on “7” during the Reel Time\n"
+	.string "bonus game, you'll receive extra Coins.$"
 
 MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo: @ 8210B04
 	.string "Here's some information for you\n"
