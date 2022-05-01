@@ -48,22 +48,22 @@ MoveTutor_Text_RolloutTaught: @ 82C7133
 	.string "happy. Come on, let's roll!$"
 
 MoveTutor_Text_FuryCutterTeach: @ 82C7174
-	.string "There's a move that gets stronger\n"
+	.string "{COLOR}{BLUE}There's a move that gets stronger\n"
 	.string "when you keep using it in a row.\p"
-	.string "It's a BUG-type move, and it is\n"
+	.string "It's a Bug-type move, and it is\n"
 	.string "wickedly cool.\p"
-	.string "It's called FURY CUTTER.\n"
-	.string "Want me to teach it to a POKéMON?$"
+	.string "It's called Fury Cutter.\n"
+	.string "Want me to teach it to a Pokémon?$"
 
 MoveTutor_Text_FuryCutterDeclined: @ 82C7221
-	.string "We're not on the same wavelength.$"
+	.string "{COLOR}{BLUE}We're not on the same wavelength.$"
 
 MoveTutor_Text_FuryCutterWhichMon: @ 82C7243
-	.string "Yay!\n"
-	.string "Show me which POKéMON I should teach.$"
+	.string "{COLOR}{BLUE}Yay!\n"
+	.string "Show me which Pokémon I should teach.$"
 
 MoveTutor_Text_FuryCutterTaught: @ 82C726E
-	.string "I get a thrill watching to see if\n"
+	.string "{COLOR}{BLUE}I get a thrill watching to see if\n"
 	.string "the move keeps hitting in succession!$"
 
 MoveTutor_MimicTeach: @ 82C72B6
