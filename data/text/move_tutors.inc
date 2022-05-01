@@ -67,25 +67,25 @@ MoveTutor_Text_FuryCutterTaught: @ 82C726E
 	.string "the move keeps hitting in succession!$"
 
 MoveTutor_MimicTeach: @ 82C72B6
-	.string "Ah, young one!\p"
+	.string "{COLOR}{BLUE}Ah, young one!\p"
 	.string "I am also a young one, but I mimic\n"
 	.string "the styles and speech of the elderly\l"
 	.string "folks of this town.\p"
 	.string "What do you say, young one?\n"
 	.string "Would you agree to it if I were to\l"
-	.string "offer to teach the move MIMIC?$"
+	.string "offer to teach the move Mimic?$"
 
 MoveTutor_MimicDeclined: @ 82C737F
-	.string "Oh, boo! I wanted to teach MIMIC\n"
-	.string "to your POKéMON!$"
+	.string "{COLOR}{BLUE}Oh, boo! I wanted to teach Mimic\n"
+	.string "to your Pokémon!$"
 
 MoveTutor_Text_MimicWhichMon: @ 82C73B1
-	.string "Fwofwo! And so I shall!\n"
-	.string "Let me see the POKéMON\l"
+	.string "{COLOR}{BLUE}Fwofwo! And so I shall!\n"
+	.string "Let me see the Pokémon\l"
 	.string "you wish me to teach.$"
 
 MoveTutor_Text_MimicTaught: @ 82C73F6
-	.string "MIMIC is a move of great depth.\p"
+	.string "{COLOR}{BLUE}Mimic is a move of great depth.\p"
 	.string "Could you execute it to perfection\n"
 	.string "as well as me…?$"
 
