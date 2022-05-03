@@ -19,12 +19,12 @@
       "x": 5,
       "y": 10,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "PinleafTown_Inn_2F_Old_Man_TM_Rest",
       "flag": "0"
     }
   ],
@@ -61,7 +61,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route119_WeatherInstitute_1F_EventScript_Bed"
     },
     {
       "type": "sign",
@@ -69,7 +69,7 @@
       "y": 4,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route119_WeatherInstitute_1F_EventScript_Bed"
     },
     {
       "type": "sign",
@@ -77,7 +77,7 @@
       "y": 5,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route119_WeatherInstitute_1F_EventScript_Bed"
     },
     {
       "type": "sign",
@@ -85,15 +85,15 @@
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "inleafTown_Inn_2F_Sign_Door_Locked"
     },
     {
       "type": "hidden_item",
       "x": 6,
       "y": 2,
       "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_RARE_CANDY",
+      "flag": "FLAG_HIDDEN_ITEM_PINLEAF_TOWN_INN_2F_RARE_CANDY"
     }
   ]
 }
