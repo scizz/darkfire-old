@@ -85,7 +85,7 @@
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "inleafTown_Inn_2F_Sign_Door_Locked"
+      "script": "PinleafTown_Inn_2F_Sign_Door_Locked"
     },
     {
       "type": "hidden_item",
