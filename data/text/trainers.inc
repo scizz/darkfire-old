@@ -685,6 +685,20 @@ AnheimForest_Text_DougPostBattle:
 	.string "{COLOR}{BLUE}Don't be mad at me. I mastered the art\n"
 	.string "of trash talking in Union City.$"
 
+RockfallCave_1F_Text_DaveIntro:
+	.string "I climbed down the Steep Ravine\n"
+	.string "earlier. What an amazing spot!\p"
+	.string "This is why I'm a proud Hiker.$"
+
+RockfallCave_1F_Text_DaveDefeated:
+	.string "Aaah!\n"
+	.string "Cramp! Cramp!$"
+
+RockfallCave_1F_Text_DavePostBattle:
+	.string "You're very strong…\p"
+	.string "I say you must join a tournament or two\n"
+	.string "and go pro.$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
@@ -2309,21 +2323,6 @@ Route113_Text_SophiePostBattle: @ 829A529
 	.string "Losing burns me up…\n"
 	.string "I'm just going to sleep right here!\l"
 	.string "Zzz!$"
-
-Route114_Text_LennyIntro: @ 829A6B1
-	.string "Yodelayhihoo!\p"
-	.string "… …\p"
-	.string "You're supposed to shout\n"
-	.string "“yodelayhihoo” since it doesn't\l"
-	.string "echo here!$"
-
-Route114_Text_LennyDefeat: @ 829A707
-	.string "Yodelayhihoo!$"
-
-Route114_Text_LennyPostBattle: @ 829A715
-	.string "When I was a wee tyke, I believed there\n"
-	.string "was someone copying me and shouting\l"
-	.string "back, “Yodelayhihoo.”$"
 
 Route114_Text_LucasIntro: @ 829A777
 	.string "If you're not prepared, you shouldn't\n"

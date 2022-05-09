@@ -318,8 +318,8 @@ MauvilleCity_EventScript_ItemXSpeed:: @ 82910CE
 	finditem ITEM_X_SPEED
 	end
 
-RustboroCity_EventScript_ItemXDefend:: @ 82910DB
-	finditem ITEM_X_DEFENSE
+RockfallCave_1F_EventScript_ItemPokeBall::
+	finditem ITEM_POKE_BALL
 	end
 
 LilycoveCity_EventScript_ItemMaxRepel:: @ 82910E8

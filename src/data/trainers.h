@@ -8768,18 +8768,18 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemDefaultMoves = sParty_Trent1},
     },
 
-    [TRAINER_LENNY] =
+    [TRAINER_DAVE] =
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        .trainerName = _("LENNY"),
+        .trainerName = _("Dave"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = ARRAY_COUNT(sParty_Lenny),
-        .party = {.NoItemDefaultMoves = sParty_Lenny},
+        .partySize = ARRAY_COUNT(sParty_Dave),
+        .party = {.NoItemDefaultMoves = sParty_Dave},
     },
 
     [TRAINER_LUCAS_1] =

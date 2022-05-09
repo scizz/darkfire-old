@@ -629,7 +629,7 @@
 #define TRAINER_JAMES_5                     625
 #define TRAINER_LUCAS                       626 // Darkfire Trainer
 #define TRAINER_TRENT_1                     627
-#define TRAINER_LENNY                       628
+#define TRAINER_DAVE                        628 // Darkfire Trainer
 #define TRAINER_LUCAS_1                     629
 #define TRAINER_ALAN                        630
 #define TRAINER_CLARK                       631

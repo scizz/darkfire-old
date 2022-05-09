@@ -1087,8 +1087,8 @@
 #define FLAG_ITEM_ANHEIM_FOREST_ANTIDOTE                            0x40E // Darkfire Flag
 #define FLAG_ITEM_ANHEIM_FOREST_GREAT_BALL                          0x40F // Darkfire Flag
 #define FLAG_ITEM_ANHEIM_FOREST_POKE_BALL                           0x410 // Darkfire Flag
+#define FLAG_ITEM_ROCKFALL_CAVE_1F_POKE_BALL                        0x411 // Darkfire Flag
 
-#define FLAG_ITEM_RUSTBORO_CITY_X_DEFEND                            0x411
 #define FLAG_ITEM_LILYCOVE_CITY_MAX_REPEL                           0x412
 #define FLAG_ITEM_MOSSDEEP_CITY_NET_BALL                            0x413
 #define FLAG_ITEM_METEOR_FALLS_1F_1R_TM_23                          0x414
