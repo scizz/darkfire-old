@@ -148,11 +148,6 @@ Route123_EventScript_Jazmyn:: @ 81F638E
 	msgbox Route123_Text_JazmynPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route123_EventScript_Davis:: @ 81F63A5
-	trainerbattle_single TRAINER_DAVIS, Route123_Text_DavisIntro, Route123_Text_DavisDefeat
-	msgbox Route123_Text_DavisPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route123_EventScript_Fernando:: @ 81F63BC
 	trainerbattle_single TRAINER_FERNANDO_1, Route123_Text_FernandoIntro, Route123_Text_FernandoDefeat, Route123_EventScript_RegisterFernando
 	specialvar VAR_RESULT, ShouldTryRematchBattle

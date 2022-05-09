@@ -620,6 +620,71 @@ Route10_Text_KalebPostBattle:
 	.string "{COLOR}{BLUE}I love collecting Pokémon, but I've\n"
 	.string "always had trouble in Pokémon battles.$"
 
+AnheimForest_Text_MatthewIntro:
+	.string "{COLOR}{BLUE}Hey, hey!\p"
+	.string "I'm representing all Bug Catchers in\n"
+	.string "Tenjo, so you better show some respect!$"
+
+AnheimForest_Text_MatthewDefeated:
+	.string "Turns out I don't represent anybody\n"
+	.string "but myself…$"
+
+AnheimForest_Text_MatthewPostBattle:
+	.string "{COLOR}{BLUE}I once found a golden Caterpie in this\n"
+	.string "forest, but nobody believes me…$"
+
+AnheimForest_Text_LarryIntro:
+	.string "{COLOR}{BLUE}This forest is infested with Beedrill!\p"
+	.string "As a Ranger, I've been tasked with\n"
+	.string "keeping them at bay.\p"
+	.string "But I can never resist a call for\n"
+	.string "battle!$"
+
+AnheimForest_Text_LarryDefeated:
+	.string "My partners could not withstand your\n"
+	.string "attacks…$"
+
+AnheimForest_Text_LarryPostBattle:
+	.string "{COLOR}{BLUE}I'm all out of Pokémon…\p"
+	.string "How am I going to deal with the\n"
+	.string "Beedrill now?$"
+
+AnheimForest_Text_RobinIntro:
+	.string "{COLOR}{RED}My Pokémon got stuck in a web earlier!\n"
+	.string "Yuck!$"
+
+AnheimForest_Text_RobinDefeated:
+	.string "Nooo!\n"
+	.string "One disaster after another…$"
+
+AnheimForest_Text_RobinPostBattle:
+	.string "{COLOR}{RED}Anheim Forest is full of Bug-type\n"
+	.string "Pokémon.\p"
+	.string "I shouldn't have come here at all!$"
+
+AnheimForest_Text_DavisIntro:
+	.string "{COLOR}{BLUE}Aha! I've been waiting for someone to\n"
+	.string "show up for a while. This'll be fun!$"
+
+AnheimForest_Text_DavisDefeated:
+	.string "I can't believe you've done this…$"
+
+AnheimForest_Text_DavisPostBattle:
+	.string "{COLOR}{BLUE}You're way too strong for us…\n"
+	.string "Aim high!$"
+
+AnheimForest_Text_DougIntro:
+	.string "{COLOR}{BLUE}Hey, you look weak.\n"
+	.string "Perfect prey for my bugs!$"
+
+AnheimForest_Text_DougDefeated:
+	.string "Wooow, wow…\n"
+	.string "You're still weak, you know…$"
+
+AnheimForest_Text_DougPostBattle:
+	.string "{COLOR}{BLUE}Don't be mad at me. I mastered the art\n"
+	.string "of trash talking in Union City.$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
@@ -1301,18 +1366,6 @@ Route108_Text_JeromeDefeated: @ 8296D3C
 Route108_Text_JeromePostBattle: @ 8296D6E
 	.string "Playing with marine POKéMON is one of\n"
 	.string "the pleasures of swimming!$"
-
-Route108_Text_MatthewIntro: @ 8296DAF
-	.string "Ahoy, there! Are you going out to\n"
-	.string "the ABANDONED SHIP, too?$"
-
-Route108_Text_MatthewDefeated: @ 8296DEA
-	.string "I'm sinking!\n"
-	.string "Glub… Glub…$"
-
-Route108_Text_MatthewPostBattle: @ 8296E03
-	.string "Some people even go inside that\n"
-	.string "ABANDONED SHIP.$"
 
 Route108_Text_TaraIntro: @ 8296E33
 	.string "My liar of a boyfriend told me that\n"
@@ -2066,17 +2119,6 @@ Route112_Text_TrentRematchPostBattle: @ 8299A0F
 	.string "TRAINERS on top of MT. CHIMNEY.\p"
 	.string "I intend to get up there and give them\n"
 	.string "a challenge!$"
-
-Route112_Text_LarryIntro: @ 8299A89
-	.string "I'm strong.\n"
-	.string "I won't cry if I lose.$"
-
-Route112_Text_LarryDefeat: @ 8299AAC
-	.string "Waaaah!$"
-
-Route112_Text_LarryPostBattle: @ 8299AB4
-	.string "I'm not crying because I miss my mommy!\n"
-	.string "Snivel…$"
 
 Route112_Text_CarolIntro: @ 8299AE4
 	.string "When you're out on a picnic, why,\n"
@@ -3162,17 +3204,6 @@ Route119_Text_TaylorPostBattle: @ 829DA2C
 	.string "That's just impossible…\l"
 	.string "It's burning me up…$"
 
-Route119_Text_DougIntro: @ 829DA7D
-	.string "Yep, you've finally caught me!\n"
-	.string "Or were you trying to avoid me?$"
-
-Route119_Text_DougDefeat: @ 829DABC
-	.string "Whoop, that was a great match!$"
-
-Route119_Text_DougPostBattle: @ 829DADB
-	.string "We're the MIMIC CIRCLE!\n"
-	.string "I hope you enjoyed our performance.$"
-
 Route119_Text_GregIntro: @ 829DB17
 	.string "You don't know who I am, do you?\p"
 	.string "But, I also don't know you.\n"
@@ -3814,18 +3845,6 @@ Route123_Text_FernandoRematchDefeat: @ 82A045A
 Route123_Text_FernandoPostRematch: @ 82A0487
 	.string "I thought you'd be so enthralled\n"
 	.string "by my tune, you'd lose.$"
-
-Route123_Text_DavisIntro: @ 82A04C0
-	.string "This is my awesome BUG POKéMON!\n"
-	.string "My big brother got it for me.$"
-
-Route123_Text_DavisDefeat: @ 82A04FE
-	.string "Waaaah!\n"
-	.string "You meanie!$"
-
-Route123_Text_DavisPostBattle: @ 82A0512
-	.string "Don't tell my brother I lost.\n"
-	.string "You have to keep it a secret!$"
 
 Route123_Text_JazmynIntro: @ 82A054E
 	.string "My confidence will get a boost by\n"

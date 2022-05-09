@@ -270,32 +270,32 @@ NorthstarCity_EventScript_ItemNestBall::
 	finditem ITEM_NEST_BALL
 	end
 
-Route127_EventScript_ItemCarbos:: @ 829103F
-	finditem ITEM_CARBOS
+AnheimForest_EventScript_ItemFullHeal::
+	finditem ITEM_FULL_HEAL
 	end
 
 Route127_EventScript_ItemRareCandy:: @ 829104C
 	finditem ITEM_RARE_CANDY
 	end
 
-Route132_EventScript_ItemRareCandy:: @ 8291059
-	finditem ITEM_RARE_CANDY
+AnheimForest_EventScript_ItemPokeBall::
+	finditem ITEM_POKE_BALL
 	end
 
 Route132_EventScript_ItemProtein:: @ 8291066
 	finditem ITEM_PROTEIN
 	end
 
-Route133_EventScript_ItemBigPearl:: @ 8291073
-	finditem ITEM_BIG_PEARL
+AnheimForest_EventScript_ItemPotion::
+	finditem ITEM_POTION
 	end
 
 Route133_EventScript_ItemStarPiece:: @ 8291080
 	finditem ITEM_STAR_PIECE
 	end
 
-Route133_EventScript_ItemMaxRevive:: @ 829108D
-	finditem ITEM_MAX_REVIVE
+AnheimForest_EventScript_ItemAntidote::
+	finditem ITEM_ANTIDOTE
 	end
 
 Route134_EventScript_ItemCarbos:: @ 829109A
@@ -306,12 +306,12 @@ Route134_EventScript_ItemStarPiece:: @ 82910A7
 	finditem ITEM_STAR_PIECE
 	end
 
-PetalburgCity_EventScript_ItemMaxRevive:: @ 82910B4
-	finditem ITEM_MAX_REVIVE
+AnheimForest_EventScript_ItemNestBall::
+	finditem ITEM_NEST_BALL
 	end
 
-PetalburgCity_EventScript_ItemEther:: @ 82910C1
-	finditem ITEM_ETHER
+AnheimForest_EventScript_ItemGreatBall::
+	finditem ITEM_GREAT_BALL
 	end
 
 MauvilleCity_EventScript_ItemXSpeed:: @ 82910CE

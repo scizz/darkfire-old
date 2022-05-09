@@ -1081,12 +1081,13 @@
 #define FLAG_ITEM_ROUTE_10_REVIVE                                   0x408 // Darkfire Flag
 #define FLAG_ITEM_ROUTE_10_POTION                                   0x409 // Darkfire Flag
 #define FLAG_ITEM_NORTHSTAR_CITY_NEST_BALL                          0x40A // Darkfire Flag
-#define FLAG_ITEM_ROUTE_127_CARBOS                                  0x40B
-#define FLAG_ITEM_ROUTE_132_RARE_CANDY                              0x40C
-#define FLAG_ITEM_ROUTE_133_BIG_PEARL                               0x40D
-#define FLAG_ITEM_ROUTE_133_STAR_PIECE                              0x40E
-#define FLAG_ITEM_PETALBURG_CITY_MAX_REVIVE                         0x40F
-#define FLAG_ITEM_PETALBURG_CITY_ETHER                              0x410
+#define FLAG_ITEM_ANHEIM_FOREST_FULL_HEAL                           0x40B // Darkfire Flag
+#define FLAG_ITEM_ANHEIM_FOREST_NEST_BALL                           0x40C // Darkfire Flag
+#define FLAG_ITEM_ANHEIM_FOREST_POTION                              0x40D // Darkfire Flag
+#define FLAG_ITEM_ANHEIM_FOREST_ANTIDOTE                            0x40E // Darkfire Flag
+#define FLAG_ITEM_ANHEIM_FOREST_GREAT_BALL                          0x40F // Darkfire Flag
+#define FLAG_ITEM_ANHEIM_FOREST_POKE_BALL                           0x410 // Darkfire Flag
+
 #define FLAG_ITEM_RUSTBORO_CITY_X_DEFEND                            0x411
 #define FLAG_ITEM_LILYCOVE_CITY_MAX_REPEL                           0x412
 #define FLAG_ITEM_MOSSDEEP_CITY_NET_BALL                            0x413

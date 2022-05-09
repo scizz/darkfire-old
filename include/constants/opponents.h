@@ -158,7 +158,7 @@
 #define TRAINER_DARRIN                      154
 #define TRAINER_TONY_1                      155
 #define TRAINER_JEROME                      156
-#define TRAINER_MATTHEW                     157
+#define TRAINER_MATTHEW                     157 // Darkfire Trainer
 #define TRAINER_DAVID                       158
 #define TRAINER_SPENCER                     159
 #define TRAINER_ROLAND                      160
@@ -214,7 +214,7 @@
 #define TRAINER_BERNIE_5                    210
 #define TRAINER_DREW                        211
 #define TRAINER_BEAU                        212
-#define TRAINER_LARRY                       213
+#define TRAINER_LARRY                       213 // Darkfire Trainer
 #define TRAINER_SHANE                       214
 #define TRAINER_JUSTIN                      215
 #define TRAINER_ETHAN_1                     216
@@ -540,7 +540,7 @@
 #define TRAINER_MAY_ROUTE_110_TORCHIC       536
 #define TRAINER_MAY_ROUTE_119_TORCHIC       537
 #define TRAINER_ISAAC_1                     538
-#define TRAINER_DAVIS                       539
+#define TRAINER_DAVIS                       539 // Darkfire Trainer
 #define TRAINER_MITCHELL                    540
 #define TRAINER_ISAAC_2                     541
 #define TRAINER_ISAAC_3                     542
@@ -613,13 +613,13 @@
 #define TRAINER_HALEY_4                     609
 #define TRAINER_HALEY_5                     610
 #define TRAINER_ANNY                        611 // Darkfire Trainer
-#define TRAINER_ROBIN                       612
+#define TRAINER_ROBIN                       612 // Darkfire Trainer
 #define TRAINER_ANDREA                      613
 #define TRAINER_CRISSY                      614
 #define TRAINER_RICKY                       615 // Darkfire Trainer
 #define TRAINER_PETE_1                      616 // Darkfire Trainer
 #define TRAINER_TREV                        617 // Darkfire Trainer
-#define TRAINER_DOUG                        618
+#define TRAINER_DOUG                        618 // Darkfire Trainer
 #define TRAINER_GREG                        619
 #define TRAINER_KENT                        620
 #define TRAINER_JAMES_1                     621

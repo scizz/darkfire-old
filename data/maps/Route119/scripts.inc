@@ -354,11 +354,6 @@ Route119_EventScript_Taylor:: @ 81F47B4
 	msgbox Route119_Text_TaylorPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route119_EventScript_Doug:: @ 81F47CB
-	trainerbattle_single TRAINER_DOUG, Route119_Text_DougIntro, Route119_Text_DougDefeat
-	msgbox Route119_Text_DougPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route119_EventScript_Greg:: @ 81F47E2
 	trainerbattle_single TRAINER_GREG, Route119_Text_GregIntro, Route119_Text_GregDefeat
 	msgbox Route119_Text_GregPostBattle, MSGBOX_AUTOCLOSE

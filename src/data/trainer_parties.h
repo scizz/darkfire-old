@@ -1942,8 +1942,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jerome[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Matthew[] = {
     {
     .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_CARVANHA,
+    .lvl = 6,
+    .species = SPECIES_WEEDLE,
+    },
+    {
+    .iv = 0,
+    .lvl = 6,
+    .species = SPECIES_SPINIRAK,
     }
 };
 
@@ -2605,8 +2610,18 @@ static const struct TrainerMonNoItemCustomMoves sParty_Beau[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Larry[] = {
     {
     .iv = 0,
-    .lvl = 18,
-    .species = SPECIES_NUZLEAF,
+    .lvl = 5,
+    .species = SPECIES_SEEDOT,
+    },
+    {
+    .iv = 0,
+    .lvl = 5,
+    .species = SPECIES_TAILLOW,
+    },
+    {
+    .iv = 0,
+    .lvl = 6,
+    .species = SPECIES_ELECTRIKE,
     }
 };
 
@@ -7087,8 +7102,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac1[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Davis[] = {
     {
     .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_PINSIR,
+    .lvl = 5,
+    .species = SPECIES_WURMPLE,
+    },
+    {
+    .iv = 0,
+    .lvl = 6,
+    .species = SPECIES_CATERPIE,
+    },
+    {
+    .iv = 0,
+    .lvl = 6,
+    .species = SPECIES_SPINIRAK,
     }
 };
 
@@ -8094,18 +8119,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Anny[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Robin[] = {
     {
     .iv = 0,
-    .lvl = 14,
+    .lvl = 5,
+    .species = SPECIES_RATTATA,
+    },
+    {
+    .iv = 0,
+    .lvl = 7,
     .species = SPECIES_SKITTY,
-    },
-    {
-    .iv = 0,
-    .lvl = 14,
-    .species = SPECIES_SHROOMISH,
-    },
-    {
-    .iv = 0,
-    .lvl = 14,
-    .species = SPECIES_MARILL,
     }
 };
 
@@ -8177,13 +8197,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trev[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Doug[] = {
     {
     .iv = 0,
-    .lvl = 28,
-    .species = SPECIES_NINCADA,
+    .lvl = 7,
+    .species = SPECIES_PINECO,
     },
     {
     .iv = 0,
-    .lvl = 28,
-    .species = SPECIES_NINJASK,
+    .lvl = 7,
+    .species = SPECIES_SPINIRAK,
     }
 };
 
