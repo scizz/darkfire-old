@@ -6555,7 +6555,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ernest5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Eli[] = {
     {
     .iv = 100,
-    .lvl = 23,
+    .lvl = 20,
     .species = SPECIES_NUMEL,
     }
 };

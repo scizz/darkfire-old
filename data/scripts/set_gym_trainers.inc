@@ -39,7 +39,6 @@ LavaridgeTown_Gym_SetGymTrainers:: @ 8271FCE
 	settrainerflag TRAINER_DANIELLE
 	settrainerflag TRAINER_JACE
 	settrainerflag TRAINER_JEFF
-	settrainerflag TRAINER_ELI
 	return
 
 PetalburgCity_Gym_SetGymTrainers:: @ 8271FE7

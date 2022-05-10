@@ -133,11 +133,6 @@ LavaridgeTown_Gym_B1F_EventScript_Jeff:: @ 81FE936
 	msgbox LavaridgeTown_Gym_B1F_Text_JeffPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-LavaridgeTown_Gym_B1F_EventScript_Eli:: @ 81FE951
-	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT, TRAINER_ELI, LOCALID_ELI, LavaridgeTown_Gym_B1F_Text_EliIntro, LavaridgeTown_Gym_B1F_Text_EliDefeat, LavaridgeTown_Gym_EventScript_CheckTrainerScript
-	msgbox LavaridgeTown_Gym_B1F_Text_EliPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 LavaridgeTown_Gym_1F_EventScript_GymGuide:: @ 81FE96C
 	lock
 	faceplayer
@@ -264,19 +259,6 @@ LavaridgeTown_Gym_B1F_Text_JeffPostBattle: @ 81FEFC2
 	.string "Well, so what? I say so what?\n"
 	.string "I can walk on hot coals barefoot!\p"
 	.string "…Don't even think about trying it!$"
-
-LavaridgeTown_Gym_B1F_Text_EliIntro: @ 81FF025
-	.string "As much as I love mountains,\n"
-	.string "I especially love volcanoes.$"
-
-LavaridgeTown_Gym_B1F_Text_EliDefeat: @ 81FF05F
-	.string "Well, it seems to me I lost without\n"
-	.string "ever being in control.$"
-
-LavaridgeTown_Gym_B1F_Text_EliPostBattle: @ 81FF09A
-	.string "I stay here because I became a fan\n"
-	.string "of FLANNERY's power.\p"
-	.string "Hehehehe.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro: @ 81FF0DC
 	.string "Welcome… No, wait.\p"

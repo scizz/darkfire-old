@@ -502,7 +502,7 @@
 #define TRAINER_ERNEST_3                    498
 #define TRAINER_ERNEST_4                    499
 #define TRAINER_ERNEST_5                    500
-#define TRAINER_ELI                         501
+#define TRAINER_ELI                         501 // Darkfire Trainer
 #define TRAINER_ANNIKA                      502
 #define TRAINER_JAZMYN                      503
 #define TRAINER_JONAS                       504

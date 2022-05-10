@@ -699,6 +699,17 @@ RockfallCave_1F_Text_DavePostBattle:
 	.string "I say you must join a tournament or two\n"
 	.string "and go pro.$"
 
+TamarokTunnels_Text_EliIntro:
+	.string "Did you hear that loud explosion?!\n"
+	.string "Maybe someone upset a Voltorb!$"
+
+TamarokTunnels_Text_EliDefeated:
+	.string "The only upset one in here is me…$"
+
+TamarokTunnels_Text_EliPostBattle:
+	.string "You are one talented Trainer…\n"
+	.string "I went out with a bang!$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
