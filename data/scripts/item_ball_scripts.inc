@@ -322,12 +322,12 @@ RockfallCave_1F_EventScript_ItemPokeBall::
 	finditem ITEM_POKE_BALL
 	end
 
-LilycoveCity_EventScript_ItemMaxRepel:: @ 82910E8
-	finditem ITEM_MAX_REPEL
+SnowdriftForest_EventScript_ItemRevive::
+	finditem ITEM_REVIVE
 	end
 
-MossdeepCity_EventScript_ItemNetBall:: @ 82910F5
-	finditem ITEM_NET_BALL
+SnowdriftForest_EventScript_ItemTimerBall::
+	finditem ITEM_TIMER_BALL
 	end
 
 PetalburgWoods_EventScript_ItemXAttack:: @ 8291102
@@ -382,8 +382,8 @@ FieryPath_EventScript_ItemTM06:: @ 829119E
 	finditem ITEM_TM06
 	end
 
-MeteorFalls_1F_1R_EventScript_ItemTM23:: @ 82911AB
-	finditem ITEM_TM23
+SnowdriftForest_EventScript_ItemTM03::
+	finditem ITEM_TM03
 	end
 
 MeteorFalls_1F_1R_EventScript_ItemFullHeal:: @ 82911B8

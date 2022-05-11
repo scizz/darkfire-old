@@ -123,7 +123,7 @@ DewfordTown_Gym_EventScript_AnimateFlashFullBrightness:: @ 81FC75D
 
 DewfordTown_Gym_EventScript_CountTrainersDefeated:: @ 81FC768
 	setvar VAR_0x8000, 0
-	goto_if_not_defeated TRAINER_TAKAO, DewfordTown_Gym_EventScript_CheckJocelyn
+	goto_if_not_defeated TRAINER_NOB, DewfordTown_Gym_EventScript_CheckJocelyn
 	addvar VAR_0x8000, 1
 DewfordTown_Gym_EventScript_CheckJocelyn:: @ 81FC77B
 	goto_if_not_defeated TRAINER_JOCELYN, DewfordTown_Gym_EventScript_CheckLaura
@@ -197,16 +197,6 @@ DewfordTown_Gym_EventScript_GiveBulkUp2: @ 81FC878
 DewfordTown_Gym_EventScript_BrawlyRematch:: @ 81FC89C
 	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
 	msgbox DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_AUTOCLOSE
-	end
-
-DewfordTown_Gym_EventScript_Takao:: @ 81FC8B7
-	trainerbattle_single TRAINER_TAKAO, DewfordTown_Gym_Text_TakaoIntro, DewfordTown_Gym_Text_TakaoDefeat, DewfordTown_Gym_EventScript_TakaoBrightenRoom
-	msgbox DewfordTown_Gym_Text_TakaoPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-DewfordTown_Gym_EventScript_TakaoBrightenRoom:: @ 81FC8D2
-	call DewfordTown_Gym_EventScript_BrightenRoom
-	release
 	end
 
 DewfordTown_Gym_EventScript_Jocelyn:: @ 81FC8D9
@@ -303,17 +293,6 @@ DewfordTown_Gym_Text_GymGuideAdvice: @ 81FC9D6
 DewfordTown_Gym_Text_GymGuidePostVictory: @ 81FCB5C
 	.string "Whoah! It's turned too bright in here!\p"
 	.string "Your future is bright, too!$"
-
-DewfordTown_Gym_Text_TakaoIntro: @ 81FCB9F
-	.string "Might is right!\n"
-	.string "Come on!$"
-
-DewfordTown_Gym_Text_TakaoDefeat: @ 81FCBB8
-	.string "Not enough power…$"
-
-DewfordTown_Gym_Text_TakaoPostBattle: @ 81FCBCA
-	.string "Your skill overcame my strength!\n"
-	.string "Your technique is commendable!$"
 
 DewfordTown_Gym_Text_JocelynIntro: @ 81FCC0A
 	.string "There's no need for BRAWLY to be\n"

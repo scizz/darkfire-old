@@ -1088,10 +1088,10 @@
 #define FLAG_ITEM_ANHEIM_FOREST_GREAT_BALL                          0x40F // Darkfire Flag
 #define FLAG_ITEM_ANHEIM_FOREST_POKE_BALL                           0x410 // Darkfire Flag
 #define FLAG_ITEM_ROCKFALL_CAVE_1F_POKE_BALL                        0x411 // Darkfire Flag
+#define FLAG_ITEM_SNOWDRIFT_FOREST_TIMER_BALL                       0x412 // Darkfire Flag
+#define FLAG_ITEM_SNOWDRIFT_FOREST_TM_03                            0x413 // Darkfire Flag
+#define FLAG_ITEM_SNOWDRIFT_FOREST_REVIVE                           0x414 // Darkfire Flag
 
-#define FLAG_ITEM_LILYCOVE_CITY_MAX_REPEL                           0x412
-#define FLAG_ITEM_MOSSDEEP_CITY_NET_BALL                            0x413
-#define FLAG_ITEM_METEOR_FALLS_1F_1R_TM_23                          0x414
 #define FLAG_ITEM_METEOR_FALLS_1F_1R_FULL_HEAL                      0x415
 #define FLAG_ITEM_METEOR_FALLS_1F_1R_MOON_STONE                     0x416
 #define FLAG_ITEM_METEOR_FALLS_1F_1R_PP_UP                          0x417

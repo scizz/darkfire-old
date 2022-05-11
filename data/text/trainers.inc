@@ -710,6 +710,40 @@ TamarokTunnels_Text_EliPostBattle:
 	.string "You are one talented Trainer…\n"
 	.string "I went out with a bang!$"
 
+SnowdriftForest_Text_PaulaIntro:
+	.string "{COLOR}{RED}Yes, I only wear shorts and a tank\ntop, but I swear I'm not cold.\lYou'll see!$"
+
+SnowdriftForest_Text_PaulaDefeated:
+	.string "…\nI'm frozen.$"
+
+SnowdriftForest_Text_PaulaPostBattle:
+	.string "{COLOR}{RED}Training in the cold like this helps\n"
+	.string "you temper your spirit!$"
+
+SnowdriftForest_Text_AngelinaIntro:
+	.string "{COLOR}{RED}I'm sweet as sugar and hard as ice.\n"
+	.string "Hurt me once and I'll hurt you twice!$"
+
+SnowdriftForest_Text_AngelinaDefeated:
+	.string "Aww…\n"
+	.string "I was out of my depth.$"
+
+SnowdriftForest_Text_AngelinaPostBattle:
+	.string "{COLOR}{RED}I'm done with the winter…\n"
+	.string "Next season, please!$"
+
+SnowdriftForest_Text_NobIntro:
+	.string "Life is harsh!\p"
+	.string "The sooner you learn and comprehend\n"
+	.string "that reality, the better!$"
+
+SnowdriftForest_Text_NobDefeated:
+	.string "I went down in flames…$"
+
+SnowdriftForest_Text_NobPostBattle:
+	.string "Your style of battling is commendable.\n"
+	.string "You know all about harsh!$"
+
 @ VANILLA TRAINERS
 
 Route102_Text_CalvinIntro: @ 8294513
@@ -2516,18 +2550,6 @@ Route114_Text_CharlottePostBattle: @ 829B11A
 	.string "just cute.\p"
 	.string "I adore cute ones that have a quirk\n"
 	.string "or two!$"
-
-Route114_Text_AngelinaIntro: @ 829B16F
-	.string "Have you made your POKéMON evolve\n"
-	.string "very much?$"
-
-Route114_Text_AngelinaDefeat: @ 829B19C
-	.string "Oh, I see.\n"
-	.string "That's good to know.$"
-
-Route114_Text_AngelinaPostBattle: @ 829B1BC
-	.string "Some POKéMON change so much when\n"
-	.string "they evolve, it's startling!$"
 
 Route115_Text_TimothyIntro: @ 829B1FA
 	.string "Hm…\n"

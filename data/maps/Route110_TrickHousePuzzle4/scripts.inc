@@ -18,11 +18,6 @@ Route110_TrickHousePuzzle4_EventScript_Yuji:: @ 826C895
 	msgbox Route110_TrickHousePuzzle4_Text_YujiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route110_TrickHousePuzzle4_EventScript_Paula:: @ 826C8AC
-	trainerbattle_single TRAINER_PAULA, Route110_TrickHousePuzzle4_Text_PaulaIntro, Route110_TrickHousePuzzle4_Text_PaulaDefeat
-	msgbox Route110_TrickHousePuzzle4_Text_PaulaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened: @ 826C8C3
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
@@ -41,14 +36,3 @@ Route110_TrickHousePuzzle4_Text_YujiDefeat: @ 826CA20
 Route110_TrickHousePuzzle4_Text_YujiPostBattle: @ 826CA53
 	.string "It's not good enough to be brawny…\n"
 	.string "You have to use your head. Be brainy!$"
-
-Route110_TrickHousePuzzle4_Text_PaulaIntro: @ 826CA9C
-	.string "The TRICK HOUSE is getting trickier,\n"
-	.string "isn't it?$"
-
-Route110_TrickHousePuzzle4_Text_PaulaDefeat: @ 826CACB
-	.string "Aaak!$"
-
-Route110_TrickHousePuzzle4_Text_PaulaPostBattle: @ 826CAD1
-	.string "Has anyone made it to the end?$"
-

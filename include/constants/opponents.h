@@ -180,7 +180,7 @@
 #define TRAINER_TONY_3                      176
 #define TRAINER_TONY_4                      177
 #define TRAINER_TONY_5                      178
-#define TRAINER_TAKAO                       179
+#define TRAINER_NOB                         179 // Darkfire Trainer
 #define TRAINER_HITOSHI                     180
 #define TRAINER_KIYO                        181
 #define TRAINER_KOICHIS                     182
@@ -430,7 +430,7 @@
 #define TRAINER_LAURA                       426
 #define TRAINER_CYNDY_1                     427
 #define TRAINER_CORA                        428 // Darkfire Trainer
-#define TRAINER_PAULA                       429
+#define TRAINER_PAULA                       429 // Darkfire Trainer
 #define TRAINER_CYNDY_2                     430
 #define TRAINER_CYNDY_3                     431
 #define TRAINER_CYNDY_4                     432
@@ -713,7 +713,7 @@
 #define TRAINER_COBY                        709
 #define TRAINER_LAWRENCE                    710 // Darkfire Trainer
 #define TRAINER_STEVE                       711 // Darkfire Trainer
-#define TRAINER_ANGELINA                    712
+#define TRAINER_ANGELINA                    712 // Darkfire Trainer
 #define TRAINER_KAI                         713
 #define TRAINER_CHARLOTTE                   714
 #define TRAINER_JOSHUA_1                    715
