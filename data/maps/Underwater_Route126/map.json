@@ -47,14 +47,6 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 63,
-      "y": 19,
-      "elevation": 3,
-      "item": "ITEM_STARDUST",
-      "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_STARDUST"
-    },
-    {
-      "type": "hidden_item",
       "x": 10,
       "y": 36,
       "elevation": 3,

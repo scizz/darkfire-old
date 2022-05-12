@@ -1094,12 +1094,12 @@
 #define FLAG_ITEM_STEEP_RAVINE_ITEMFINDER                           0x415 // Darkfire Flag
 #define FLAG_ITEM_STEEP_RAVINE_PP_UP                                0x416 // Darkfire Flag
 #define FLAG_ITEM_STEEP_RAVINE_HP_UP                                0x417 // Darkfire Flag
+#define FLAG_ITEM_TAMAROK_TUNNELS_X_ATTACK                          0x418 // Darkfire Flag
+#define FLAG_ITEM_TAMAROK_TUNNELS_TM_06                             0x419 // Darkfire Flag
+#define FLAG_ITEM_TAMAROK_TUNNELS_REVIVE                            0x41A // Darkfire Flag
+#define FLAG_ITEM_TAMAROK_TUNNELS_NEVERMELTICE                      0x41B // Darkfire Flag
+#define FLAG_ITEM_TAMAROK_TUNNELS_TM_07                             0x41C // Darkfire Flag
 
-#define FLAG_ITEM_RUSTURF_TUNNEL_POKE_BALL                          0x418
-#define FLAG_ITEM_RUSTURF_TUNNEL_MAX_ETHER                          0x419
-#define FLAG_ITEM_GRANITE_CAVE_1F_ESCAPE_ROPE                       0x41A
-#define FLAG_ITEM_GRANITE_CAVE_B1F_POKE_BALL                        0x41B
-#define FLAG_ITEM_MT_PYRE_5F_LAX_INCENSE                            0x41C
 #define FLAG_ITEM_GRANITE_CAVE_B2F_REPEL                            0x41D
 #define FLAG_ITEM_GRANITE_CAVE_B2F_RARE_CANDY                       0x41E
 #define FLAG_ITEM_PETALBURG_WOODS_X_ATTACK                          0x41F

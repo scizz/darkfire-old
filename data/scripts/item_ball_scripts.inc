@@ -346,20 +346,20 @@ PetalburgWoods_EventScript_ItemParalyzeHeal:: @ 8291129
 	finditem ITEM_PARALYZE_HEAL
 	end
 
-RusturfTunnel_EventScript_ItemPokeBall:: @ 8291136
-	finditem ITEM_POKE_BALL
+TamarokTunnels_EventScript_ItemXAttack::
+	finditem ITEM_X_ATTACK
 	end
 
-RusturfTunnel_EventScript_ItemMaxEther:: @ 8291143
-	finditem ITEM_MAX_ETHER
+TamarokTunnels_EventScript_ItemTM06::
+	finditem ITEM_TM06
 	end
 
-GraniteCave_1F_EventScript_ItemEscapeRope:: @ 8291150
-	finditem ITEM_ESCAPE_ROPE
+TamarokTunnels_EventScript_ItemRevive::
+	finditem ITEM_REVIVE
 	end
 
-GraniteCave_B1F_EventScript_ItemPokeBall:: @ 829115D
-	finditem ITEM_POKE_BALL
+TamarokTunnels_EventScript_ItemNeverMeltIce::
+	finditem ITEM_NEVER_MELT_ICE
 	end
 
 GraniteCave_B2F_EventScript_ItemRepel:: @ 829116A
@@ -498,8 +498,8 @@ MtPyre_4F_EventScript_ItemSeaIncense:: @ 8291317
 	finditem ITEM_SEA_INCENSE
 	end
 
-MtPyre_5F_EventScript_ItemLaxIncense:: @ 8291324
-	finditem ITEM_LAX_INCENSE
+TamarokTunnels_EventScript_ItemTM07::
+	finditem ITEM_TM07
 	end
 
 MtPyre_6F_EventScript_ItemTM30:: @ 8291331
