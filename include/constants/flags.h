@@ -544,10 +544,10 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_8_RARE_CANDY                  (FLAG_HIDDEN_ITEMS_START + 0x0B) // Darkfire Flag
 #define FLAG_HIDDEN_ITEM_LAVERIA_CITY_RARE_CANDY             (FLAG_HIDDEN_ITEMS_START + 0x0D) // Darkfire Flag
 #define FLAG_HIDDEN_ITEM_PINLEAF_TOWN_INN_2F_RARE_CANDY      (FLAG_HIDDEN_ITEMS_START + 0x24) // Darkfire Flag
-#define FLAG_HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_2        (FLAG_HIDDEN_ITEMS_START + 0x26)
-#define FLAG_HIDDEN_ITEM_UNDERWATER_126_HEART_SCALE          (FLAG_HIDDEN_ITEMS_START + 0x0E)
-#define FLAG_HIDDEN_ITEM_UNDERWATER_126_ULTRA_BALL           (FLAG_HIDDEN_ITEMS_START + 0x0F)
-#define FLAG_HIDDEN_ITEM_UNDERWATER_126_STARDUST             (FLAG_HIDDEN_ITEMS_START + 0x10)
+#define FLAG_HIDDEN_ITEM_STEEP_RAVINE_CARBOS                 (FLAG_HIDDEN_ITEMS_START + 0x26) // Darkfire Flag
+#define FLAG_HIDDEN_ITEM_STEEP_RAVINE_IRON                   (FLAG_HIDDEN_ITEMS_START + 0x0E) // Darkfire Flag
+#define FLAG_HIDDEN_ITEM_STEEP_RAVINE_PROTEIN                (FLAG_HIDDEN_ITEMS_START + 0x0F) // Darkfire Flag
+#define FLAG_HIDDEN_ITEM_STEEP_RAVINE_CALCIUM                (FLAG_HIDDEN_ITEMS_START + 0x10) // Darkfire Flag
 #define FLAG_HIDDEN_ITEM_UNDERWATER_126_PEARL                (FLAG_HIDDEN_ITEMS_START + 0x11)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_126_IRON                 (FLAG_HIDDEN_ITEMS_START + 0x13)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_126_YELLOW_SHARD         (FLAG_HIDDEN_ITEMS_START + 0x12)
@@ -1091,10 +1091,10 @@
 #define FLAG_ITEM_SNOWDRIFT_FOREST_TIMER_BALL                       0x412 // Darkfire Flag
 #define FLAG_ITEM_SNOWDRIFT_FOREST_TM_03                            0x413 // Darkfire Flag
 #define FLAG_ITEM_SNOWDRIFT_FOREST_REVIVE                           0x414 // Darkfire Flag
+#define FLAG_ITEM_STEEP_RAVINE_ITEMFINDER                           0x415 // Darkfire Flag
+#define FLAG_ITEM_STEEP_RAVINE_PP_UP                                0x416 // Darkfire Flag
+#define FLAG_ITEM_STEEP_RAVINE_HP_UP                                0x417 // Darkfire Flag
 
-#define FLAG_ITEM_METEOR_FALLS_1F_1R_FULL_HEAL                      0x415
-#define FLAG_ITEM_METEOR_FALLS_1F_1R_MOON_STONE                     0x416
-#define FLAG_ITEM_METEOR_FALLS_1F_1R_PP_UP                          0x417
 #define FLAG_ITEM_RUSTURF_TUNNEL_POKE_BALL                          0x418
 #define FLAG_ITEM_RUSTURF_TUNNEL_MAX_ETHER                          0x419
 #define FLAG_ITEM_GRANITE_CAVE_1F_ESCAPE_ROPE                       0x41A

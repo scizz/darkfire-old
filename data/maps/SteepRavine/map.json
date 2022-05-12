@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SteepRavine_EventScript_ItemItemfinder",
+      "flag": "FLAG_ITEM_STEEP_RAVINE_ITEMFINDER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SteepRavine_EventScript_ItemPPUp",
+      "flag": "FLAG_ITEM_STEEP_RAVINE_PP_UP"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SteepRavine_EventScript_ItemHPUP",
+      "flag": "FLAG_ITEM_STEEP_RAVINE_HP_UP"
     }
   ],
   "warp_events": [
@@ -79,32 +79,32 @@
       "x": 46,
       "y": 36,
       "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_CARBOS",
+      "flag": "FLAG_HIDDEN_ITEM_STEEP_RAVINE_CARBOS"
     },
     {
       "type": "hidden_item",
       "x": 12,
       "y": 17,
       "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_PROTEIN",
+      "flag": "FLAG_HIDDEN_ITEM_STEEP_RAVINE_PROTEIN"
     },
     {
       "type": "hidden_item",
       "x": 12,
       "y": 39,
       "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_IRON",
+      "flag": "FLAG_HIDDEN_ITEM_STEEP_RAVINE_IRON"
     },
     {
       "type": "hidden_item",
       "x": 21,
       "y": 11,
       "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_CALCIUM",
+      "flag": "FLAG_HIDDEN_ITEM_STEEP_RAVINE_CALCIUM"
     },
     {
       "type": "sign",

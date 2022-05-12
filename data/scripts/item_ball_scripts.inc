@@ -386,16 +386,16 @@ SnowdriftForest_EventScript_ItemTM03::
 	finditem ITEM_TM03
 	end
 
-MeteorFalls_1F_1R_EventScript_ItemFullHeal:: @ 82911B8
-	finditem ITEM_FULL_HEAL
+SteepRavine_EventScript_ItemItemfinder::
+	finditem ITEM_ITEMFINDER
 	end
 
-MeteorFalls_1F_1R_EventScript_ItemMoonStone:: @ 82911C5
-	finditem ITEM_MOON_STONE
-	end
-
-MeteorFalls_1F_1R_EventScript_ItemPPUP:: @ 82911D2
+SteepRavine_EventScript_ItemPPUp::
 	finditem ITEM_PP_UP
+	end
+
+SteepRavine_EventScript_ItemHPUP::
+	finditem ITEM_HP_UP
 	end
 
 MeteorFalls_B1F_2R_EventScript_ItemTM02:: @ 82911DF
